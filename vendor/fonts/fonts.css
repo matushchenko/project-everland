@@ -1,24 +1,21 @@
-/*@font-face {
-  font-family: 'Inter';
+@font-face {
+  font-family: 'Raleway';
   font-style:  normal;
   font-weight: 400;
-  src: url("./inter/Inter-Regular.woff2") format("woff2"),
-       url("./inter/Inter-Regular.woff") format("woff");
+  src: url("./raleway/Raleway-Regular.ttf") format("truetype"),
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Raleway';
   font-style:  normal;
   font-weight: 500;
-  src: url("./inter/Inter-Medium.woff2") format("woff2"),
-       url("./inter/Inter-Medium.woff") format("woff");
+  src: url("./raleway/Raleway-Medium.ttf") format("truetype"),
 }
 
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Raleway';
   font-style:  normal;
-  font-weight: 900;
-  src: url("./inter/Inter-Black.woff2") format("woff2"),
-       url("./inter/Inter-Black.woff") format("woff");
+  font-weight: 700;
+  src: url("./raleway/Raleway-Bold.ttf") format("truetype"),
 }
-*/
+
