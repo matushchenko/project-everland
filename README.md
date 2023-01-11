@@ -1,1 +1,1 @@
-# project-Everland
+# Командный проект project-everland
