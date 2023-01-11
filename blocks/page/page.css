@@ -1,3 +1,11 @@
 .page {
   margin: 0 auto;
+  max-width: 100%;
+  box-sizing:border-box;
+  font-family: 'Raleway', Arial, sans-serif;
+  background-color: #E5E5E5;
+  color:  #000000;
+  font-style: normal;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
