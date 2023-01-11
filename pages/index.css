@@ -1,0 +1,27 @@
+/* page */
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/page/page.css');
+
+/* header */
+@import url('../blocks/header/header.css');
+
+/* content */
+@import url('../blocks/content/content.css');
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/description/description.css');
+@import url('../blocks/donations/donations.css');
+@import url('../blocks/work/work.css');
+@import url('../blocks/direction/direction.css');
+@import url('../blocks/advantages/advantages.css');
+@import url('../blocks/numbers/numbers.css');
+@import url('../blocks/projects/projects.css');
+@import url('../blocks/stories/stories.css');
+@import url('../blocks/agency/agency.css');
+@import url('../blocks/news/news.css');
+@import url('../blocks/support/support.css');
+
+/* footer */
+@import url('../blocks/footer/footer.css');
+
+/* form */
