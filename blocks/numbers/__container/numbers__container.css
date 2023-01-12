@@ -1,0 +1,24 @@
+.numbers__container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 135px;
+  align-items: center;
+  min-height: 368px;
+}
+
+@media screen and (max-width: 1439px) {
+  .numbers__container {
+    max-width: 688px;
+    min-height: 197px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .numbers__container {
+    max-width: 300px;
+    min-height: 508px;
+    gap: 24px;
+    flex-direction: column-reverse;
+  }
+}
