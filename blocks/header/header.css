@@ -1,4 +1,18 @@
 .header {
-  margin: 0;
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 100vh;
+  max-height: 80px;
+  box-sizing: border-box;
+  padding: 0 40px 0 40px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items:center;
+  justify-content: space-between ;
 }
 
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 0 10px 0 10px;
+  }
+}

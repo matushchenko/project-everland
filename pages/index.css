@@ -5,6 +5,12 @@
 
 /* header */
 @import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__button-img/header__button-img.css');
+@import url('../blocks/header/__button-menu/header__button-menu.css');
+@import url('../blocks/header/__button-text/header__button-text.css');
+@import url('../blocks/header/__buttons/header__buttons.css');
+@import url('../blocks/header/__button/header__button.css');
 
 /* content */
 @import url('../blocks/content/content.css');
@@ -14,7 +20,6 @@
 @import url('../blocks/work/work.css');
 @import url('../blocks/direction/direction.css');
 @import url('../blocks/advantages/advantages.css');
-
 @import url('../blocks/projects/projects.css');
 @import url('../blocks/stories/stories.css');
 @import url('../blocks/agency/agency.css');
@@ -28,11 +33,11 @@
 
 /* numbers */
 @import url('../blocks/numbers/numbers.css');
-@import url(../blocks/numbers/__container/numbers__container.css);
-@import url(../blocks/numbers/__img/numbers__img.css);
-@import url(../blocks/numbers/__table/numbers__table.css);
-@import url(../blocks/numbers/__table-cell/numbers__table-cell.css);
-@import url(../blocks/numbers/__text/numbers__text.css);
-@import url(../blocks/numbers/__title/numbers__title.css);
-@import url(../blocks/numbers/__heading/numbers__heading.css);
-@import url(../blocks/numbers/__span/numbers__span.css);
+@import url('../blocks/numbers/__container/numbers__container.css');
+@import url('../blocks/numbers/__img/numbers__img.css');
+@import url('../blocks/numbers/__table/numbers__table.css');
+@import url('../blocks/numbers/__table-cell/numbers__table-cell.css');
+@import url('../blocks/numbers/__text/numbers__text.css');
+@import url('../blocks/numbers/__title/numbers__title.css');
+@import url('../blocks/numbers/__heading/numbers__heading.css');
+@import url('../blocks/numbers/__span/numbers__span.css');

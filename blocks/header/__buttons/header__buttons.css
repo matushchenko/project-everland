@@ -1,0 +1,6 @@
+.header__buttons{
+  margin: 0;
+  display: flex;
+  padding: 0;
+  gap: 16px;
+}
