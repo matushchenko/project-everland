@@ -1,12 +1,4 @@
 .numbers__title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 120%;
-  /* identical to box height, or 77px */
-  letter-spacing: -0.01em;
-  /* Black */
-  color: #333333;
   margin: 0;
   padding: 0 0 50px 0;
 }
@@ -14,13 +6,11 @@
 @media screen and (max-width: 1439px) {
   .numbers__title {
     padding: 0 0 32px 0;
-    font-size: 36px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .numbers__title {
     padding: 0 0 24px 0;
-    font-size: 26px;
   }
 }
