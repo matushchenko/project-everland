@@ -3,6 +3,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  line-height: 120%;
   /* identical to box height, or 24px */
 }
 
@@ -15,5 +16,6 @@
 @media screen and (max-width: 767px) {
   .heading_size_button-text {
     font-size: 14px;
+    line-height: initial;
   }
 }
