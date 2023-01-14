@@ -2,20 +2,20 @@
   font-family: 'Raleway';
   font-style:  normal;
   font-weight: 400;
-  src: url("./raleway/Raleway-Regular.ttf") format("truetype"),
+  src: url("./raleway/Raleway-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Raleway';
   font-style:  normal;
   font-weight: 500;
-  src: url("./raleway/Raleway-Medium.ttf") format("truetype"),
+  src: url("./raleway/Raleway-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: 'Raleway';
   font-style:  normal;
   font-weight: 700;
-  src: url("./raleway/Raleway-Bold.ttf") format("truetype"),
+  src: url("./raleway/Raleway-Bold.ttf") format("truetype");
 }
 
