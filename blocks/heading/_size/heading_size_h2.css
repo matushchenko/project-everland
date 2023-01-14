@@ -1,0 +1,21 @@
+.heading_size_h2 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+  /* identical to box height, or 77px */
+}
+
+
+@media screen and (max-width: 1439px) {
+  .heading_size_h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading_size_h2 {
+    font-size: 26px;
+  }
+}

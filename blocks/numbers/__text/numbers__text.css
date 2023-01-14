@@ -1,27 +1,3 @@
 .numbers__text {
-  margin: 0 auto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 130%;
-  /* or 26px */
-  font-feature-settings: 'pnum' on, 'lnum' on;
-  /* Black */
-  color: #333333;
-  /* Inside auto layout */
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-@media screen and (max-width: 1439px) {
-  .numbers__text {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width:767px) {
-  .numbers__text {
-    font-size: 14px;
-  }
+  margin: 5px auto 0;
 }
