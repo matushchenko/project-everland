@@ -12,7 +12,7 @@
 
 @media all and (max-width: 500px) {
   .direction__card-description {
-    margin-top: 24px;
-    max-height: 151px;
+    margin-top: 0;
+    height: 139px;
   }
 }

@@ -13,12 +13,13 @@
 @media all and (max-width: 500px) {
   .direction__card {
     padding: 24px;
-    height: 234px;
+    height: 194px;
   }
 }
 
 @media all and (max-width: 380px) {
   .direction__card {
+    padding-bottom: 34px;
     max-width: 299px;
   }
 }
