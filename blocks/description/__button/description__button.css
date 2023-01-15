@@ -1,0 +1,25 @@
+.description__button {
+  min-width: 126px;
+  min-height: 35px;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  column-gap: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .description__button {
+    max-width: 96px;
+    margin: 47px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description__button {
+    max-width: 95px;
+    margin: 16px auto 0 auto;
+  }
+}

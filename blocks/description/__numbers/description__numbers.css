@@ -1,0 +1,15 @@
+.description__numbers {
+  margin: 4.5px 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 1439px) {
+  .description__numbers {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+  }
+}

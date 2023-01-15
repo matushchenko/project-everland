@@ -1,0 +1,23 @@
+.description__right {
+  background-image: url(../../../images/right.svg);
+  background-color: #0C4BA0;
+}
+
+.description__right:hover {
+  transition-duration: 1s;
+  background-image: url(../../../images/right.svg);
+  background-color: #4183DC;
+}
+
+.description__right:active {
+  transition-duration: 1s;
+  background-image: url(../../../images/right.svg);
+  background-color: #00275C;
+}
+
+.description__right:disabled {
+  transition-duration: 1s;
+  background-image: url(../../../images/arrow_forward.svg);
+  transform: rotate(-180deg);
+  background-color: #C4C4C4;
+}
