@@ -1,0 +1,26 @@
+.buttons_color_transparent-blue {
+  border: 1px solid #0C4BA0;
+  background-color: rgb(255, 255, 255, 0);
+  color: #0C4BA0;
+}
+
+.buttons_color_transparent-blue:hover {
+  border: 1px solid #00275C;
+  transition-duration: 1s;
+  background-color: rgb(255, 255, 255, 0);
+  color: #00275C;
+}
+
+.buttons_color_transparent-blue:active {
+  border: none;
+  transition-duration: 1s;
+  background-color: #00275C;
+  color: #ffffff;
+}
+
+.buttons_color_transparent-blue:disabled {
+  border: 2px solid #C4C4C4;
+  transition-duration: 1s;
+  background-color: #F5F5F5;
+  color: rgba(38, 38, 38, 0.5);
+}
