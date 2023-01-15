@@ -28,28 +28,48 @@
 
 /* NUMBERS */
 @import url('../blocks/numbers/numbers.css');
-@import url(../blocks/numbers/__container/numbers__container.css);
-@import url(../blocks/numbers/__img/numbers__img.css);
-@import url(../blocks/numbers/__table/numbers__table.css);
-@import url(../blocks/numbers/__table-cell/numbers__table-cell.css);
-@import url(../blocks/numbers/__text/numbers__text.css);
-@import url(../blocks/numbers/__title/numbers__title.css);
-@import url(../blocks/numbers/__heading/numbers__heading.css);
-@import url(../blocks/numbers/__span/numbers__span.css);
+@import url('../blocks/numbers/__container/numbers__container.css');
+@import url('../blocks/numbers/__img/numbers__img.css');
+@import url('../blocks/numbers/__table/numbers__table.css');
+@import url('../blocks/numbers/__table-cell/numbers__table-cell.css');
+@import url('../blocks/numbers/__text/numbers__text.css');
+@import url('../blocks/numbers/__title/numbers__title.css');
+@import url('../blocks/numbers/__heading/numbers__heading.css');
+@import url('../blocks/numbers/__span/numbers__span.css');
 
 /* HEADING */
-@import url(../blocks/heading/heading.css);
+@import url('../blocks/heading/heading.css');
 /* color */
-@import url(../blocks/heading/_color/heading_color_black.css);
-@import url(../blocks/heading/_color/heading_color_blue.css);
-@import url(../blocks/heading/_color/heading_color_green.css);
-@import url(../blocks/heading/_color/heading_color_orange.css);
-@import url(../blocks/heading/_color/heading_color_purple.css);
+@import url('../blocks/heading/_color/heading_color_black.css');
+@import url('../blocks/heading/_color/heading_color_blue.css');
+@import url('../blocks/heading/_color/heading_color_green.css');
+@import url('../blocks/heading/_color/heading_color_orange.css');
+@import url('./blocks/heading/_color/heading_color_purple.css');
 /* size */
-@import url(../blocks/heading/_size/heading_size_big-text.css);
-@import url(../blocks/heading/_size/heading_size_button-text.css);
-@import url(../blocks/heading/_size/heading_size_h1.css);
-@import url(../blocks/heading/_size/heading_size_h2.css);
-@import url(../blocks/heading/_size/heading_size_h3.css);
-@import url(../blocks/heading/_size/heading_size_h4.css);
-@import url(../blocks/heading/_size/heading_size_h5.css);
+@import url('../blocks/heading/_size/heading_size_big-text.css');
+@import url('../blocks/heading/_size/heading_size_button-text.css');
+@import url('../blocks/heading/_size/heading_size_h1.css');
+@import url('../blocks/heading/_size/heading_size_h2.css');
+@import url('../blocks/heading/_size/heading_size_h3.css');
+@import url('../blocks/heading/_size/heading_size_h4.css');
+@import url('../blocks/heading/_size/heading_size_h5.css');
+
+
+/*BUTTONS*/
+@import url('../blocks/buttons/buttons.css');
+/* color */
+@import url('../blocks/buttons/_color/buttons_color_blue.css');
+@import url('../blocks/buttons/_color/buttons_color_dark-blue.css');
+@import url('../blocks/buttons/_color/buttons_color_green.css');
+@import url('../blocks/buttons/_color/buttons_color_light-blue.css');
+@import url('../blocks/buttons/_color/buttons_color_orange.css');
+@import url('../blocks/buttons/_color/buttons_color_transparent-black.css');
+@import url('../blocks/buttons/_color/buttons_color_transparent-blue.css');
+@import url('../blocks/buttons/_color/buttons_color_transparent-gray.css');
+@import url('../blocks/buttons/_color/buttons_color_white.css');
+/* type */
+@import url('../blocks/buttons/_type/buttons_type_accordeon.css');
+@import url('../blocks/buttons/_type/buttons_type_link.css');
+@import url('../blocks/buttons/_type/buttons_type_primary.css');
+@import url('../blocks/buttons/_type/buttons_type_secondary.css');
+@import url('../blocks/buttons/_type/buttons_type_slider.css');
