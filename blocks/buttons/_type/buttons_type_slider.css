@@ -1,0 +1,17 @@
+.buttons_type_slider {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 17px 17px;
+  min-width: 35px;
+  min-height: 35px;
+  border: none;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1439px) {
+  .buttons_type_slider {
+    min-width: 24px;
+    min-height: 24px;
+    background-size: 10px 10px;
+  }
+}

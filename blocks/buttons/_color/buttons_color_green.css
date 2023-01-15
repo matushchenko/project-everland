@@ -1,0 +1,22 @@
+.buttons_color_green {
+  background-color: #DAEFD5;
+  color: #319B17;
+}
+
+.buttons_color_green:hover {
+  transition-duration: 1s;
+  background-color: #319B17;
+  color: #ffffff;
+}
+
+.buttons_color_green:active {
+  transition-duration: 1s;
+  background-color: #0E4900;
+  color: #ffffff;
+}
+
+.buttons_color_green:disabled {
+  transition-duration: 1s;
+  background-color: #C4C4C4;
+  color: rgba(38, 38, 38, 0.5);
+}
