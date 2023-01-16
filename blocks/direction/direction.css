@@ -1,0 +1,23 @@
+.direction {
+  margin: 0;
+  padding-top: 100px;
+  /*padding-left: 40px;
+  padding-right: 40px;*/
+  font-style: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media all and (max-width: 768px) {
+  .direction {
+    padding-top: 50px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .direction {
+    padding-top: 32px;
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+  }
+}
