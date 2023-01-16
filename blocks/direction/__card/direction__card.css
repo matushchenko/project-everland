@@ -19,7 +19,8 @@
 
 @media all and (max-width: 380px) {
   .direction__card {
-    padding-bottom: 34px;
+    padding-bottom: 24px;
+    height: auto;
     max-width: 299px;
   }
 }
