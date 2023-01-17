@@ -8,6 +8,7 @@
   padding: 0;
   border: 0;
   gap: 12px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1439px) {
