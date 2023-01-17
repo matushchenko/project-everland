@@ -1,0 +1,18 @@
+.project-card__pharagraph {
+    margin: 0 0 22px;
+    max-width: 427px;
+    min-height: 107px;
+}
+@media screen and (max-width: 1439px) {
+  .project-card__pharagraph {
+    max-width: 315px;
+    min-height: 76px;
+    margin: 0 0 37px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .pproject-card__pharagraph {
+    margin: 0 0 20px;
+    min-height: 68px;
+  }
+}
