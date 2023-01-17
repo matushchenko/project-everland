@@ -73,3 +73,6 @@
 @import url('../blocks/buttons/_type/buttons_type_primary.css');
 @import url('../blocks/buttons/_type/buttons_type_secondary.css');
 @import url('../blocks/buttons/_type/buttons_type_slider.css');
+/* rounding */
+@import url('../blocks/rounding/rounding.css');
+@import url('../blocks/rounding/_to-ten/rounding_to-ten.css');
