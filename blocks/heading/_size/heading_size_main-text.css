@@ -9,12 +9,20 @@
 
 @media screen and (max-width: 1439px) {
   .heading_size_main-text {
+<<<<<<< HEAD
     font-size: 16px;
+=======
+    font-size: 36px;
+>>>>>>> 5fb70c1 (bagfix heading_size_main-text and index.css)
   }
 }
 
 @media screen and (max-width: 767px) {
   .heading_size_main-text {
+<<<<<<< HEAD
     font-size: 14px;
+=======
+    font-size: 26px;
+>>>>>>> 5fb70c1 (bagfix heading_size_main-text and index.css)
   }
 }
