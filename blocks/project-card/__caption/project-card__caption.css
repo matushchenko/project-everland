@@ -1,0 +1,14 @@
+.project-card__caption {
+  margin: 0 0 19px 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .project-card__caption {
+    margin: 0 0 12px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .project-card__caption {
+    margin: 0 0 24px;
+  }
+}
