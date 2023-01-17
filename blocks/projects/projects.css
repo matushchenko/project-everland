@@ -1,7 +1,7 @@
 .projects {
   max-width: 1360px;
   width: 100%;
-  margin: 150px auto;
+  margin: 150px auto 0;
   background-color: #E7F0FF;
   border-radius: 30px;
 }
@@ -10,12 +10,12 @@
   .projects {
     max-width: 688px;
     padding-bottom: 50px;
-    margin: 100px auto;
+    margin: 100px auto 0;
   }
 }
 @media screen and (max-width: 767px) {
   .projects {
-    margin: 64px auto;
+    margin: 64px auto 0;
     max-width: 300px;
     padding-bottom: 32px;
   }
