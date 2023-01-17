@@ -59,8 +59,6 @@
 @import url('../blocks/heading/_color/heading_color_orange.css');
 @import url('../blocks/heading/_color/heading_color_purple.css');
 /* size */
-@import url('../blocks/heading/_size/heading_size_main-text.css');
-@import url('../blocks/heading/_size/heading_size_small-text.css');
 @import url('../blocks/heading/_size/heading_size_big-text.css');
 @import url('../blocks/heading/_size/heading_size_button-text.css');
 @import url('../blocks/heading/_size/heading_size_h1.css');
@@ -88,8 +86,6 @@
 @import url('../blocks/buttons/_type/buttons_type_primary.css');
 @import url('../blocks/buttons/_type/buttons_type_secondary.css');
 @import url('../blocks/buttons/_type/buttons_type_slider.css');
-@import url('../blocks/buttons/_type/button_type_slider-left.css');
-@import url('../blocks/buttons/_type/button_type_slider-right.css');
 
 /* PROJECTS */
 @import url('../blocks/project-card/project-card.css');
@@ -101,3 +97,11 @@
 @import url('../blocks/project-card/__title/project-card__title.css');
 @import url('../blocks/project-card/__pharagraph/project-card__pharagraph.css');
 @import url('../blocks/project-card/__button/project-card__button.css');
+
+/* HEADING 2*/
+@import url('../blocks/heading/_size/heading_size_main-text.css');
+@import url('../blocks/heading/_size/heading_size_small-text.css');
+
+/*BUTTONS 2*/
+@import url('../blocks/buttons/_type/button_type_slider-left.css');
+@import url('../blocks/buttons/_type/button_type_slider-right.css');
