@@ -1,0 +1,22 @@
+.projects {
+  max-width: 1360px;
+  width: 100%;
+  margin: 150px auto;
+  background-color: #E7F0FF;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .projects {
+    max-width: 688px;
+    padding-bottom: 50px;
+    margin: 100px auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .projects {
+    margin: 64px auto;
+    max-width: 300px;
+    padding-bottom: 32px;
+  }
+}
