@@ -99,3 +99,21 @@
 @import url('../blocks/rounding/rounding.css');
 @import url('../blocks/rounding/_to-ten/rounding_to-ten.css');
 
+/* PROJECTS */
+@import url('../blocks/project-card/project-card.css');
+@import url('../blocks/project-card/__container/project-card__container.css');
+@import url('../blocks/project-card/__caption/project-card__caption.css');
+@import url('../blocks/project-card/__content/project-card__content.css');
+@import url('../blocks/project-card/__img/project-card__img.css');
+@import url('../blocks/project-card/__text/project-card__text.css');
+@import url('../blocks/project-card/__title/project-card__title.css');
+@import url('../blocks/project-card/__pharagraph/project-card__pharagraph.css');
+@import url('../blocks/project-card/__button/project-card__button.css');
+
+/* HEADING 2*/
+@import url('../blocks/heading/_size/heading_size_main-text.css');
+@import url('../blocks/heading/_size/heading_size_small-text.css');
+
+/*BUTTONS 2*/
+@import url('../blocks/buttons/_type/button_type_slider-left.css');
+@import url('../blocks/buttons/_type/button_type_slider-right.css');
