@@ -85,7 +85,7 @@
 @import url('../blocks/buttons/_type/buttons_type_link.css');
 @import url('../blocks/buttons/_type/buttons_type_primary.css');
 @import url('../blocks/buttons/_type/buttons_type_secondary.css');
-@import url('../blocks/buttons/_type/buttons_type_slider.css');
+
 
 
 
@@ -108,4 +108,4 @@
 /*BUTTONS 2*/
 @import url('../blocks/buttons/_type/button_type_slider-left.css');
 @import url('../blocks/buttons/_type/button_type_slider-right.css');
-
+@import url('../blocks/buttons/_type/buttons_type_slider.css');
