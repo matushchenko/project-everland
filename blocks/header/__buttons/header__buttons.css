@@ -4,3 +4,19 @@
   padding: 0;
   gap: 16px;
 }
+
+@media screen and (max-width: 1439px) {
+  .header__buttons {
+    gap: 8px;
+    order: 1;
+    margin-left: auto;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__buttons {
+    display: none;
+  }
+}
+

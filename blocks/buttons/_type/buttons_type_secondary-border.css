@@ -1,18 +1,17 @@
-.buttons_type_primary {
+.buttons_type_secondary-border {
   padding: 0;
   text-align: center;
   height: 48px;
   border-radius: 10px;
-  border: none;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 120%;
 }
 
 
 @media screen and (max-width: 1439px) {
-  .buttons_type_primary {
+  .buttons_type_secondary-border {
     font-size: 16px;
   }
 }
