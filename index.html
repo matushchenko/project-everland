@@ -19,8 +19,10 @@
           <h3 class="header__button-text">Меню</h3>
         </button>
         <div class="header__buttons">
-        <button class="header__button buttons buttons_type_secondary-border buttons_color_transparent-blue">Платформа</button>
-        <button class="header__button buttons buttons_type_primary buttons_color_dark-blue">Поддержать</button>
+          <button class="header__button buttons buttons_type_secondary-border buttons_color_transparent-blue">Платформа</button>
+          <a class="header__link" href="#support">
+            <button class="header__button buttons buttons_type_primary buttons_color_dark-blue">Поддержать</button>
+          </a>
         </div>
       </div>
     </section>
@@ -139,7 +141,23 @@
     </section>
 
     <section class="projects" id="projects">
-
+      <div class="project-card">
+        <div class="project-card__container">
+          <div class="project-card__slide">
+            <div class="project-card__content">
+              <p class="project-card__caption heading heading_size_small-text heading_color_black">Наши спецпроекты</p>
+              <img src="./images/projects-img.jpg" alt="Фото проекта." class="project-card__img">
+              <div class="project-container__text">
+                <h2 class="project-card__title heading heading_size_h2 heading_color_black">Фотопроект «Семья как семья»</h2>
+                <p class="heading_size_main-text heading heading_color_black project-card__pharagraph">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+                <button class="button heading heading_size_button-text project-card__button">Посмотреть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="button button_type_slider-right" type="button"></button>
+        <button class="button button_type_slider-left" type="button"></button>
+      </div>
     </section>
 
     <section class="stories" id="stories">
@@ -154,7 +172,7 @@
 
     </section>
 
-    <section class="support">
+    <section class="support" id="support">
 
     </section>
   </main>
