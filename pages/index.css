@@ -57,7 +57,7 @@
 @import url('../blocks/heading/_color/heading_color_blue.css');
 @import url('../blocks/heading/_color/heading_color_green.css');
 @import url('../blocks/heading/_color/heading_color_orange.css');
-@import url('./blocks/heading/_color/heading_color_purple.css');
+@import url('../blocks/heading/_color/heading_color_purple.css');
 /* size */
 @import url('../blocks/heading/_size/heading_size_big-text.css');
 @import url('../blocks/heading/_size/heading_size_button-text.css');
