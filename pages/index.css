@@ -5,6 +5,14 @@
 
 /* header */
 @import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__button-img/header__button-img.css');
+@import url('../blocks/header/__button-menu/header__button-menu.css');
+@import url('../blocks/header/__button-text/header__button-text.css');
+@import url('../blocks/header/__buttons/header__buttons.css');
+@import url('../blocks/header/__button/header__button.css');
+@import url('../blocks/header/__container/header__container.css');
+@import url('../blocks/header/__section/header__section.css');
 
 /* content */
 @import url('../blocks/content/content.css');
@@ -28,7 +36,6 @@
 @import url('../blocks/direction/__card/_red/direction__card_red.css');
 
 @import url('../blocks/advantages/advantages.css');
-
 @import url('../blocks/projects/projects.css');
 @import url('../blocks/stories/stories.css');
 @import url('../blocks/agency/agency.css');
@@ -87,6 +94,7 @@
 @import url('../blocks/buttons/_type/buttons_type_primary.css');
 @import url('../blocks/buttons/_type/buttons_type_secondary.css');
 @import url('../blocks/buttons/_type/buttons_type_slider.css');
+@import url('../blocks/buttons/_type/buttons_type_secondary-border.css');
 /* rounding */
 @import url('../blocks/rounding/rounding.css');
 @import url('../blocks/rounding/_to-ten/rounding_to-ten.css');
