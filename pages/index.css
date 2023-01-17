@@ -107,5 +107,28 @@
 @import url('../blocks/heading/_size/heading_size_small-text.css');
 
 /*BUTTONS 2*/
-@import url('../blocks/buttons/_type/button_type_slider-left.css');
-@import url('../blocks/buttons/_type/button_type_slider-right.css');
+@import url('../blocks/buttons/_type/buttons_type_slider-left.css');
+@import url('../blocks/buttons/_type/buttons_type_slider-right.css');
+
+/* History  */
+@import url('../blocks/stories/__main/stories__main.css');
+@import url('../blocks/stories/__content/stories__content.css');
+@import url('../blocks/stories/__cards/stories__cards.css');
+@import url('../blocks/stories/__card/stories__card.css');
+@import url('../blocks/stories/__card-small/stories__card-small.css');
+@import url('../blocks/stories/__img/stories__img.css');
+@import url('../blocks/stories/__story-img/stories__story-img.css');
+@import url('../blocks/stories/__info/stories__info.css');
+@import url('../blocks/stories/__icon/stories__icon.css');
+@import url('../blocks/stories/__card/_revers/stories__card_reverse.css');
+@import url('../blocks/stories/__hero/stories__hero.css');
+@import url('../blocks/stories/__button/stories__button.css');
+@import url('../blocks/stories/__story/stories__story.css');
+@import url('../blocks/stories/__story-info/stories__story-info.css');
+@import url('../blocks/stories/__story-title/stories__story-title.css');
+@import url('../blocks/stories/__audio/stories__audio.css');
+@import url('../blocks/stories/__audio-info/stories__audio-info.css');
+@import url('../blocks/buttons/_type/buttons_type_new-section.css');
+@import url('../blocks/stories/__story-subtitle/stories__story-subtitle.css');
+@import url('../blocks/stories/__story-text/stories__story-text.css');
+
