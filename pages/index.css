@@ -28,7 +28,7 @@
 
 @import url('../blocks/advantages/advantages.css');
 
-
+@import url('../blocks/projects/projects.css');
 @import url('../blocks/stories/stories.css');
 @import url('../blocks/agency/agency.css');
 @import url('../blocks/news/news.css');
@@ -49,18 +49,6 @@
 @import url('../blocks/numbers/__title/numbers__title.css');
 @import url('../blocks/numbers/__heading/numbers__heading.css');
 @import url('../blocks/numbers/__span/numbers__span.css');
-
-/* PROJECTS */
-@import url('../blocks/projects/projects.css');
-@import url('../blocks/project-card/project-card.css');
-@import url('../blocks/project-card/__container/project-card__container.css');
-@import url('../blocks/project-card/__caption/project-card__caption.css');
-@import url('../blocks/project-card/__content/project-card__content.css');
-@import url('../blocks/project-card/__img/project-card__img.css');
-@import url('../blocks/project-card/__text/project-card__text.css');
-@import url('../blocks/project-card/__title/project-card__title.css');
-@import url('../blocks/project-card/__pharagraph/project-card__pharagraph.css');
-@import url('../blocks/project-card/__button/project-card__button.css');
 
 /* HEADING */
 @import url('../blocks/heading/heading.css');
@@ -102,3 +90,14 @@
 @import url('../blocks/buttons/_type/buttons_type_slider.css');
 @import url('../blocks/buttons/_type/button_type_slider-left.css');
 @import url('../blocks/buttons/_type/button_type_slider-right.css');
+
+/* PROJECTS */
+@import url('../blocks/project-card/project-card.css');
+@import url('../blocks/project-card/__container/project-card__container.css');
+@import url('../blocks/project-card/__caption/project-card__caption.css');
+@import url('../blocks/project-card/__content/project-card__content.css');
+@import url('../blocks/project-card/__img/project-card__img.css');
+@import url('../blocks/project-card/__text/project-card__text.css');
+@import url('../blocks/project-card/__title/project-card__title.css');
+@import url('../blocks/project-card/__pharagraph/project-card__pharagraph.css');
+@import url('../blocks/project-card/__button/project-card__button.css');
