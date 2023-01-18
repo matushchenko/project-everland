@@ -1,0 +1,16 @@
+.stories__img {
+  border-radius: 50%;
+  max-width: 224px;
+}
+
+@media (max-width: 1439px) {
+  .stories__img {
+    max-width: 204px;
+  }
+}
+
+@media (max-width: 767px) {
+  .stories__img {
+    max-width: 80px;
+  }
+}

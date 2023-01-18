@@ -1,0 +1,9 @@
+.stories__story-subtitle {
+  margin-top: 6px;
+}
+
+@media (max-width: 767px) {
+  .stories__story-subtitle {
+    margin-top: 2px;
+  }
+}

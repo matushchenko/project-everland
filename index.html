@@ -11,19 +11,43 @@
 
 <body class="page">
   <header class="header">
-
+    <section class="header__section">
+      <div class="header__container">
+        <img class="header__logo" src="./images/header-logo.svg" alt="Логотип шапки.">
+        <button class="header__button-menu">
+          <img class="header__button-img" src="./images/menu-icon.svg" alt="Кнопка меню.">
+          <h3 class="header__button-text">Меню</h3>
+        </button>
+        <div class="header__buttons">
+          <button class="header__button buttons buttons_type_secondary-border buttons_color_transparent-blue">Платформа</button>
+          <a class="header__link" href="#support">
+            <button class="header__button buttons buttons_type_primary buttons_color_dark-blue">Поддержать</button>
+          </a>
+        </div>
+      </div>
+    </section>
   </header>
   <main class="content">
-    <section class="menu">
+    <nav class="menu">
+      <a class="menu__link" href="#work">Для кого</a>
+      <a class="menu__link" href="#direction">Направления работы</a>
+      <a class="menu__link" href="#advantages">Приемущества</a>
+      <a class="menu__link" href="#numbers">Основные цифры</a>
+      <a class="menu__link" href="#projects">Спецпроекты</a>
+      <a class="menu__link" href="#stories">Истории</a>
+      <a class="menu__link" href="#agency">Агентство</a>
+      <a class="menu__link" href="#news">Новости</a>
+    </nav>
 
-    </section>
     <section class="description">
 
     </section>
+
     <section class="donations">
 
     </section>
-    <section class="work">
+
+    <section class="work" id="work">
       <h2 class="work__title">Для кого мы работаем</h2>
       <ul class="work__cards-box">
         <li class="direction__card direction__card_white">
@@ -54,7 +78,10 @@
         </li>
 
     </section>
-    <section class="direction">
+
+
+
+    <section class="direction" id="direction">
       <h2 class="direction__title-desktop">Наши направления</h2>
       <h2 class="direction__title">В&nbsp;каких&nbsp;направлениях мы работаем?</h2>
       <ul class="direction__cards-box">
@@ -107,52 +134,126 @@
           <a href="#"><button class="direction__card-button buttons_type_link buttons_color_white"">Подробнее &rarr;</button></a>
         </li>
 
+
       </div>
     </section>
-    <section class="advantages">
+
+    <section class="advantages" id="advantages">
 
     </section>
+
     <!-- numbers -->
-    <section class="numbers">
-      <h2 class="numbers__title">Everland в цифрах</h2>
+    <section class="numbers" id="numbers">
+      <h2 class="numbers__title heading heading_size_h2 heading_color_black">Everland в цифрах</h2>
       <div class="numbers__container">
-        <img class="numbers__img" alt="Эверлэнд в цифрах." src="images/numbers-img.jpg" />
+        <img class="numbers__img" alt="Эверлэнд в цифрах." src="./images/numbers-img.jpg" />
         <ul class="numbers__table">
           <li class="numbers__table-cell">
-            <h3 class="numbers__heading"><span class="numbers__span">380+</span> человек</h3>
-            <p class="numbers__text">прошли обучение и получили работу в разных статусах</p>
+            <h3 class="numbers__heading heading heading_size_h3 heading_color_black"><span class="heading heading_color_blue">380+</span> человек</h3>
+            <p class="numbers__text heading heading_size_main-text heading_color_black">прошли обучение и получили работу в разных статусах</p>
           </li>
             <li class="numbers__table-cell">
-              <h3 class="numbers__heading"><span class="numbers__span">1200+</span> человек</h3>
-            <p class="numbers__text">наше сообщество ― люди с разными видами инвалидности</p>
+              <h3 class="numbers__heading heading heading_size_h3 heading_color_black"><span class="heading heading_color_blue">1200+</span> человек</h3>
+            <p class="numbers__text heading heading_size_main-text heading_color_black">наше сообщество ― люди с разными видами инвалидности</p>
           </li>
           <li class="numbers__table-cell">
-            <h3 class="numbers__heading"><span class="numbers__span">35 000</span> рублей</h3>
-            <p class="numbers__text">средний заработок в проекте/в рамках работы агентства</p>
+            <h3 class="numbers__heading heading heading_size_h3 heading_color_black"><span class="heading heading_color_blue">35 000</span> рублей</h3>
+            <p class="numbers__text heading heading_size_main-text heading_color_black">средний заработок в проекте/в рамках работы агентства</p>
           </li>
           <li class="numbers__table-cell">
-            <h3 class="numbers__heading"><span class="numbers__span">3</span> недели</h3>
-            <p class="numbers__text">нужно, чтобы получить первую оплату после прокачки в Everland</p>
+            <h3 class="numbers__heading heading heading_size_h3 heading_color_black"><span class="heading heading_color_blue">3</span> недели</h3>
+            <p class="numbers__text heading heading_size_main-text heading_color_black">нужно, чтобы получить первую оплату после прокачки в Everland</p>
           </li>
         </ul>
       </div>
+    </section>
+    <!-- projects -->
+    <section class="projects" id="projects">
+      <div class="project-card">
+        <div class="project-card__container">
+          <div class="project-card__slide">
+            <div class="project-card__content">
+              <p class="project-card__caption heading heading_size_small-text heading_color_black">Наши спецпроекты</p>
+              <img src="./images/projects-img.jpg" alt="Фото проекта." class="project-card__img">
+              <div class="project-container__text">
+                <h2 class="project-card__title heading heading_size_h2 heading_color_black">Фотопроект «Семья как семья»</h2>
+                <p class="heading_size_main-text heading heading_color_black project-card__pharagraph">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+                <button class="button heading heading_size_button-text project-card__button">Посмотреть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="buttons buttons_type_slider-right" type="button"></button>
+        <button class="buttons buttons_type_slider-left" type="button"></button>
+      </div>
+    </section>
+    <!-- stories -->
+    <section class="stories" id="stories">
+      <div class="stories__main">
+        <h2 class="heading heading_size_h2 heading_color_black">Истории</h2>
+        <button class="buttons heading heading_size_button-text project-card__button buttons_type_new-section" type="button">Все истории</button>
+        <div class="stories__content">
+          <ul class="stories__cards">
+            <li class="stories__card">
+              <img class="stories__img" src="./images/maksim1.jpg" alt="Фото." />
+              <div class="stories__info">
+                <img class="stories__icon" src="./images/icon_quote.svg" alt="Цитата." />
+                <h4 class="heading heading_size_h4 heading_color_black stories__story-title">Мне интересно слушать интервью с людьми. Это мотивация и вдохновение, которых так не хватает</h4>
+                <p class="heading heading_size_main-text heading_color_black"> Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы по веб-дизайну не решили проблему с трудоустройством</p>
+                <button class="buttons stories__button heading heading_size_button-text" type="button">История Максима
+                  <img class="stories_arrow" src="./images/arrow_forward.svg" alt="Цитата."/>
+                </button>
+              </div>
+            </li>
+            <li class="stories__card stories__card_reverse">
+              <img class="stories__img" src="./images/maksim2.jpg" alt="Фото." />
+              <div class="stories__info">
+                <img class="stories__icon" src="./images/icon_quote.svg" alt="Цитата." />
+                <h4 class="heading heading_size_h4 heading_color_black stories__story-title">Платформа дала надежду: кто-то заинтересован в трудоустройстве инвалидов</h4>
+                <p class="heading heading_size_main-text heading_color_black">Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал сальто и повредил позвоночник. С тех пор ему тяжело передвигаться на большие расстояния</p>
+                <button class="buttons stories__button heading heading_size_button-text" type="button">История Максима
+                  <img class="stories_arrow" src="./images/arrow_forward.svg" alt="Иконка цитаты" />
+                </button>
+              </div>
+            </li>
+            <li class="stories__card-small">
+              <div class="stories__story">
+                <img class="stories__story-img" src="./images/aislu.jpg" alt="Фото." />
+                <div class="stories__story-info">
+                  <p class="stories__hero heading heading_size_big-text heading_color_black">Айслу Асан</p>
+                  <h4 class="heading heading_size_h4 heading_color_black stories__story-text">Когда хочется жить</h4>
+                  <div class="stories__audio-info">
+                    <p class="heading heading_size_small-text heading_color_black">История Айслу</p>
+                    <button class="buttons stories__audio" type="button"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="stories__story">
+                <img class="stories__story-img" src="./images/artem.jpg" alt="Фото." />
+                <div class="stories__story-info">
+                  <p class="stories__hero heading heading_size_big-text heading_color_black">Артём Плаксин</p>
+                  <h4 class="heading heading_size_h4 heading_color_black stories__story-text">Не видеть и смотреть в будущее</h4>
+                  <div class="stories__audio-info">
+                    <p class="heading heading_size_small-text heading_color_black">История Артёма</p>
+                    <button class="buttons stories__audio" type="button"></button>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
+    <section class="agency" id="agency">
 
     </section>
 
-    <section class="projects">
+    <section class="news" id="news">
 
     </section>
-    <section class="stories">
 
-    </section>
-    <section class="agency">
-
-    </section>
-    <section class="news">
-
-    </section>
-    <section class="support">
+    <section class="support" id="support">
 
     </section>
   </main>

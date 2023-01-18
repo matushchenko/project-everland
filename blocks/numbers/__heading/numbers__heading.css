@@ -1,23 +1,6 @@
 .numbers__heading {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 120%;
-  /* identical to box height, or 41px */
-  font-feature-settings: 'pnum' on, 'lnum' on;
-  /* Blue */
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1439px) {
-  .numbers__heading {
-    font-size: 26px;
-  }
-}
 
-@media screen and (max-width:767px) {
-  .numbers__heading {
-    font-size: 18px;
-  }
-}
 

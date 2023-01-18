@@ -1,0 +1,9 @@
+.project-card__text {
+  min-height: 352px;
+}
+
+@media screen and (max-width: 1439px) {
+  .project-card__text {
+    min-height: 204px;
+  }
+}
