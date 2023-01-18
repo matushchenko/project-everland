@@ -1,0 +1,18 @@
+.agency__subtitle {
+  max-width: 960px;
+  padding: 20px 0 50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .agency__subtitle {
+    padding: 16px 0 22px;
+    max-width: 505px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__subtitle {
+    padding: 10px 0 24px;
+  }
+}

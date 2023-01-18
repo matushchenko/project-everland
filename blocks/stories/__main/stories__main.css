@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr auto;
   grid-template-rows: repeat(2, auto);
-  padding-top: 150px;
   align-items: center;
 }
 
@@ -18,13 +17,13 @@
 
   .stories__main > button:nth-child(2) {
     grid-row: 4 / 5;
-    margin: 40px auto 50px;
+    margin: 0 auto;
   }
 }
 
 @media (max-width: 767px) {
   .stories__main > button:nth-child(2) {
-    margin: 24px auto 32px;
+    margin: 0 auto;
     width: 100%;
   }
 }
