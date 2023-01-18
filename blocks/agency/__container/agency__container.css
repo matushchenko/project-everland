@@ -1,0 +1,20 @@
+.agency__container {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (max-width: 1439px) {
+  .agency__container {
+    padding: 100px 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__container {
+    padding: 64px 10px;
+  }
+}

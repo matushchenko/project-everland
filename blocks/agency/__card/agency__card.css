@@ -1,0 +1,29 @@
+.agency__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 22px;
+  flex-basis: 440px;
+}
+
+@media screen and (max-width: 1439px) {
+  .agency__card {
+    flex-basis: 334px;
+    gap: 20px;
+  }
+
+  .agency__card:last-of-type {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__card {
+    align-items: center;
+    gap: 15px;
+  }
+
+  .agency__card:last-of-type {
+    display: flex;
+  }
+}
