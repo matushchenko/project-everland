@@ -1,0 +1,28 @@
+.project-card__content {
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: 603px 393px;
+  grid-template-rows: 42px 351px;
+  column-gap: 142px;
+  min-height: 393px;
+  width: calc(100% - 30px *2);
+
+}
+
+@media screen and (max-width: 1439px) {
+  .project-card__content {
+    grid-template-columns: 339px 284px;
+    grid-template-rows: 31px 96px 113px 44px;
+    column-gap: 30px;
+    min-height: 284px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .project-card__content {
+    display: flex;
+    flex-direction: column;
+    min-height: 448px;
+    width: calc(100% - 25px * 2);
+  }
+}

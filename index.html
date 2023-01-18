@@ -11,7 +11,21 @@
 
 <body class="page">
   <header class="header">
-
+    <section class="header__section">
+      <div class="header__container">
+        <img class="header__logo" src="./images/header-logo.svg" alt="Логотип шапки.">
+        <button class="header__button-menu">
+          <img class="header__button-img" src="./images/menu-icon.svg" alt="Кнопка меню.">
+          <h3 class="header__button-text">Меню</h3>
+        </button>
+        <div class="header__buttons">
+          <button class="header__button buttons buttons_type_secondary-border buttons_color_transparent-blue">Платформа</button>
+          <a class="header__link" href="#support">
+            <button class="header__button buttons buttons_type_primary buttons_color_dark-blue">Поддержать</button>
+          </a>
+        </div>
+      </div>
+    </section>
   </header>
 
   <main class="content">
@@ -35,6 +49,34 @@
     </section>
 
     <section class="work" id="work">
+      <h2 class="work__title">Для кого мы работаем</h2>
+      <ul class="work__cards-box">
+        <li class="direction__card direction__card_white">
+          <img class="work__card-image" src="./images/image-disabled.svg" alt="Инвалид">
+          <div class="work__card-description">
+            <h3 class="direction__card-title">Для людей с инвалидностью</h3>
+            <p class="direction__card-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+          </div>
+          <a href="#"><button class="direction__card-button buttons buttons_type_link buttons_color_blue">Подробнее&nbsp;&rarr;</button></a>
+        </li>
+
+        <li class="direction__card direction__card_white">
+          <img class="work__card-image" src="./images/image-briefcase.svg" alt="Работодатели">
+          <div class="work__card-description">
+            <h3 class="direction__card-title">Для работодателей</h3>
+            <p class="direction__card-text">Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных волонтеров</p>
+          </div>
+          <a href="#"><button class="direction__card-button buttons buttons_type_link buttons_color_orange">Подробнее&nbsp;&rarr;</button></a>
+        </li>
+
+        <li class="direction__card direction__card_white">
+          <img class="work__card-image" src="./images/image-person.svg" alt="КСО">
+          <div class="work__card-description">
+            <h3 class="direction__card-title">Для КСО-партнеров </h3>
+            <p class="direction__card-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+          </div>
+          <a href="#"><button class="direction__card-button buttons buttons_type_link buttons_color_green">Подробнее&nbsp;&rarr;</button></a>
+        </li>
 
     </section>
 
@@ -49,7 +91,7 @@
             <h3 class="direction__card-title">Доступность услуг Disquestion</h3>
             <p class="direction__card-text">Сервисы для бизнеса по&nbsp;повышению доступности услуг для маломобильных клиентов ― контракты с&nbsp;крупнейшими компаниями в&nbsp;России</p>
           </div>
-          <button class="direction__card-button">Подробнее &rarr;</button>
+          <a href="#"><button class="direction__card-button buttons buttons_type_link buttons_color_white">Подробнее &rarr;</button></a>
         </li>
 
         <li class="direction__card direction__card_blue">
@@ -57,7 +99,7 @@
             <h3 class="direction__card-title">Трудоустройство</h3>
             <p class="direction__card-text">Решение социальной проблемы с&nbsp;использованием предпринимательских инструментов: оказываем услуги разным компаниям и&nbsp;НКО, таким образом зарабатываем и&nbsp;даем работу людям с&nbsp;инвалидностью</p>
           </div>
-          <button class="direction__card-button">Подробнее &rarr;</button>
+          <a href="#"><button class="direction__card-button buttons buttons_type_link buttons_color_white">Подробнее &rarr;</button></a>
         </li>
 
         <li class="direction__card direction__card_green">
@@ -66,7 +108,7 @@
               и готовые решения</h3>
             <p class="direction__card-text">ИТ-система для интеграции в&nbsp;открытый рынок труда людей с&nbsp;инвалидностью в&nbsp;качестве самозанятых и&nbsp;в&nbsp;рамках трудоустройства в&nbsp;другие компании</p>
           </div>
-          <button class="direction__card-button">Подробнее &rarr;</button>
+          <a href="#"><button class="direction__card-button buttons buttons_type_link buttons_color_white">Подробнее &rarr;</button></a>
         </li>
 
         <li class="direction__card direction__card_blue">
@@ -74,7 +116,7 @@
             <h3 class="direction__card-title">Агентство</h3>
             <p class="direction__card-text">Услуги специалистов с&nbsp;инвалидностью для крупных компаний (дизайн, право, контент и&nbsp;другие)</p>
           </div>
-          <button class="direction__card-button">Подробнее &rarr;</button>
+          <a href="#"><button class="direction__card-button buttons buttons_type_link buttons_color_white">Подробнее &rarr;</button></a>
         </li>
 
         <li class="direction__card direction__card_green">
@@ -82,7 +124,7 @@
             <h3 class="direction__card-title">Коворкинг</h3>
             <p class="direction__card-text">Уникальное пространство, в&nbsp;котором специалисты с&nbsp;инвалидностью могут работать и&nbsp;офлайн&nbsp;&mdash; приходить, участвовать в&nbsp;образовательных мероприятиях, встречаться с&nbsp;заказчиками, работать в&nbsp;команде</p>
           </div>
-          <button class="direction__card-button">Подробнее &rarr;</button>
+          <a href="#"><button class="direction__card-button buttons buttons_type_link buttons_color_white">Подробнее &rarr;</button></a>
         </li>
 
         <li class="direction__card direction__card_red">
@@ -90,7 +132,7 @@
             <h3 class="direction__card-title">Для людей с инвалидностью</h3>
             <p class="direction__card-text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
           </div>
-          <button class="direction__card-button">Подробнее &rarr;</button>
+          <a href="#"><button class="direction__card-button buttons buttons_type_link buttons_color_white">Подробнее &rarr;</button></a>
         </li>
 
 
@@ -105,7 +147,7 @@
     <section class="numbers" id="numbers">
       <h2 class="numbers__title heading heading_size_h2 heading_color_black">Everland в цифрах</h2>
       <div class="numbers__container">
-        <img class="numbers__img" alt="Эверлэнд в цифрах." src="../images/numbers-img.jpg" />
+        <img class="numbers__img" alt="Эверлэнд в цифрах." src="./images/numbers-img.jpg" />
         <ul class="numbers__table">
           <li class="numbers__table-cell">
             <h3 class="numbers__heading heading heading_size_h3 heading_color_black"><span class="heading heading_color_blue">380+</span> человек</h3>
@@ -126,24 +168,111 @@
         </ul>
       </div>
     </section>
-
+    <!-- projects -->
     <section class="projects" id="projects">
-
+      <div class="project-card">
+        <div class="project-card__container">
+          <div class="project-card__slide">
+            <div class="project-card__content">
+              <p class="project-card__caption heading heading_size_small-text heading_color_black">Наши спецпроекты</p>
+              <img src="./images/projects-img.jpg" alt="Фото проекта." class="project-card__img">
+              <div class="project-container__text">
+                <h2 class="project-card__title heading heading_size_h2 heading_color_black">Фотопроект «Семья как семья»</h2>
+                <p class="heading_size_main-text heading heading_color_black project-card__pharagraph">Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+                <button class="button heading heading_size_button-text project-card__button">Посмотреть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="buttons buttons_type_slider-right" type="button"></button>
+        <button class="buttons buttons_type_slider-left" type="button"></button>
+      </div>
     </section>
-
+    <!-- stories -->
     <section class="stories" id="stories">
-
+      <div class="stories__main">
+        <h2 class="heading heading_size_h2 heading_color_black">Истории</h2>
+        <button class="buttons heading heading_size_button-text project-card__button buttons_type_new-section" type="button">Все истории</button>
+        <div class="stories__content">
+          <ul class="stories__cards">
+            <li class="stories__card">
+              <img class="stories__img" src="./images/maksim1.jpg" alt="Фото." />
+              <div class="stories__info">
+                <img class="stories__icon" src="./images/icon_quote.svg" alt="Цитата." />
+                <h4 class="heading heading_size_h4 heading_color_black stories__story-title">Мне интересно слушать интервью с людьми. Это мотивация и вдохновение, которых так не хватает</h4>
+                <p class="heading heading_size_main-text heading_color_black"> Максиму Гильфанову из Узбекистана 41 год. Диплом программиста и курсы по веб-дизайну не решили проблему с трудоустройством</p>
+                <button class="buttons stories__button heading heading_size_button-text" type="button">История Максима
+                  <img class="stories_arrow" src="./images/arrow_forward.svg" alt="Цитата."/>
+                </button>
+              </div>
+            </li>
+            <li class="stories__card stories__card_reverse">
+              <img class="stories__img" src="./images/maksim2.jpg" alt="Фото." />
+              <div class="stories__info">
+                <img class="stories__icon" src="./images/icon_quote.svg" alt="Цитата." />
+                <h4 class="heading heading_size_h4 heading_color_black stories__story-title">Платформа дала надежду: кто-то заинтересован в трудоустройстве инвалидов</h4>
+                <p class="heading heading_size_main-text heading_color_black">Максиму Чернышову из Набережных Челнов 32 года. В детстве он неудачно сделал сальто и повредил позвоночник. С тех пор ему тяжело передвигаться на большие расстояния</p>
+                <button class="buttons stories__button heading heading_size_button-text" type="button">История Максима
+                  <img class="stories_arrow" src="./images/arrow_forward.svg" alt="Иконка цитаты" />
+                </button>
+              </div>
+            </li>
+            <li class="stories__card-small">
+              <div class="stories__story">
+                <img class="stories__story-img" src="./images/aislu.jpg" alt="Фото." />
+                <div class="stories__story-info">
+                  <p class="stories__hero heading heading_size_big-text heading_color_black">Айслу Асан</p>
+                  <h4 class="heading heading_size_h4 heading_color_black stories__story-text">Когда хочется жить</h4>
+                  <div class="stories__audio-info">
+                    <p class="heading heading_size_small-text heading_color_black">История Айслу</p>
+                    <button class="buttons stories__audio" type="button"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="stories__story">
+                <img class="stories__story-img" src="./images/artem.jpg" alt="Фото." />
+                <div class="stories__story-info">
+                  <p class="stories__hero heading heading_size_big-text heading_color_black">Артём Плаксин</p>
+                  <h4 class="heading heading_size_h4 heading_color_black stories__story-text">Не видеть и смотреть в будущее</h4>
+                  <div class="stories__audio-info">
+                    <p class="heading heading_size_small-text heading_color_black">История Артёма</p>
+                    <button class="buttons stories__audio" type="button"></button>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
-
+    <!-- agency -->
     <section class="agency" id="agency">
-
+      <div class="agency__container">
+        <h2 class="agency__title heading heading_size_h2 heading_color_black">Лучшие проекты агентства</h2>
+        <h4 class="agency__subtitle heading heading_size_h4 heading_color_black">Мы выполняем работы в области веб-разработки, дизайна, права, видео, анимации и контента</h4>
+        <div class="agency__cards">
+          <div class="agency__card">
+            <img src="./images/agency_1.jpg" alt="Агентство." class="agency__card-img rounding">
+            <p class="agency__card-text heading heading_size_big-text">Скрипты-рекомендации для бизнеса (DisQuestion)</p>
+          </div>
+          <div class="agency__card">
+            <img src="./images/agency_2.jpg" alt="Агентство." class="agency__card-img rounding">
+            <p class="agency__card-text heading heading_size_big-text">Проект «Онконавигатор»</p>
+          </div>
+          <div class="agency__card">
+            <img src="./images/agency_3.jpg" alt="Агентство." class="agency__card-img rounding">
+            <p class="agency__card-text heading heading_size_big-text">Проект «Миграции: приоткрывая личное»</p>
+          </div>
+        </div>
+        <button class="agency__button buttons buttons_type_primary buttons_color_transparent-blue heading heading_size_button-text" type="button">Посмотреть всё</button>
+      </div>
     </section>
 
     <section class="news" id="news">
 
     </section>
 
-    <section class="support">
+    <section class="support" id="support">
 
     </section>
     <dialog class="popup" id="popup-menu">
@@ -255,6 +384,7 @@
     </dialog>
   </main>
   <footer class="footer">
+    <!--<p>dargdagdfg</p>-->
 
   </footer>
 

@@ -1,0 +1,22 @@
+.stories__card-small {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+@media (max-width: 1439px) {
+  .stories__card-small {
+    padding: 5px 0 40px 0
+  }
+}
+
+@media (max-width: 767px) {
+  .stories__card-small {
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 0 24px 0;
+  }
+}

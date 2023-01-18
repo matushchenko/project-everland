@@ -1,0 +1,10 @@
+.stories__button {
+  padding: 12px 10px;
+  background: #e7f0ff;
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #0c4ba0;
+  transition: all 0.3s ease-in-out;
+}

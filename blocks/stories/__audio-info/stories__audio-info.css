@@ -1,0 +1,6 @@
+.stories__audio-info {
+  display: flex;
+  position: relative;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,45 @@
+.stories__audio {
+  position: relative;
+  background: #fff;
+  min-height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 0;
+  border-width: 0;
+}
+
+.stories__audio::before {
+  content: '';
+  background-image: url('../../../images/play1.svg');
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-size: contain;
+  background-position: center;
+}
+
+.stories__audio:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1439px) {
+  .stories__audio {
+    position: absolute;
+    left: 138px;
+    min-height: 28px;
+    width: 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__audio {
+    min-height: 24px;
+    width: 24px;
+  }
+}
