@@ -1,0 +1,20 @@
+.news__description-min {
+  margin: 30px 0 0 0;
+  min-width: 380px;
+  min-height: 302px;
+}
+
+@media all and (max-width: 900px) {
+  .news__description-min {
+    margin-top: 20px;
+    min-width: 274px;
+    min-height: 185px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .news__description-min {
+    min-width: 252px;
+    min-height: 120px;
+  }
+}

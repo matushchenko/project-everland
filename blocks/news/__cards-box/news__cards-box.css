@@ -1,0 +1,26 @@
+.news__cards-box {
+  margin: 0 auto;
+  padding-top: 50px;
+  grid-area: news-cards-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+  gap: 20px;
+}
+
+@media all and (max-width: 900px) {
+  .news__cards-box {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    max-width: 688px;
+    grid-template-columns: repeat(auto-fit, minmax(334px, 1fr));
+  }
+}
+
+@media all and (max-width: 767px) {
+  .news__cards-box {
+    grid-template-columns: repeat(auto-fit, 300px);
+    padding-top: 24px;
+    width: 300px;
+    gap: 16px;
+  }
+}

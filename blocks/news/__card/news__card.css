@@ -1,0 +1,24 @@
+.news__card {
+  margin: 0;
+  padding: 30px;
+  height: 738px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border: 1px solid #DADADA;
+  border-radius: 30px;
+}
+
+@media all and (max-width: 900px) {
+  .news__card {
+    height: 489px;
+    border-radius: 20px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .news__card {
+    padding: 24px;
+    height: auto;
+  }
+}
