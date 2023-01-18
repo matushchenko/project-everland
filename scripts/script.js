@@ -1,137 +1,55 @@
-const description = document.querySelector('.description');
-const descriptionLeft = document.querySelector('.description__left');
-const descriptionRight = document.querySelector('.description__right');
+const description = document.querySelector(".description");
+const descriptionContainer = document.querySelector(".description__container");
+const descriptionSlider = description.querySelectorAll(".description__slider");
+const descriptionLeft = document.querySelector(".description__left");
+const descriptionRight = document.querySelector(".description__right");
+const descriptionNumbers = document.querySelector(".description__numbers");
 let offset = 0;
 
+/*Перелистывание слайдов*/
 
-descriptionRight.addEventListener('click', function () {
-  offset = offset + 1360;
-  if (offset > 8160) {
-      offset = 0;
+descriptionRight.addEventListener("click", function () {
+  offset = offset + 1440;
+  if (offset > 7200) {
+    offset = 0;
   }
-  description.style.left = -offset + 'px';
+  descriptionContainer.style.left = -offset + "px";
+  return offset;
 });
 
-
-descriptionLeft.addEventListener('click', function () {
-  offset = offset - 1360;
+descriptionLeft.addEventListener("click", function () {
+  offset = offset - 1440;
   if (offset < 0) {
-      offset = 8160;
+    offset = 7200;
   }
-  description.style.left = -offset + 'px';
+  descriptionContainer.style.left = -offset + "px";
+  return offset;
 });
 
+/*Счетчик перелистывания*/
 
+let savedIndex = 1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Вызываем функцию, которая реализована ниже: */
-showSlides(slideIndex);
-
-/* Функция перелистывания: */
-function showSlides(n) {
-    let slides = document.getElementsByClassName('description__slider');
-     if (n > slides.length) {
-      slideIndex = 1
-   }
-   if (n < 1) {
-      slideIndex = slides.length
-   }
-   for (let item of slides) {
-    item.style.display = 'none';
+function reducingNumber() {
+  descriptionNumbers.textContent = `${(savedIndex += 1)}/${6}`;
+  if (savedIndex >= 6) {
+    savedIndex = 0;
   }
+}
 
-  /* Делаем элемент блочным: */
-  slides[slideIndex - 1].style.display = 'flex';
+descriptionRight.addEventListener("click", function () {
+  reducingNumber();
+});
+
+function increasingNumber() {
+  descriptionNumbers.textContent = `${(savedIndex -= 1)}/${6}`;
+  if (savedIndex >= 6) {
+    savedIndex = 6;
+  } else if (savedIndex <= 1) {
+    savedIndex = 7;
   }
+}
 
-descriptionRight.addEventListener('click', function () {
-  showSlides(slideIndex += 1);
+descriptionLeft.addEventListener("click", function () {
+  increasingNumber();
 });
-descriptionLeft.addEventListener('click', function () {
-  showSlides(slideIndex -= 1);
-});
-
-/* Устанавливаем текущий слайд: */
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-
-
-
-
-
-/* Вызываем функцию, которая реализована ниже: */
-showSlides(slideIndex);
-
-/* Увеличиваем индекс на 1 — показываем следующий слайд: */
-function nextSlide() {
-  showSlides(slideIndex += 1);
-}
-
-/* Уменьшаем индекс на 1 — показываем предыдущий слайд: */
-function previousSlide() {
-  showSlides(slideIndex -= 1);
-}
-
-descriptionRight.addEventListener('click', function () {
-  showSlides(slideIndex += 1);
-});
-
-descriptionLeft.addEventListener('click', function () {
-  showSlides(slideIndex -= 1);
-});
-
-/* Устанавливаем текущий слайд: */
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-/* Функция перелистывания: */
-function showSlides(n) {
-/* Обращаемся к элементам с названием класса "item", то есть к картинкам: */
-  let slides = document.getElementsByClassName('description__slider');
-
-   /* Проверяем количество слайдов: */
-   if (n > slides.length) {
-    slideIndex = 1
- }
- if (n < 1) {
-    slideIndex = slides.length
- }
-
- /* Проходим по каждому слайду в цикле for: */
- for (let item of slides) {
-  item.style.display = 'none';
-}
-
-/* Делаем элемент блочным: */
-slides[slideIndex - 1].style.display = 'flex';
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

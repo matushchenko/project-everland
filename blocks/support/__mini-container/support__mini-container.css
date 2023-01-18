@@ -1,0 +1,6 @@
+.support__mini-container {
+  width: 651px;
+  display: flex;
+  column-gap: 20px;
+  margin: 30px 23px 0 17px;
+}

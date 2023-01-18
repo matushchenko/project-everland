@@ -1,0 +1,8 @@
+.support__donations {
+  min-width: 611px;
+  margin: 0 23px 0 17px;
+  display: flex;
+  column-gap: 5px;
+  row-gap: 12px;
+  flex-wrap: wrap;
+}

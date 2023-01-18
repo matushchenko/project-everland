@@ -1,0 +1,6 @@
+.support__systems {
+  max-width: 594px;
+  border: 1px solid red;
+  display: flex;
+  column-gap: 18px;
+}

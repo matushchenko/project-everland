@@ -1,18 +1,21 @@
 .description {
   position: relative;
-  margin: 0 40px 0 40px;
   padding: 0;
+  width: 1440px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1439px) {
   .description {
-    max-width: 688px;
-    margin: 0 auto;
+    width: 688px;
+    border: 1px solid green;
   }
 }
 
 @media screen and (max-width: 767px) {
   .description {
-    max-width: 304px;
+    width: 304px;
+    border: 1px solid red;
   }
 }
