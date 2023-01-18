@@ -105,6 +105,7 @@
 @import url('../blocks/rounding/rounding.css');
 @import url('../blocks/rounding/_to-ten/rounding_to-ten.css');
 
+
 /* PROJECTS */
 @import url('../blocks/project-card/project-card.css');
 @import url('../blocks/project-card/__container/project-card__container.css');
@@ -159,3 +160,17 @@
 
 
 
+/* popup-menu */
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/_opened/popup_opened.css');
+@import url('../blocks/popup/__desktop/popup__desktop.css');
+@import url('../blocks/popup/__mobile/popup__mobile.css');
+@import url('../blocks/popup/__tablet/popup__tablet.css');
+@import url('../blocks/popup/__card/popup__card.css');
+@import url('../blocks/popup/__link/popup__link.css');
+@import url('../blocks/popup/__sublink/popup__sublink.css');
+@import url('../blocks/popup/__icon/popup__icon.css');
+@import url('../blocks/popup/__menu/popup__menu.css');
+@import url('../blocks/popup/__hide/popup__hide.css');
+@import url('../blocks/popup/__hide/_visible/popup__hide_visible.css');
+@import url('../blocks/popup/__icon/_reverse/popup__icon_reverse.css');
