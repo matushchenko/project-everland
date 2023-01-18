@@ -12,10 +12,18 @@
   font-size: 20px;
   line-height: 130%;
   list-style: none;
+
+  padding: 0 40px 0 40px;
 }
 
 @media screen and (max-width: 1439px) {
   .menu {
     display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu {
+    padding: 0 10px 0 10px;
   }
 }
