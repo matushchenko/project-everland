@@ -20,7 +20,12 @@
 @import url('../blocks/menu/__link/menu__link.css');
 @import url('../blocks/description/description.css');
 @import url('../blocks/donations/donations.css');
+
 @import url('../blocks/work/work.css');
+@import url('../blocks/work/__title/work__title.css');
+@import url('../blocks/work/__card-image/work__card-image.css');
+@import url('../blocks/work/__card-description/work__card-description.css');
+@import url('../blocks/work/__cards-box/work__cards-box.css');
 
 @import url('../blocks/direction/direction.css');
 @import url('../blocks/direction/__title-desktop/direction__title-desktop.css');
@@ -34,6 +39,7 @@
 @import url('../blocks/direction/__card/_blue/direction__card_blue.css');
 @import url('../blocks/direction/__card/_green/direction__card_green.css');
 @import url('../blocks/direction/__card/_red/direction__card_red.css');
+@import url('../blocks/direction/__card/_white/direction__card_white.css');
 
 @import url('../blocks/advantages/advantages.css');
 @import url('../blocks/projects/projects.css');
