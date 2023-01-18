@@ -1,0 +1,11 @@
+.header__button {
+  margin: 0;
+  width: 180px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__button {
+    width: 134px;
+  }
+}

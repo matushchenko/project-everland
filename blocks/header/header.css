@@ -1,4 +1,17 @@
 .header {
   margin: 0;
+  box-sizing: border-box;
+  width:100%;
+  height:100vh;
+  max-height: 80px;
+  position: relative;
+  z-index: 1;
+}
+
+
+@media screen and (max-width: 767px) {
+  .header {
+    max-height: 54px;
+  }
 }
 

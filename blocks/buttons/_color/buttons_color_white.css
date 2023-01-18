@@ -1,4 +1,5 @@
 .buttons_color_white {
+  margin-top: 100px;
   background-color: #ffffff;
   color: #333333;
 }
@@ -19,4 +20,10 @@
   transition-duration: 1s;
   background-color: #ffffff;
   color: #C4C4C4;
+}
+
+@media all and (max-width: 768px) {
+  .buttons_color_white {
+    margin-top: 20px;
+  }
 }
