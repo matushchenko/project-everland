@@ -1,4 +1,5 @@
-.direction__card-button {  
+.direction__card-button {
+  margin-top: 40px;
   margin-bottom: 30px;
   padding: 10px 10px 10px 4px;
   width: 165px;
@@ -15,8 +16,8 @@
 @media all and (max-width: 768px) {
   .direction__card-button {
     margin-top: 20px;
-    width: 131px;
-    height: 39px;
+    width: 139px;
+    height: 44px;
     font-size: 16px;
   }
 }
@@ -26,7 +27,7 @@
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 16px;
-    width: 120px;
+    width: 128px;
     height: 37px;
     font-size: 14px;
   }

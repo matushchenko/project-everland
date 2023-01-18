@@ -21,3 +21,9 @@
   background-color: #ffffff;
   color: #C4C4C4;
 }
+
+@media all and (max-width: 768px) {
+  .buttons_color_white {
+    margin-top: 20px;
+  }
+}
