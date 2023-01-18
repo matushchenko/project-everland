@@ -2,7 +2,6 @@
   margin: 30px 0 0 0;
   width: 380px;
   height: 302px;
-  border-radius: 30px;
 }
 
 @media all and (max-width: 900px) {
@@ -10,7 +9,6 @@
     margin-top: 20px;
     width: 274px;
     height: 212px;
-    border-radius: 20px;
   }
 }
 

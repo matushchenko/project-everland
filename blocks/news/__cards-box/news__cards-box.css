@@ -1,6 +1,9 @@
 .news__cards-box {
+  list-style-type: none;
   margin: 0 auto;
   padding-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
   grid-area: news-cards-box;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));

@@ -1,7 +1,4 @@
 .news__button {
-  position: absolute;
-  right: 0;
-  top: 17px;
   margin: 0;
   padding: 12px 16px;
   width: 194px;
@@ -13,11 +10,8 @@
   grid-area: news-button;
 }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 900px) {
   .news__button {
-    position: relative;
-    top: auto;
-    right: auto;
     margin-top: 30px;
     width: 200px;
     height: 44px;

@@ -1,11 +1,6 @@
 .news__title {
   max-height: 77px;
   margin: 0;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 120%;
-  color: #333333;
-  letter-spacing: -0.01em;
   grid-area: news-title;
 }
 
@@ -14,13 +9,11 @@
     justify-self: left;
     margin: 0;
     max-width: 420px;
-    font-size: 36px;
   }
 }
 
 @media all and (max-width: 500px) {
   .news__title {
     max-width: 300px;
-    font-size: 26px;
   }
 }

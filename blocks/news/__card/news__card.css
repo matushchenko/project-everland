@@ -6,13 +6,11 @@
   flex-direction: column;
   justify-content: start;
   border: 1px solid #DADADA;
-  border-radius: 30px;
 }
 
 @media all and (max-width: 900px) {
   .news__card {
     height: 489px;
-    border-radius: 20px;
   }
 }
 
