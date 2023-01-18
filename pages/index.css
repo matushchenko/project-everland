@@ -1,3 +1,20 @@
+/*buttons*/
+@import url('../blocks/buttons/buttons.css');
+@import url('../blocks/buttons/_color/buttons_color_blue.css');
+@import url('../blocks/buttons/_color/buttons_color_dark-blue.css');
+@import url('../blocks/buttons/_color/buttons_color_green.css');
+@import url('../blocks/buttons/_color/buttons_color_light-blue.css');
+@import url('../blocks/buttons/_color/buttons_color_orange.css');
+@import url('../blocks/buttons/_color/buttons_color_transparent-black.css');
+@import url('../blocks/buttons/_color/buttons_color_transparent-blue.css');
+@import url('../blocks/buttons/_color/buttons_color_transparent-gray.css');
+@import url('../blocks/buttons/_color/buttons_color_white.css');
+@import url('../blocks/buttons/_type/buttons_type_accordeon.css');
+@import url('../blocks/buttons/_type/buttons_type_link.css');
+@import url('../blocks/buttons/_type/buttons_type_primary.css');
+@import url('../blocks/buttons/_type/buttons_type_secondary.css');
+@import url('../blocks/buttons/_type/buttons_type_slider.css');
+
 /* page */
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts/fonts.css');
@@ -11,7 +28,12 @@
 @import url('../blocks/menu/menu.css');
 @import url('../blocks/description/description.css');
 @import url('../blocks/donations/donations.css');
+
 @import url('../blocks/work/work.css');
+@import url('../blocks/work/__title/work__title.css');
+@import url('../blocks/work/__card-image/work__card-image.css');
+@import url('../blocks/work/__card-description/work__card-description.css');
+@import url('../blocks/work/__cards-box/work__cards-box.css');
 
 @import url('../blocks/direction/direction.css');
 @import url('../blocks/direction/__title-desktop/direction__title-desktop.css');
@@ -25,6 +47,7 @@
 @import url('../blocks/direction/__card/_blue/direction__card_blue.css');
 @import url('../blocks/direction/__card/_green/direction__card_green.css');
 @import url('../blocks/direction/__card/_red/direction__card_red.css');
+@import url('../blocks/direction/__card/_white/direction__card_white.css');
 
 @import url('../blocks/advantages/advantages.css');
 

@@ -1,4 +1,24 @@
 .footer {
-  margin: 0;
- 
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 66px;
+  padding: 80px 40px 84px 40px;
+  max-width: 1440px;
+  height: 712px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+/*@media all and (max-width: 900px) {
+  .footer {
+    padding-top: 50px;
+  }
+}*/
+
+@media all and (max-width: 767px) {
+  .footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

@@ -1,0 +1,22 @@
+.work__card-image {
+    margin: 30px 0 40px 0;
+    border-radius: 10px;
+    width: 64px;
+    height: 64px;
+}
+
+@media all and (max-width: 768px) {
+    .work__card-image {
+        margin-bottom: 20px;
+        width: 48px;
+        height: 48px;
+    }
+  }
+  
+  @media all and (max-width: 500px) {
+    .work__card-image {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
