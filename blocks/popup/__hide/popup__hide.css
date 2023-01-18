@@ -1,0 +1,7 @@
+.popup__hide {
+  display: none;
+  flex-direction: column;
+  margin-top: 14px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+}

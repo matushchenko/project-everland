@@ -1,0 +1,13 @@
+.popup__icon {
+  display: flex;
+  width: 12px;
+  height: 6.86px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(../../../images/Icon_shevron.jpg);
+  border: 0;
+  margin-bottom: 7px;
+  margin-right: -3px;
+  align-self: flex-end;
+  justify-self: center;
+  cursor: pointer;
+}
