@@ -4,6 +4,7 @@
   padding: 80px 40px 84px 40px;
   max-width: 1440px;
   background-color: #FFFFFF;
+  box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 248px 272px 28px;
