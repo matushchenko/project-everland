@@ -1,6 +1,12 @@
 .direction__title {
   display: none;
   margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #333333;
+  letter-spacing: -0.01em;
 }
 
 @media all and (max-width: 780px) {
@@ -13,5 +19,6 @@
 @media all and (max-width: 500px) {
   .direction__title {
     max-width: 300px;
+    font-size: 26px;
   }
 }

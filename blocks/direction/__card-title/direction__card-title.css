@@ -1,0 +1,20 @@
+.direction__card-title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 120%;
+    color: #333333;
+}
+
+@media all and (max-width: 768px) {
+    .direction__card-title {
+        font-size: 26px;
+    }
+}
+
+@media all and (max-width: 500px) {
+  .direction__card-title {
+      font-size: 18px;
+  }
+}
