@@ -1,0 +1,113 @@
+.accordions__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 670px;
+  height: fit-content;
+  box-sizing: border-box;
+  border: 2px solid #dadada;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+}
+/* обычная */
+.accordions__box .accordions__label::after {
+  content: "";
+  background: url(../../../images/icon_plus.svg) no-repeat center / contain;
+  background-color: #E7F0FF;
+  background-size: 21px 21px;
+  position: absolute;
+  top: 40px;
+  right: 18px;
+  transform: translateY(-50%);
+  width: 47px;
+  height: 47px;
+  border-radius: 20px;
+  z-index: 1;
+}
+/* при наведении */
+.accordions__box:hover .accordions__label::after {
+  content: "";
+  background: url(../../../images/icon_plus-white.svg) no-repeat center / contain;
+  background-color: #0C4BA0;;
+  background-size: 21px 21px;
+  position: absolute;
+  top: 40px;
+  right: 18px;
+  transform: translateY(-50%);
+  width: 47px;
+  height: 47px;
+  border-radius: 20px;
+  z-index: 1;
+}
+/* активная */
+.accordions__box.active .accordions__label::after {
+  content: "";
+  background: url(../../../images/icon_close.svg) no-repeat center / contain;
+  background-color: #0C4BA0;
+  background-size: 21px 21px;
+  position: absolute;
+  top: 40px;
+  right: 18px;
+  transform: translateY(-50%);
+  width: 47px;
+  height: 47px;
+  border-radius: 20px;
+}
+
+.accordions__box.active .accordions__content {
+  padding: 15px 0 0 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .accordions__box.active .accordions__content {
+     padding: 20px 0 0 0;
+  }
+   /* обычная */
+  .accordions__box .accordions__label::after {
+    width: 32px;
+    height: 32px;
+    background-size: 10px 10px;
+    top: 32px;
+    right: 16px;
+  }
+  /* при наведении */
+  .accordions__box:hover .accordions__label::after {
+    width: 32px;
+    height: 32px;
+    background-size: 10px 10px;
+    top: 32px;
+    right: 16px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .accordions__box {
+    min-width: 300px;
+  }
+
+  .accordions__box.active .accordions__content {
+    padding: 16px 16px 80px 16px;
+ }
+  /* обычная */
+ .accordions__box .accordions__label::after {
+   width: 32px;
+   height: 32px;
+   background-size: 10px 10px;
+   top: 30px;
+   right: 10px;
+ }
+ /* при наведении */
+ .accordions__box:hover .accordions__label::after {
+   width: 32px;
+   height: 32px;
+   background-size: 10px 10px;
+   top: 30px;
+   right: 10px;
+ }
+}
+
+
+

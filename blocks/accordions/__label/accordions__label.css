@@ -1,0 +1,9 @@
+.accordions__label {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  cursor: pointer; /* Меняем курсор при наведении */
+  padding: 20px 20px;
+}
+
+

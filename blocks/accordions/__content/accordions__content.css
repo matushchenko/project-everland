@@ -1,0 +1,17 @@
+.accordions__content {
+  position: relative;
+  background-color: #fff; /* Цвет фона контента */
+  overflow: hidden;
+  max-height: 0; /* Скрываем контент */
+  transition: 0.3s; /* Для плавности анимации */
+  z-index: 0;
+ }
+
+ @media screen and (max-width: 767px) {
+  .accordions__content {
+  }
+ }
+
+
+
+
