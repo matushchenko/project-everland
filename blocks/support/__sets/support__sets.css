@@ -1,0 +1,17 @@
+.support__sets {
+  padding: 0;
+  border: none;
+  margin-top: 28px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__sets {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__sets {
+    margin-top: 25px;
+  }
+}

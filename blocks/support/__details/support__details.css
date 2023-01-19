@@ -1,0 +1,6 @@
+.support__details {
+  display: flex;
+  flex-direction: row;
+  row-gap: 5px;
+  border: 1px solid rgb(16, 101, 10);
+}

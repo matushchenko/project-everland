@@ -1,0 +1,17 @@
+.support__approval {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__approval {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+  }
+}

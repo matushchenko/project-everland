@@ -1,0 +1,19 @@
+.support__donate {
+  padding: 0;
+  max-width: 488px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__donate {
+    max-width: 531px;
+    margin-left: 136px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__donate {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
