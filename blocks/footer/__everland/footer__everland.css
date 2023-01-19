@@ -1,3 +1,16 @@
 .footer__everland {
-    grid-area: footer-everland;
+  margin: 0;
+  grid-area: footer-everland;
+}
+
+@media all and (max-width: 900px) {
+  .footer__everland {
+    max-width: 294px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer__everland {
+    max-width: 300px;
+  }
 }

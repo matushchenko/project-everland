@@ -1,6 +1,21 @@
 .footer__support {
+  margin: 0;
+  max-height: 272px;
     grid-area: footer-support;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+@media all and (max-width: 900px) {
+  .footer__support {
+    max-height: 262px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer__support {
+    max-width: 300px;
+    max-height: 195px;
+  }
 }

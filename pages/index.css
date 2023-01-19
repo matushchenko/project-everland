@@ -79,6 +79,10 @@
 @import url('../blocks/footer/__phone-one/footer__phone-one.css');
 @import url('../blocks/footer/__phone-two/footer__phone-two.css');
 @import url('../blocks/footer/__adress/footer__adress.css');
+@import url('../blocks/footer/__social-icons/footer__social-icons.css');
+@import url('../blocks/footer/__social-icon/footer__social-icon.css');
+@import url('../blocks/footer/__license/footer__license.css');
+@import url('../blocks/footer/__prakticum-logo/footer__prakticum-logo.css');
 
 /* form */
 
