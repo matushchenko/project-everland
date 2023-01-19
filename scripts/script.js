@@ -1,7 +1,7 @@
 //объявление
 const popupMenu = document.querySelector('#popup-menu');
-const popupMenuOpen = document.querySelector('#open');
-const popupMenuClose = document.querySelector('#close');
+const popupMenuSwitch = document.querySelector('#menu-bottom');
+const icon = document.querySelector('.header__button-img');
 
 const popupProject = document.querySelector('#popup-hide-project');
 const popupProjectVisible = document.querySelector('#project');
@@ -65,24 +65,25 @@ popupServiceVisible.addEventListener('click', function () {
 
 
 
-//функции открытия и закрытия
-function openPopup(popup) {
+//функции открытия/закрытия
+function switchPopup(popup) {
+  if (popup.classList.contains('popup_opened')) {
+    popup.classList.remove('popup_opened');
+    closeAll(popupProjectVisible);
+    closeAll(popupPeopleVisible);
+    closeAll(popupServiceVisible);
+    closeAll(popupProject);
+    closeAll(popupPeople);
+    closeAll(popupService);
+    icon.src = '../images/menu-icon.svg'
+  } else {
   popup.classList.add('popup_opened');
-}
-function closePopup(popup) {
-  popup.classList.remove('popup_opened');
+  icon.src = '../images/Menu-icon-close.jpg';
+  }
 }
 
-// открытие попапа на кнопку
-popupMenuOpen.addEventListener('click', function () {
-  openPopup(popupMenu);
+// открытие/закрытие попапа на кнопку
+popupMenuSwitch.addEventListener('click', function () {
+  switchPopup(popupMenu);
 })
-popupMenuClose.addEventListener('click', function () {
-  closePopup(popupMenu);
-  closeAll(popupProjectVisible);
-  closeAll(popupPeopleVisible);
-  closeAll(popupServiceVisible);
-  closeAll(popupProject);
-  closeAll(popupPeople);
-  closeAll(popupService);
-})
+
