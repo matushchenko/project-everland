@@ -1,0 +1,38 @@
+.news {
+  position: relative;
+  margin: 0;
+  padding: 100px 40px 100px 40px;
+  font-style: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 77px 1fr;
+  grid-template-areas:
+  "news-title news-button"
+  "news-cards-box news-cards-box";
+}
+
+@media all and (max-width: 900px) {
+  .news {
+    padding-top: 50px;
+    padding-bottom: 56px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 43px 583px 76px;
+    grid-template-areas:
+    "news-title"
+    "news-cards-box"
+    "news-button";
+    justify-items: center;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .news {
+    grid-template-rows: 31px 1fr 76px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}

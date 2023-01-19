@@ -1,21 +1,9 @@
 .direction__card-text {
-    margin: 20px 0 0 0;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 130%;
-    color: #333333;
+    padding: 20px 0 0 0;
 }
 
 @media all and (max-width: 768px) {
     .direction__card-text {
-        margin-top: 10px;
-        font-size: 16px;
-        line-height: 120%;
+        padding-top: 10px;
     }
-}
-
-@media all and (max-width: 500px) {
-  .direction__card-text {
-      font-size: 14px;
-  }
 }

@@ -1,0 +1,9 @@
+.news__text {
+  padding-top: 20px;
+}
+
+@media all and (max-width: 900px) {
+  .news__text {
+      padding-top: 10px;
+  }
+}
