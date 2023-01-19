@@ -1,0 +1,21 @@
+.footer__everland-name {
+    padding-bottom: 90px;
+    max-width: 483px;
+    max-height: 92px;
+}
+
+@media all and (max-width: 900px) {
+    .footer__everland-name {
+        padding-bottom: 56px;
+        max-width: 294px;
+        max-height: 68px;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
+    .footer__everland-name {
+        max-width: 300px;
+        max-height: 56px;
+        padding-bottom: 40px;
+    }
+  }

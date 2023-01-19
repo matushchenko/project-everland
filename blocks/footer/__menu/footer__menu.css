@@ -1,0 +1,20 @@
+.footer__menu {
+    grid-area: footer-menu;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0 84px; 
+}
+
+@media all and (max-width: 900px) {
+    .footer__menu {
+        gap: 0 53px;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
+    .footer__menu {
+        gap: 0 16px;
+    }
+  }

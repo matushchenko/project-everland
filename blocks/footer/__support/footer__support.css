@@ -1,0 +1,6 @@
+.footer__support {
+    grid-area: footer-support;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

@@ -1,0 +1,27 @@
+.footer__support-fund {
+    position: relative;
+    margin: auto;
+    padding-top: 19px;
+    width: 100px;
+    height: 52px;
+    background-image: url(../../../images/fund.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit:contain;
+    object-position: center;
+}
+
+@media all and (max-width: 900px) {
+    .footer__support-fund {
+        padding-top: 12px;
+        height: 40px;
+        width: 56px;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
+    .footer__support-fund {
+        padding-top: 7px;
+        max-height: 34px;
+    }
+  }

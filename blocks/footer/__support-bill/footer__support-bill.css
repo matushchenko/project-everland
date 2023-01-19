@@ -1,0 +1,28 @@
+.footer__support-bill {
+    position: relative;
+    margin: auto;
+    padding-top: 19px;
+    width: 100px;
+    height: 52px;
+    background-image: url(../../../images/billane-big.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit:contain;
+    object-position: center;
+}
+
+@media all and (max-width: 900px) {
+    .footer__support-bill {
+        padding-top: 12px;
+        background-image: url(../../../images/billane-small.svg);
+        height: 40px;
+        width: 56px;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
+    .footer__support-bill {
+        padding-top: 7px;
+        max-height: 34px;
+    }
+  }

@@ -5,16 +5,23 @@
   margin-bottom: 66px;
   padding: 80px 40px 84px 40px;
   max-width: 1440px;
-  height: 712px;
+  /*height: 712px;*/
+  background-color: #FFFFFF;
   box-sizing: border-box;
-  background-color: #fff;
+  display: grid;
+  grid-template-columns: 599px 1fr;
+  grid-template-rows: 248px 277px 10px;
+  grid-template-areas:
+  "footer-everland footer-menu"
+  "footer-support footer-social"
+  "footer-yandex .";
 }
 
-/*@media all and (max-width: 900px) {
+@media all and (max-width: 900px) {
   .footer {
     padding-top: 50px;
   }
-}*/
+}
 
 @media all and (max-width: 767px) {
   .footer {

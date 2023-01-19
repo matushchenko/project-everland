@@ -63,6 +63,22 @@
 
 /* footer */
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__everland/footer__everland.css');
+@import url('../blocks/footer/__menu/footer__menu.css');
+@import url('../blocks/footer/__social/footer__social.css');
+@import url('../blocks/footer/__support/footer__support.css');
+@import url('../blocks/footer/__yandex/footer__yandex.css');
+@import url('../blocks/footer/__everland-logo/footer__everland-logo.css');
+@import url('../blocks/footer/__everland-name/footer__everland-name.css');
+@import url('../blocks/footer/__list/footer__list.css');
+@import url('../blocks/footer/__list-element/footer__list-element.css');
+@import url('../blocks/footer/__support-logo/footer__support-logo.css');
+@import url('../blocks/footer/__support-bill/footer__support-bill.css');
+@import url('../blocks/footer/__support-fund/footer__support-fund.css');
+@import url('../blocks/footer/__contacts/footer__contacts.css');
+@import url('../blocks/footer/__phone-one/footer__phone-one.css');
+@import url('../blocks/footer/__phone-two/footer__phone-two.css');
+@import url('../blocks/footer/__adress/footer__adress.css');
 
 /* form */
 

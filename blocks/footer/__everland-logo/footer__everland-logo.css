@@ -1,0 +1,19 @@
+.footer__everland-logo {
+    margin: 0;
+    width: 263px;
+    height: 46px;
+    padding-bottom: 20px;
+}
+
+@media all and (max-width: 900px) {
+    .footer__everland-logo {
+        width: 137px;
+        height: 24px;
+        padding-bottom: 16px;
+    }
+  }
+  
+  /*@media all and (max-width: 767px) {
+    .footer__everland-logo {
+    }
+  }*/
