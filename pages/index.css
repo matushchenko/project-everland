@@ -80,6 +80,9 @@
 @import url('../blocks/heading/_size/heading_size_h3.css');
 @import url('../blocks/heading/_size/heading_size_h4.css');
 @import url('../blocks/heading/_size/heading_size_h5.css');
+@import url('../blocks/heading/_size/heading_size_menu-text.css');
+@import url('../blocks/heading/_size/heading_size_link.css');
+@import url('../blocks/heading/_size/heading_size_sublink.css');
 
 
 /*BUTTONS*/
