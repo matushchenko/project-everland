@@ -1,5 +1,10 @@
 .support__title {
-  margin: 0;
+  margin: 100px 0 50px 40px;
   padding: 0;
-  border: 1px solid green;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__title {
+    margin: 44px auto 24px auto;
+  }
 }

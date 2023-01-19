@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Личная страница пользователя с индивидуальной подборкой красивых и запоминающихся мест для путешествий по России">
+  <meta name="keywords" content="Отдых в России, путешествия по России, Карачаевск, Эльбрус, Домбай">
+  <meta name="author" content="Кристина Ушакова">
+  <title>Mesto Russia</title>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class="body">
+<div class="page">
+  <header class="header">
+    <img src="./images/logo.svg" class="header__logo" alt="Логотип сайта">
+  </header>
+<main>
+  <section class="profile">
+    <img src="./images/Avatar.svg" class="profile__avatar" alt="Фото пользователя">
+    <div class="profile__info">
+      <h1 class="profile__name">Жак-Ив Кусто</h1>
+      <button class="profile__edit-button" type="button"></button>
+      <p class="profile__description">Исследователь океана</p>
+    </div>
+    <button class="profile__add-button" type="button"></button>
+  </section>
+  <section class="elements"></section>
+</main>
+  <footer class="footer">
+    <p class="footer__copyright">&#169; 2020 Mesto Russia</p>
+  </footer>
+  <div class="popup popup_profile">
+    <div class="popup__container">
+      <button class="popup__close" type="button"></button>
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form class="popup__form" name="form">
+        <input class="popup__user-name" type="text" name="firstname" value="Жак-Ив Кусто" placeholder="Имя">
+        <input class="popup__user-job" type="text" name="profession" value="Исследователь океана" placeholder="О себе">
+        <button class="popup__submit" type="submit">Сохранить</button>
+      </form>
+    </div>
+  </div>
+  <div class="popup popup_place">
+    <div class="popup__container">
+      <button class="popup__close" type="button"></button>
+      <h2 class="popup__title">Новое место</h2>
+      <form class="popup__form" name="form">
+        <input class="popup__place-name" type="text" name="firstname" value="" placeholder="Название">
+        <input class="popup__place-photo" type="text" name="profession" value="" placeholder="Ссылка на фото">
+        <button class="popup__submit" type="submit">Создать</button>
+      </form>
+    </div>
+  </div>
+  <div class="popup popup_photo">
+    <div class="popup__card-image">
+      <button class="popup__close" type="button"></button>
+      <img src="" alt="фото пользователя" class="popup__image">
+      <p class="popup__description"></p>
+    </div>
+  </div>
+</div>
+<template id="templates">
+  <article class="element">
+    <button class="element__trash" type="button"></button>
+    <img src="" class="element__img-place" alt="">
+    <div class="element__info">
+      <h2 class="element__title"></h2>
+      <button class="element__heart" type="button"></button>
+    </div>
+  </article>
+</template>
+<script src="./src/constants.js"></script>
+<script src="./src/script.js"></script>
+</body>
+</html>

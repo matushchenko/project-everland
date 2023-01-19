@@ -49,7 +49,6 @@
 @import url('../blocks/support/__name/support__name.css');
 @import url('../blocks/support/__paragraph/support__paragraph.css');
 @import url('../blocks/support/__pay/support__pay.css');
-@import url('../blocks/support/__points/support__points.css');
 @import url('../blocks/support/__radio/support__radio.css');
 @import url('../blocks/support/__radio-button/support__radio-button.css');
 @import url('../blocks/support/__selection-field/support__selection-field.css');
@@ -61,6 +60,14 @@
 @import url('../blocks/support/__choice/support__choice.css');
 @import url('../blocks/support/__payment/support__payment.css');
 @import url('../blocks/support/__systems/support__systems.css');
+@import url('../blocks/support/__methods/support__methods.css');
+@import url('../blocks/support/__input/support__input.css');
+@import url('../blocks/support/__consent/support__consent.css');
+@import url('../blocks/support/__consent/support__consent.css');
+@import url('../blocks/support/__checkbox/support__checkbox.css');
+@import url('../blocks/support/__visible-checkbox/support__visible-checkbox.css');
+@import url('../blocks/support/__details/support__details.css');
+@import url('../blocks/support/__link/support__link.css');
 
 /* footer */
 @import url('../blocks/footer/footer.css');

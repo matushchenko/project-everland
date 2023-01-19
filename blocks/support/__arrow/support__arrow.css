@@ -1,3 +1,22 @@
 .support__arrow {
-  border: 1px solid red;
+  background-image: url(../../../images/Icon_shevron.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px 14px;
+  min-width: 8px;
+  min-height: 14px;
+  background-color: hsl(0, 0%, 100%, 0);
+  border: none;
+}
+
+.support__arrow:hover {
+  transition-duration: 2s;
+  opacity: .5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .support__arrow {
+    transform: rotate(90deg);
+  }
 }

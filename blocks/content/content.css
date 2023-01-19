@@ -1,5 +1,11 @@
 .content {
   margin: 0 auto;
-  min-width: 1440px;
+  max-width: 1440px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1439px) {
+  .content {
+    max-width: 768px;
+  }
 }

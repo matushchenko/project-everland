@@ -2,5 +2,21 @@
   width: 651px;
   display: flex;
   column-gap: 20px;
-  margin: 30px 23px 0 17px;
+  margin: 30px auto 23px auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__mini-container {
+    width: 647px;
+    column-gap: 16px;
+    margin-bottom: 32px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .support__mini-container {
+    width: 260px;
+    margin-top: 32px;
+  }
 }

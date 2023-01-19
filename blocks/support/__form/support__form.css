@@ -1,7 +1,25 @@
 .support__form {
-  width: 691px;
+  width: 651px;
   background: #FFFFFF;
   box-shadow: 0px 4px 30px rgba(42, 48, 56, 0.1);
   border-radius: 30px;
-  border: 1px solid yellow;
+  padding-left: 17px;
+  padding-right: 23px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__form {
+    width: 633px;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__form {
+    width: 260px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

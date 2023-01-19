@@ -113,26 +113,25 @@
       <h2 class="support__title heading_size_h2">Поддержите нас</h2>
       <div class="support__container">
         <form class="support__form">
-            <div class="support__mini-container">
-              <button class="support__radio support__radio-button buttons_color_transparent-gray" type="button">Ежемесячно</button>
-              <button class="support__radio support__radio-button buttons_color_transparent-gray" type="button">Разово</button>
-            </div>
+          <div class="support__mini-container">
+            <button class="support__radio support__radio-button buttons_color_transparent-gray" type="button">Ежемесячно</button>
+            <button class="support__radio support__radio-button buttons_color_transparent-gray" type="button">Разово</button>
+          </div>
+          <h3 class="support__subtitle heading_size_h5">Размер пожертвования</h3>
 
-          <h3 class="support__subtitle">Размер пожертвования</h3>
+          <div class="support__donations">
+            <button class="support__choice support__radio-button buttons_color_transparent-gray" type="button">250Р</button>
+            <button class="support__choice support__radio-button buttons_color_transparent-gray" type="button">500Р</button>
+            <button class="support__choice support__radio-button buttons_color_transparent-gray" type="button">750Р</button>
+            <button class="support__choice support__radio-button buttons_color_transparent-gray" type="button">1000Р</button>
+            <button class="support__choice support__radio-button buttons_color_transparent-gray" type="button">Другая сумма</button>
+          </div>
+          <p class="support__paragraph">Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать
+          бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу.
+          Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.</p>
 
-            <div class="support__donations">
-              <button class="support__choice support__radio-button buttons_color_transparent-gray" type="button">250Р</button>
-              <button class="support__choice support__radio-button buttons_color_transparent-gray" type="button">500Р</button>
-              <button class="support__choice support__radio-button buttons_color_transparent-gray" type="button">750Р</button>
-              <button class="support__choice support__radio-button buttons_color_transparent-gray" type="button">1000Р</button>
-              <button class="support__choice support__radio-button buttons_color_transparent-gray" type="button">Другая сумма</button>
-            </div>
-            <p class="support__paragraph">Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать
-            бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу.
-            Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.</p>
-
-          <h3 class="support__subtitle">Способ оплаты</h3>
-          <div class="support__">
+          <h3 class="support__subtitle heading_size_h5">Способ оплаты</h3>
+          <div class="support__methods">
             <div class="support__systems">
               <button class="support__payment support__radio-button buttons_color_transparent-gray" type="button">
                 <img src="./images/mir-logo-h14px 1.jpg" alt="Мир">
@@ -149,75 +148,85 @@
             </div>
             <button class="support__arrow" type="button"></button>
           </div>
-          <h3 class="support__subtitle">Ваши данные</h3>
+          <h3 class="support__subtitle heading_size_h5">Ваши данные</h3>
 
           <fieldset class="support__sets">
-            <input type="text" class="support__radio" name="firstname" placeholder="Иван Иванов">
-            <input type="text" class="support__radio" name="email" placeholder="myemail@example.com">
+            <input type="text" class="support__input" name="firstname" placeholder="Иван Иванов">
+            <input type="text" class="support__input" name="email" placeholder="myemail@example.com">
           </fieldset>
 
-          <fieldset class="support__sets">
+          <fieldset class="support__consent">
             <label class="support__selection-field">
-              <input type="checkbox" class="support__radio" name="oferta" value="agree" checked> <!-- этот элемент мы скрыли -->
-              <span class="support__approval">Соглашаюсь с <a href="#" class="support__link">офертой</a></span> <!-- этот будем стилизовать -->
+              <input type="checkbox" class="support__checkbox" name="oferta" value="agree" checked>
+              <span class="support__visible-checkbox"></span>
+              <span class="support__approval">Соглашаюсь с <a href="#" class="support__link">офертой</a></span>
             </label>
             <label class="support__selection-field">
-              <input type="checkbox" class="support__radio" name="personal-data" value="agree" checked> <!-- этот элемент мы скрыли -->
-              <span class="support__approval">Соглашаюсь на <a href="#" class="support__link">обработку моих персональных данных</a></span> <!-- этот будем стилизовать -->
+              <input type="checkbox" class="support__checkbox" name="personal-data" value="agree" checked>
+              <span class="support__visible-checkbox"></span>
+              <span class="support__approval">Соглашаюсь на <a href="#" class="support__link">обработку моих персональных данных</a></span>
             </label>
-            <button class="support__button buttons_type_primary buttons_color_dark-blue" type="button">Поддержать</button>
           </fieldset>
+          <button class="support__button buttons_type_primary buttons_color_dark-blue" type="button">Поддержать</button>
         </form>
         <div class="support__donate">
           <p class="support__description">Everland создается силами многих. Мы благодарны каждому за поддержку!</p>
           <div class="support__list">
             <div class="support__pay">
-              <p class="support__name">Аноним</p>
-              <p class="support__points">........................................</p>
-              <p class="support__summa">500Р</p>
-              <p class="support__time">2 часа назад</p>
+              <p class="support__name">Аноним ........................................</p>
+              <div ckass="support__details">
+                <p class="support__summa">500₽</p>
+                <p class="support__time">2 часа назад</p>
+              </div>
             </div>
             <div class="support__pay">
-              <p class="support__name">Татьяна</p>
-              <p class="support__points">........................................</p>
-              <p class="support__summa">600Р</p>
-              <p class="support__time">3 часа назад</p>
+              <p class="support__name">Татьяна ........................................</p>
+              <div ckass="support__details">
+                <p class="support__summa">600₽</p>
+                <p class="support__time">3 часа назад</p>
+              </div>
             </div>
             <div class="support__pay">
-              <p class="support__name">Аноним</p>
-              <p class="support__points">........................................</p>
-              <p class="support__summa">300Р</p>
-              <p class="support__time">4 часа назад</p>
+              <p class="support__name">Аноним ........................................</p>
+              <div ckass="support__details">
+                <p class="support__summa">300₽</p>
+                <p class="support__time">4 часа назад</p>
+              </div>
             </div>
             <div class="support__pay">
-              <p class="support__name">Аноним</p>
-              <p class="support__points">........................................</p>
-              <p class="support__summa">200Р</p>
-              <p class="support__time">4 часа назад</p>
+              <p class="support__name">Аноним ........................................</p>
+              <div ckass="support__details">
+                <p class="support__summa">200₽</p>
+                <p class="support__time">4 часа назад</p>
+              </div>
             </div>
             <div class="support__pay">
-              <p class="support__name">Аноним</p>
-              <p class="support__points">........................................</p>
-              <p class="support__summa">100Р</p>
-              <p class="support__time">6 часа назад</p>
+              <p class="support__name">Аноним ........................................</p>
+              <div ckass="support__details">
+                <p class="support__summa">100₽</p>
+                <p class="support__time">6 часа назад</p>
+              </div>
             </div>
             <div class="support__pay">
-              <p class="support__name">Наталья</p>
-              <p class="support__points">........................................</p>
-              <p class="support__summa">600Р</p>
-              <p class="support__time">9 часа назад</p>
+              <p class="support__name">Наталья ........................................</p>
+              <div ckass="support__details">
+                <p class="support__summa">600₽</p>
+                <p class="support__time">9 часа назад</p>
+              </div>
             </div>
             <div class="support__pay">
-              <p class="support__name">Наталья</p>
-              <p class="support__points">........................................</p>
-              <p class="support__summa">600Р</p>
-              <p class="support__time">9 часа назад</p>
+              <p class="support__name">Наталья ........................................</p>
+              <div ckass="support__details">
+                <p class="support__summa">600₽</p>
+                <p class="support__time">9 часа назад</p>
+              </div>
             </div>
             <div class="support__pay">
-              <p class="support__name">Наталья</p>
-              <p class="support__points">........................................</p>
-              <p class="support__summa">600Р</p>
-              <p class="support__time">9 часа назад</p>
+              <p class="support__name">Наталья ........................................</p>
+              <div ckass="support__details">
+                <p class="support__summa">600₽</p>
+                <p class="support__time">9 часа назад</p>
+              </div>
             </div>
           </div>
         </div>

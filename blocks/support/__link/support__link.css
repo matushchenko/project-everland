@@ -1,4 +1,4 @@
-.support__approval {
+.support__link {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .support__approval {
+  .support__link {
     font-weight: 500;
     font-size: 12px;
     line-height: 120%;
