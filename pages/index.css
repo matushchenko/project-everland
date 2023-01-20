@@ -196,3 +196,15 @@
 @import url('../blocks/popup/__hide/popup__hide.css');
 @import url('../blocks/popup/__hide/_visible/popup__hide_visible.css');
 @import url('../blocks/popup/__icon/_reverse/popup__icon_reverse.css');
+
+/* ACCORDION */
+@import url('../blocks/accordions/accordions.css');
+@import url('../blocks/accordion/accordion.css');
+@import url('../blocks/accordion/_close/accordion_close.css');
+@import url('../blocks/accordion/__title/accordion__title.css');
+@import url('../blocks/accordion/__text/accordion__text.css');
+@import url('../blocks/accordion/__text/_close/accordion__text_close.css');
+@import url('../blocks/accordion/__button/accordion__button.css');
+@import url('../blocks/accordion/__button/_close/accordion__button_close.css');
+@import url('../blocks/accordion/__button-img/accordion__button-img.css');
+@import url('../blocks/advantages/__heading/advantages__heading.css');
