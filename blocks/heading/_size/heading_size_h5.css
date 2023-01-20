@@ -11,12 +11,12 @@
 
 @media screen and (max-width: 1439px) {
   .heading_size_h5 {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .heading_size_h5 {
-    font-size: 16px;
+    font-size: 14px;
   }
 }

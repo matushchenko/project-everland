@@ -1,0 +1,25 @@
+.direction__card {
+  padding: 0 30px 0 30px;
+  height: 428px;
+}
+
+@media all and (max-width: 768px) {
+  .direction__card {
+    height: 298px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .direction__card {
+    padding: 24px;
+    height: 194px;
+  }
+}
+
+@media all and (max-width: 380px) {
+  .direction__card {
+    padding-bottom: 24px;
+    height: auto;
+    max-width: 299px;
+  }
+}

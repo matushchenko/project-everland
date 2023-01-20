@@ -1,0 +1,17 @@
+.direction__title {
+  display: none;
+  margin: 0;
+}
+
+@media all and (max-width: 780px) {
+  .direction__title {
+    display: block;
+    max-width: 420px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .direction__title {
+    max-width: 300px;
+  }
+}

@@ -1,0 +1,29 @@
+.work {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding-top: 100px;
+  font-style: normal;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background-color: #F5F5F5;;
+}
+
+@media all and (max-width: 900px) {
+  .work {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .work {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}

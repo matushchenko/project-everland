@@ -1,0 +1,11 @@
+@media all and (max-width: 900px) {
+  .news__card_disabled {
+    display: none;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .news__card_disabled {
+    display: flex;
+  }
+}

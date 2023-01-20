@@ -1,0 +1,15 @@
+.stories__story-text {
+  height: 120px;
+}
+
+@media (max-width: 1439px) {
+  .stories__story-text {
+    height: 73px;
+  }
+}
+
+@media (max-width: 767px) {
+  .stories__story-text {
+    height: 40px;
+  }
+}

@@ -1,0 +1,20 @@
+.news__image {
+  margin: 30px 0 0 0;
+  width: 380px;
+  height: 302px;
+}
+
+@media all and (max-width: 900px) {
+  .news__image {
+    margin-top: 20px;
+    width: 274px;
+    height: 212px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .news__image {
+    width: 252px;
+    height: 192px;
+  }
+}

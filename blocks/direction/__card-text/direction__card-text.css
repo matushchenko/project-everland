@@ -1,0 +1,9 @@
+.direction__card-text {
+    padding: 20px 0 0 0;
+}
+
+@media all and (max-width: 768px) {
+    .direction__card-text {
+        padding-top: 10px;
+    }
+}

@@ -2,10 +2,12 @@
   margin: 0 auto;
   max-width: 1440px;
   box-sizing: border-box;
+  /*padding: 0 40px 0 40px;*/
+  background-color: #FFFFFF;
 }
 
 @media screen and (max-width: 1439px) {
   .content {
-    max-width: 768px;
+    /*padding: 0 10px 0 10px;*/
   }
 }

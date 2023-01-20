@@ -1,0 +1,9 @@
+.news__date {
+  padding-top: 30px;
+}
+
+@media all and (max-width: 900px) {
+  .news__date {
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+.agency__title {
+
+}
+
+@media screen and (max-width: 1439px) {
+  .agency__title {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .agency__title {
+  }
+}

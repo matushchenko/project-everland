@@ -1,0 +1,9 @@
+.rounding_to-ten {
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .rounding_to-ten {
+    border-radius: 10px;
+  }
+}
