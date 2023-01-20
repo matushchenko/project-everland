@@ -1,0 +1,20 @@
+.footer__license {
+  margin: 0;
+  padding: 0;
+  max-width: 629px;
+  max-height: 69px;
+}
+
+@media all and (max-width: 900px) {
+  .footer__license {
+    max-width: 336px;
+    max-height: 85px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer__license {
+    max-width: 300px;
+    max-height: 70px;
+  }
+}

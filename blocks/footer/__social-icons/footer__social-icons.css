@@ -1,0 +1,26 @@
+.footer__social-icons {
+  margin: 0;
+  padding: 11px 0 50px 0;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 10px;
+}
+
+@media all and (max-width: 900px) {
+  .footer__social-icons {
+    padding-top: 12px;
+    padding-bottom: 28px;
+    height: 72px;
+    gap: 4px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer__social-icons {
+    padding-bottom: 32px;
+    height: 40px;
+    padding-top: 8px;
+  }
+}
