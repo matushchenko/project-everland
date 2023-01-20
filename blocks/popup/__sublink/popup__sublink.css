@@ -1,8 +1,4 @@
 .popup__sublink {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 130%;
   cursor: pointer;
   text-decoration: none;
   color: #333;
@@ -12,17 +8,13 @@
 
 @media screen and (max-width: 1439px) and (min-width: 768px){
   .popup__sublink {
-    font-size: 16px;
-    line-height: 120%;
     padding-top: 0;
     padding-bottom: 16px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .popup__sublink {
-    font-size: 14px;
-    line-height: 120%;
     padding: 0;
     margin-top: 10px;
 

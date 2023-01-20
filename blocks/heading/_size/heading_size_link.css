@@ -1,0 +1,16 @@
+.heading_size_link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+}
+@media screen and (max-width: 1439px) and (min-width: 768px){
+  .heading_size_link {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .heading_size_link {
+    font-size: 18px;
+  }
+}

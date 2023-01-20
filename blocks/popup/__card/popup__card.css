@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .popup__card {
     min-width: 300px;
     max-height: 24px;

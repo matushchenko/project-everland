@@ -1,8 +1,4 @@
 .popup__link {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 34px;
-  line-height: 120%;
   cursor: pointer;
   text-decoration: none;
   color: #333;
@@ -13,18 +9,15 @@
 
 @media screen and (max-width: 1439px) and (min-width: 768px){
   .popup__link {
-    font-size: 20px;
     padding-bottom: 24px;
     padding-top: 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .popup__link {
-    font-size: 18px;
     padding: 0;
     margin-top: 22px;
     margin-left: 10px;
-
   }
 }
