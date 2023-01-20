@@ -1,6 +1,3 @@
-/*const textBox = accordeonBox.querySelector('.advantages__text');*/
-/*const headBox = document.querySelector('.advantages__head');*/
-
 const boxTemplate = document.querySelector('#element-template').content;
 const elementsBox = document.querySelector('.advantages__container');
 const initialBoxes = [
@@ -36,6 +33,12 @@ function createBox(nameBox, textBox) {
   newElement.querySelector('.advantages__text').textContent = textBox;
   const textContainer = newElement.querySelector('.advantages__text');
   function openText(textContainer) {
+    let TextBoxOpen = document.querySelector('.advantages__text_active');
+    let buttonBoxActive = document.querySelector('.advantages__button_active');
+    if (document.querySelector('.advantages__text_active')) {
+      TextBoxOpen.classList.remove('advantages__text_active');
+      buttonBoxActive.classList.remove('advantages__button_active');
+    }
     textContainer.classList.add('advantages__text_active');
     newElement.querySelector('.advantages__button').classList.add('advantages__button_active');
   }
@@ -44,17 +47,6 @@ function createBox(nameBox, textBox) {
     newElement.querySelector('.advantages__button').classList.remove('advantages__button_active');
   }
   newElement.addEventListener('click', function () {
-    /*const boxesArr = document.querySelectorAll('.advantages__text');
-    boxesArr.forEach(function (item) {
-      if (item.querySelector('.advantages__text_active')) {
-        item.classList.remove('advantages__text_active');
-        closeText(textContainer);
-      }
-      else {
-        closeText(textContainer);
-      }
-
-    });*/
     if (!newElement.querySelector('.advantages__text_active')) {
       openText(textContainer);
     }
