@@ -1,0 +1,10 @@
+.advantages__name {
+  margin: 0;
+  width: 563px;
+}
+
+.advantages__name:hover {
+  color: #0C4BA0;
+  transition: 0.5s;
+  cursor: pointer;
+}

@@ -1,0 +1,5 @@
+.advantages__text_active {
+  overflow: visible;
+  max-height: 40px;
+  transition: 0.3s;
+}

@@ -1,0 +1,8 @@
+.advantages {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background-color: #fff;;
+}

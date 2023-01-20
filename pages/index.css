@@ -41,6 +41,15 @@
 @import url('../blocks/direction/__card/_white/direction__card_white.css');
 
 @import url('../blocks/advantages/advantages.css');
+@import url('../blocks/advantages/__box/advantages__box.css');
+@import url('../blocks/advantages/__button/advantages__button.css');
+@import url('../blocks/advantages/__container/advantages__container.css');
+@import url('../blocks/advantages/__head/advantages__head.css');
+@import url('../blocks/advantages/__name/advantages__name.css');
+@import url('../blocks/advantages/__text/advantages__text.css');
+@import url('../blocks/advantages/__button/_active/advantages__button_active.css');
+@import url('../blocks/advantages/__text/_active/advantages__text_active.css');
+
 @import url('../blocks/projects/projects.css');
 @import url('../blocks/stories/stories.css');
 @import url('../blocks/agency/agency.css');
