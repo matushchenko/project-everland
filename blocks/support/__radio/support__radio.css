@@ -1,11 +1,16 @@
 .support__radio {
-  min-width: 315px;
+  width: 315px;
+  display: flex;
+  box-sizing: border-box;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
 /* identical to box height, or 24px */
   font-feature-settings: 'pnum' on, 'lnum' on;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .support__radio:hover {
@@ -16,26 +21,21 @@
 
 @media screen and (max-width: 1439px) {
   .support__radio {
-    min-width: 316px;
+    width: 316px;
     font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 1439px) {
-  .support__radio:nth-last-child(1) {
-    min-width: 296px;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 767px) {
   .support__radio {
-    min-width: 122px;
+    width: 122px;
     font-size: 14px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .support__radio:nth-last-child(1) {
-    min-width: 122px;
+    width: 122px;
   }
 }

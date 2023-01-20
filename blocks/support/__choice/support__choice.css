@@ -1,10 +1,13 @@
 .support__choice {
-  min-width: 159px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
 /* identical to box height, or 24px */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .support__choice:hover {
@@ -15,26 +18,12 @@
 
 @media screen and (max-width: 1439px) {
   .support__choice {
-    min-width: 145px;
     font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 1439px) {
-  .support__choice:nth-last-child(1) {
-    min-width: 190px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .support__choice {
-    min-width: 122px;
     font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .support__choice:nth-last-child(1) {
-    min-width: 260px;
   }
 }

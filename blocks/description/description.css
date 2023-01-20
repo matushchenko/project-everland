@@ -1,0 +1,21 @@
+.description {
+  position: relative;
+  padding: 0;
+  width: 1440px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .description {
+    width: 688px;
+    border: 1px solid green;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description {
+    width: 304px;
+    border: 1px solid red;
+  }
+}

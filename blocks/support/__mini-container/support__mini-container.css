@@ -1,13 +1,15 @@
 .support__mini-container {
-  width: 651px;
+  width: 652px;
   display: flex;
-  column-gap: 20px;
+  justify-content: space-between;
   margin: 30px auto 23px auto;
+  border: none;
+  padding: 0;
 }
 
 @media screen and (max-width: 1439px) {
   .support__mini-container {
-    width: 647px;
+    width: 628px;
     column-gap: 16px;
     margin-bottom: 32px;
   }

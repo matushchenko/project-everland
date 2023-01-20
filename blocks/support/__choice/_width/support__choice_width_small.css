@@ -1,0 +1,16 @@
+.support__choice_width_small {
+  min-width: 159px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__choice_width_small {
+    min-width: 145px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .support__choice_width_small {
+    min-width: 122px;
+  }
+}

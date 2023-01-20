@@ -1,0 +1,27 @@
+.description__images {
+  min-width: 520px;
+  min-height: 565px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .description__images {
+    min-width: 244px;
+    min-height: 272px;
+    bottom: 0;
+    margin-top: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description__images {
+    position: relative;
+    min-width: 300px;
+    min-height: 200px;
+    margin-top: 26px;
+  }
+}

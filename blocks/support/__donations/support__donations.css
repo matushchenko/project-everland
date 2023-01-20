@@ -1,15 +1,18 @@
 .support__donations {
-  width: 651px;
+  width: 691x;
   margin: 16px auto 16px auto;
-  display: flex;
-  column-gap: 5px;
-  row-gap: 12px;
   flex-wrap: wrap;
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px 5px;
+  padding: 0;
 }
 
 @media screen and (max-width: 1439px) {
   .support__donations {
-    width: 628px;
+    width: 644px;
+    display: flex;
     column-gap: 16px;
     margin-top: 24px;
     margin-bottom: 19px;
@@ -18,7 +21,9 @@
 
 @media screen and (max-width: 767px) {
   .support__donations {
-    width: 260px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 265px;
     row-gap: 16px;
     margin: 20px auto 16px auto;
   }

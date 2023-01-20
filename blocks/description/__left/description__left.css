@@ -1,0 +1,24 @@
+.description__left {
+  background-image: url(../../../images/left.svg);
+  background-color: #0C4BA0;
+}
+
+.description__left:hover {
+  transition-duration: 1s;
+  background-image: url(../../../images/left.svg);
+  background-color: #4183DC;
+  cursor: pointer;
+}
+
+.description__left:active {
+  transition-duration: 1s;
+  background-image: url(../../../images/left.svg);
+  background-color: #00275C;
+}
+
+.description__left:disabled {
+  transition-duration: 1s;
+  background-image: url(../../../images/arrow_forward.svg);
+  transform: rotate(-180deg);
+  background-color: #C4C4C4;
+}
