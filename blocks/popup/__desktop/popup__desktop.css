@@ -1,0 +1,15 @@
+.popup__desktop {
+  display: flex;
+  padding-top: 24px;
+  min-height: 520px;
+  max-width: 1440px;
+  overflow: hidden;
+  background-color: white;
+  top: 80px;
+}
+
+@media screen and (max-width: 1439px) {
+  .popup__desktop {
+    display: none;
+  }
+}

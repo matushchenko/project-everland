@@ -1,0 +1,16 @@
+.popup {
+  position: fixed;
+  left: 0;
+  top: 80px;
+  max-width: 1440px;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: .5s;
+  display: grid;
+  padding: 0;
+  border: 0;
+  background-color: white;
+  z-index: 100;
+  margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+.popup__sublink {
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  background-color: white;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 1439px) and (min-width: 768px){
+  .popup__sublink {
+    padding-top: 0;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup__sublink {
+    padding: 0;
+    margin-top: 10px;
+
+  }
+}

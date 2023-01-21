@@ -1,11 +1,7 @@
 .news__button {
-  margin: 0;
+  margin: 0; 
   padding: 12px 16px;
   width: 194px;
-  height: 48px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
   cursor: pointer;
   grid-area: news-button;
 }
@@ -15,7 +11,6 @@
     margin-top: 30px;
     width: 200px;
     height: 44px;
-    font-size: 16px;
   }
 }
 

@@ -1,4 +1,16 @@
 .stories {
-  padding: 0;
-  margin: 0;
+  padding: 150px 40px 0 40px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1439px) {
+  .stories {
+    padding: 0 40px 0 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .stories {
+    padding: 0 10px;
+  }
 }

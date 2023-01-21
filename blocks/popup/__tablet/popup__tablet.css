@@ -1,0 +1,16 @@
+.popup__tablet {
+  min-width: 100vw;
+  max-width: 1439px;
+  min-height: 587px;
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, max-content));
+  top: 80px;
+  background-color: white;
+}
+
+@media screen and (min-width: 1440px), (max-width: 767px){
+  .popup__tablet {
+    display: none;
+  }
+}

@@ -1,0 +1,5 @@
+.popup__menu {
+  display: flex;
+  max-width: 300px;
+  justify-content: space-between;
+}
