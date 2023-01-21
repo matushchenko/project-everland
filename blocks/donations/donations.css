@@ -1,0 +1,28 @@
+.donations {
+  display: flex;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  border-radius: 10px;
+
+  max-width: 1360px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 58px 0;
+  background-color: #E7F0FF;
+}
+
+@media screen and (max-width: 1439px) {
+  .donations {
+    max-width: 688px;
+    padding-top: 32px;
+    padding-bottom: 36px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donations {
+    max-width: 300px;
+    padding: 32px 0;
+    flex-direction: column;
+  }
+}

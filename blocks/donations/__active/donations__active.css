@@ -1,0 +1,22 @@
+.donations__active {
+  margin-right: 54px;
+  margin-left: 90px;
+  width: 179px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1439px) {
+  .donations__active {
+    margin-right: 24px;
+    margin-left: 22px;
+    width: 143px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donations__active {
+    margin: 32px 20px 0 20px;
+    width: 260px;
+  }
+}
