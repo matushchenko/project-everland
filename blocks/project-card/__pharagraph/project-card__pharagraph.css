@@ -11,7 +11,7 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .project-card__pharagraph {
+  .pproject-card__pharagraph {
     margin: 0 0 20px;
     min-height: 68px;
   }
