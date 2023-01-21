@@ -3,6 +3,10 @@
   overflow: hidden;
   padding: 0;
   margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
 }
 
 .support__subtitle::before,
@@ -23,4 +27,16 @@
 .support__subtitle::before {
   margin-left: -100%;
   left: -10px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__subtitle {
+    font-size: 16px;
+  }
 }

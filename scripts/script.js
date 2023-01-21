@@ -12,13 +12,12 @@ const popupPeopleVisible = document.querySelector('#people')
 const popupService = document.querySelector('#popup-hide-service')
 const popupServiceVisible = document.querySelector('#service')
 
-const description = document.querySelector(".description");
-const descriptionContainer = document.querySelector(".description__container");
-const descriptionSlider = description.querySelectorAll(".description__slider");
-const descriptionLeft = document.querySelector(".description__left");
-const descriptionRight = document.querySelector(".description__right");
-const descriptionNumbers = document.querySelector(".description__numbers");
-let offset = 0;
+let description = document.querySelector(".description").offsetWidth;
+let descriptionContainer = document.querySelector(".description__container");
+let descriptionLeft = document.querySelector(".description__left");
+let descriptionRight = document.querySelector(".description__right");
+let descriptionNumbers = document.querySelector(".description__numbers");
+let viewSlide = 0;
 
 //фунция для закрытия развернутого в меню
 function closeAll(esc) {
@@ -71,8 +70,6 @@ popupServiceVisible.addEventListener('click', function () {
   visibleHide(popupService);
 })
 
-
-
 //функции открытия/закрытия
 function switchPopup(popup) {
   if (popup.classList.contains('popup_opened')) {
@@ -95,52 +92,61 @@ popupMenuSwitch.addEventListener('click', function () {
   switchPopup(popupMenu);
 })
 
-
-
 /*Перелистывание слайдов*/
 
 descriptionRight.addEventListener("click", function () {
-  offset = offset + 1440;
-  if (offset > 7200) {
-    offset = 0;
+  // Условие, если номер слайда меньше четырёх
+  if (viewSlide < 5) { // Если верно то
+    // Увеличиваем номер слайда на один
+     viewSlide++;
+  } else { // Иначе
+    // Номер слайда равен нулю
+    viewSlide = 0;
   }
-  descriptionContainer.style.left = -offset + "px";
-  return offset;
+  descriptionContainer.style.left = -viewSlide * description + "px";
 });
 
 descriptionLeft.addEventListener("click", function () {
-  offset = offset - 1440;
-  if (offset < 0) {
-    offset = 7200;
+  // Условие, если номер слайда меньше четырёх
+  if (viewSlide > 0) { // Если верно то
+    // Увеличиваем номер слайда на один
+    viewSlide--;
+  } else { // Иначе
+    // Номер слайда равен нулю
+    viewSlide = 5;
   }
-  descriptionContainer.style.left = -offset + "px";
-  return offset;
+  descriptionContainer.style.left = -viewSlide * description + "px";
 });
 
 /*Счетчик перелистывания*/
-
-let savedIndex = 1;
-
-function reducingNumber() {
-  descriptionNumbers.textContent = `${(savedIndex += 1)}/${6}`;
-  if (savedIndex >= 6) {
-    savedIndex = 0;
+function reducingNumberToo() {
+  let savedIndex = 1;
+  function reducingNumber() {
+    descriptionNumbers.textContent = `${(savedIndex += 1)}/${6}`;
+    if (savedIndex >= 6) {
+      savedIndex = 0;
+    }
   }
+  reducingNumber();
 }
 
 descriptionRight.addEventListener("click", function () {
-  reducingNumber();
+  reducingNumberToo();
 });
 
-function increasingNumber() {
-  descriptionNumbers.textContent = `${(savedIndex -= 1)}/${6}`;
-  if (savedIndex >= 6) {
-    savedIndex = 6;
-  } else if (savedIndex <= 1) {
-    savedIndex = 7;
+function increasingNumberToo() {
+  function increasingNumber() {
+    let savedIndex = 7;
+    descriptionNumbers.textContent = `${(savedIndex -= 1)}/${6}`;
+    if (savedIndex >= 6) {
+      savedIndex = 6;
+    } else if (savedIndex <= 1) {
+      savedIndex = 7;
+    }
   }
+  increasingNumber();
 }
 
 descriptionLeft.addEventListener("click", function () {
-  increasingNumber();
+  increasingNumberToo();
 });
