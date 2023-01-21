@@ -1,10 +1,21 @@
 .advantages__name {
   margin: 0;
-  width: 563px;
+  max-width: 563px;
 }
 
 .advantages__name:hover {
   color: #0C4BA0;
   transition: 0.5s;
-  cursor: pointer;
+}
+
+@media all and (max-width: 900px) {
+  .advantages__name {
+    max-width: 596px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .advantages__name {
+    max-width: 212px;
+  }
 }

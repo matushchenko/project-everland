@@ -1,31 +1,5 @@
 const boxTemplate = document.querySelector('#element-template').content;
 const elementsBox = document.querySelector('.advantages__container');
-const initialBoxes = [
-  {
-    name: 'Заработанные средства',
-    text: 'За&nbsp;время сущетсования проекта с&nbsp;2016 года социальная предпринимательская модель Everland доказала свою эффективность&nbsp;&mdash; мы&nbsp;действительно умеем давать работу людям с&nbsp;разными видами инвалидности'
-  },
-  {
-    name: 'Заработанные средства',
-    text: 'За&nbsp;время сущетсования проекта с&nbsp;2016 года социальная предпринимательская модель Everland доказала свою эффективность&nbsp;&mdash; мы&nbsp;действительно умеем давать работу людям с&nbsp;разными видами инвалидности'
-  },
-  {
-    name: 'Заработанные средства',
-    text: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/ivanovo.jpg'
-  },
-  {
-    name: 'Заработанные средства',
-    text: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kamchatka.jpg'
-  },
-  {
-    name: 'Заработанные средства',
-    text: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/kholmogorsky-rayon.jpg'
-  },
-  {
-    name: 'Заработанные средства',
-    text: 'https://pictures.s3.yandex.net/frontend-developer/cards-compressed/baikal.jpg'
-  }
-];
 
 function createBox(nameBox, textBox) {
   const newElement = boxTemplate.querySelector('.advantages__box').cloneNode(true);

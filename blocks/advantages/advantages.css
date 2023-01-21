@@ -4,5 +4,17 @@
   margin: 0;
   text-overflow: ellipsis;
   overflow: hidden;
-  background-color: #fff;;
+  background-color: #fff;
+  ;
+}
+
+@media all and (max-width: 900px) {
+  .advantages {}
+}
+
+@media all and (max-width: 767px) {
+  .advantages {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
