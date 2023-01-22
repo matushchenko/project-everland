@@ -1,10 +1,26 @@
 .buttons_type_link {
-  padding: 0;
+
   height: 48px;
   border-radius: 10px;
   border: none;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 120%;
+  background-color: #fff;
+
 }
+
+@media screen and (max-width: 1439px) {
+  .buttons_type_link {
+    height: 44px;
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 767px) {
+  .buttons_type_link {
+    font-size: 14px;
+  }
+}
+
+
