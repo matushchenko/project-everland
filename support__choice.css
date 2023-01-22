@@ -1,0 +1,12 @@
+.support__choice {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.support__choice:hover {
+  transition-duration: 2s;
+  opacity: .5;
+  cursor: pointer;
+}
