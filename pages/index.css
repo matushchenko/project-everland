@@ -48,15 +48,6 @@
 @import url('../blocks/direction/__card/_white/direction__card_white.css');
 
 @import url('../blocks/advantages/advantages.css');
-@import url('../blocks/advantages/__box/advantages__box.css');
-@import url('../blocks/advantages/__button/advantages__button.css');
-@import url('../blocks/advantages/__container/advantages__container.css');
-@import url('../blocks/advantages/__head/advantages__head.css');
-@import url('../blocks/advantages/__name/advantages__name.css');
-@import url('../blocks/advantages/__text/advantages__text.css');
-@import url('../blocks/advantages/__button/_active/advantages__button_active.css');
-@import url('../blocks/advantages/__text/_active/advantages__text_active.css');
-
 @import url('../blocks/projects/projects.css');
 @import url('../blocks/stories/stories.css');
 @import url('../blocks/agency/agency.css');
@@ -121,6 +112,7 @@
 @import url('../blocks/heading/_color/heading_color_green.css');
 @import url('../blocks/heading/_color/heading_color_orange.css');
 @import url('../blocks/heading/_color/heading_color_purple.css');
+@import url('../blocks/heading/_color/heading_color_news-date.css');
 /* size */
 @import url('../blocks/heading/_size/heading_size_big-text.css');
 @import url('../blocks/heading/_size/heading_size_button-text.css');
@@ -129,6 +121,14 @@
 @import url('../blocks/heading/_size/heading_size_h3.css');
 @import url('../blocks/heading/_size/heading_size_h4.css');
 @import url('../blocks/heading/_size/heading_size_h5.css');
+
+@import url('../blocks/heading/_size/heading_size_menu-text.css');
+@import url('../blocks/heading/_size/heading_size_link.css');
+@import url('../blocks/heading/_size/heading_size_sublink.css');
+
+@import url('../blocks/heading/_size/heading_size_small-small-text.css');
+@import url('../blocks/heading/_size/heading_size_small-small-text.css');
+
 
 
 /*BUTTONS*/
@@ -173,6 +173,7 @@
 /*BUTTONS 2*/
 @import url('../blocks/buttons/_type/buttons_type_slider-left.css');
 @import url('../blocks/buttons/_type/buttons_type_slider-right.css');
+@import url('../blocks/buttons/_type/buttons_type_agency.css');
 
 /* History  */
 @import url('../blocks/stories/__main/stories__main.css');
@@ -196,3 +197,50 @@
 @import url('../blocks/stories/__story-subtitle/stories__story-subtitle.css');
 @import url('../blocks/stories/__story-text/stories__story-text.css');
 
+/* AGENCY */
+@import url('../blocks/agency/__card-img/agency__card-img.css');
+@import url('../blocks/agency/__card-text/agency__card-text.css');
+@import url('../blocks/agency/__card/agency__card.css');
+@import url('../blocks/agency/__cards/agency__cards.css');
+@import url('../blocks/agency/__container/agency__container.css');
+@import url('../blocks/agency/__subtitle/agency__subtitle.css');
+@import url('../blocks/agency/__title/agency__title.css');
+@import url('../blocks/agency/__button/agency__button.css');
+
+
+
+/* popup-menu */
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/_opened/popup_opened.css');
+@import url('../blocks/popup/__desktop/popup__desktop.css');
+@import url('../blocks/popup/__mobile/popup__mobile.css');
+@import url('../blocks/popup/__tablet/popup__tablet.css');
+@import url('../blocks/popup/__card/popup__card.css');
+@import url('../blocks/popup/__link/popup__link.css');
+@import url('../blocks/popup/__sublink/popup__sublink.css');
+@import url('../blocks/popup/__icon/popup__icon.css');
+@import url('../blocks/popup/__menu/popup__menu.css');
+@import url('../blocks/popup/__hide/popup__hide.css');
+@import url('../blocks/popup/__hide/_visible/popup__hide_visible.css');
+@import url('../blocks/popup/__icon/_reverse/popup__icon_reverse.css');
+
+/* ACCORDION */
+@import url('../blocks/accordions/accordions.css');
+@import url('../blocks/accordion/accordion.css');
+@import url('../blocks/accordion/_close/accordion_close.css');
+@import url('../blocks/accordion/__title/accordion__title.css');
+@import url('../blocks/accordion/__text/accordion__text.css');
+@import url('../blocks/accordion/__text/_close/accordion__text_close.css');
+@import url('../blocks/accordion/__button/accordion__button.css');
+@import url('../blocks/accordion/__button/_close/accordion__button_close.css');
+@import url('../blocks/accordion/__button-img/accordion__button-img.css');
+@import url('../blocks/advantages/__heading/advantages__heading.css');
+
+@import url('../blocks/advantages/__box/advantages__box.css');
+@import url('../blocks/advantages/__button/advantages__button.css');
+@import url('../blocks/advantages/__container/advantages__container.css');
+@import url('../blocks/advantages/__head/advantages__head.css');
+@import url('../blocks/advantages/__name/advantages__name.css');
+@import url('../blocks/advantages/__text/advantages__text.css');
+@import url('../blocks/advantages/__button/_active/advantages__button_active.css');
+@import url('../blocks/advantages/__text/_active/advantages__text_active.css');
