@@ -1,0 +1,22 @@
+.advantages__head {
+  margin: 0;
+  padding: 30px 20px 30px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media all and (max-width: 900px) {
+  .advantages__head {
+
+  }
+}
+
+@media all and (max-width: 767px) {
+  .advantages__head {
+    padding: 16px 10px 16px 10px;
+
+  }
+}

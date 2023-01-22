@@ -1,0 +1,7 @@
+.advantages__text {
+  margin: 0;
+  padding: 0 20px 0 20px;
+  overflow: hidden;
+  max-height: 0px;
+  transition: 0.3s;
+}

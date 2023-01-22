@@ -10,6 +10,14 @@
     justify-content: center;
 }
 
+@media all and (max-width: 1020px) {
+    .work__cards-box {
+        /*flex-direction: column;*/
+       /* gap: 20px;*/
+    }
+}
+
+
 @media all and (max-width: 768px) {
     .work__cards-box {
         grid-template-columns: repeat(auto-fit, 450px);

@@ -1,9 +1,20 @@
 .news__topic {
   margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
 }
 
 @media all and (max-width: 900px) {
   .news__topic {
+    font-weight: 500;
+    font-size: 14px;
     line-height: 120%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .news__topic {
+    font-size: 12px;
   }
 }
