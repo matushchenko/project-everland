@@ -21,8 +21,8 @@ function createBox(nameBox, textBox) {
   newElement.querySelector('.advantages__text').textContent = textBox;
   const textContainer = newElement.querySelector('.advantages__text');
   function openText(textContainer) {
-    let TextBoxOpen = document.querySelector('.advantages__text_active');
-    let buttonBoxActive = document.querySelector('.advantages__button_active');
+    const TextBoxOpen = document.querySelector('.advantages__text_active');
+    const buttonBoxActive = document.querySelector('.advantages__button_active');
     if (document.querySelector('.advantages__text_active')) {
       TextBoxOpen.classList.remove('advantages__text_active');
       buttonBoxActive.classList.remove('advantages__button_active');
