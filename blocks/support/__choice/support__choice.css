@@ -1,9 +1,4 @@
 .support__choice {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-/* identical to box height, or 24px */
   text-align: center;
   display: flex;
   justify-content: center;
@@ -14,16 +9,4 @@
   transition-duration: 2s;
   opacity: .5;
   cursor: pointer;
-}
-
-@media screen and (max-width: 1439px) {
-  .support__choice {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .support__choice {
-    font-size: 14px;
-  }
 }
