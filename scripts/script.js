@@ -18,6 +18,12 @@ let descriptionLeft = document.querySelector(".description__left");
 let descriptionRight = document.querySelector(".description__right");
 let descriptionNumbers = document.querySelector(".description__numbers");
 let viewSlide = 0;
+let savedIndex = 1;
+
+let projectCard = document.querySelector(".project-card").offsetWidth;
+let projectCardContainer = document.querySelector(".project-card__container");
+let buttonLeft = document.querySelector(".buttons_type_slider-left");
+let buttonRight = document.querySelector(".buttons_type_slider-right");
 
 //фунция для закрытия развернутого в меню
 function closeAll(esc) {
@@ -92,61 +98,75 @@ popupMenuSwitch.addEventListener('click', function () {
   switchPopup(popupMenu);
 })
 
-/*Перелистывание слайдов*/
+/*Перелистывание слайдов в блоке description*/
 
 descriptionRight.addEventListener("click", function () {
-  // Условие, если номер слайда меньше четырёх
-  if (viewSlide < 5) { // Если верно то
-    // Увеличиваем номер слайда на один
+  if (viewSlide < 5) {
      viewSlide++;
-  } else { // Иначе
-    // Номер слайда равен нулю
+  } else {
     viewSlide = 0;
   }
   descriptionContainer.style.left = -viewSlide * description + "px";
 });
 
 descriptionLeft.addEventListener("click", function () {
-  // Условие, если номер слайда меньше четырёх
-  if (viewSlide > 0) { // Если верно то
-    // Увеличиваем номер слайда на один
+  if (viewSlide > 0) {
     viewSlide--;
-  } else { // Иначе
-    // Номер слайда равен нулю
+  } else {
     viewSlide = 5;
   }
   descriptionContainer.style.left = -viewSlide * description + "px";
 });
 
-/*Счетчик перелистывания*/
-function reducingNumberToo() {
-  let savedIndex = 1;
-  function reducingNumber() {
-    descriptionNumbers.textContent = `${(savedIndex += 1)}/${6}`;
-    if (savedIndex >= 6) {
-      savedIndex = 0;
-    }
+/*Счетчик перелистывания в блоке description*/
+
+function reducingNumber() {
+  descriptionNumbers.textContent = `${(savedIndex += 1)}/${6}`;
+  if (savedIndex >= 6) {
+    savedIndex = 0;
   }
-  reducingNumber();
 }
 
 descriptionRight.addEventListener("click", function () {
-  reducingNumberToo();
+  reducingNumber();
 });
 
-function increasingNumberToo() {
-  function increasingNumber() {
-    let savedIndex = 7;
-    descriptionNumbers.textContent = `${(savedIndex -= 1)}/${6}`;
-    if (savedIndex >= 6) {
-      savedIndex = 6;
-    } else if (savedIndex <= 1) {
-      savedIndex = 7;
-    }
+function increasingNumber() {
+  descriptionNumbers.textContent = `${(savedIndex -= 1)}/${6}`;
+  if (savedIndex >= 6) {
+    savedIndex = 6;
+  } else if (savedIndex <= 1) {
+    savedIndex = 7;
   }
-  increasingNumber();
 }
 
 descriptionLeft.addEventListener("click", function () {
-  increasingNumberToo();
+  increasingNumber();
 });
+
+
+/*Перелистывание в блоке projects*/
+
+buttonRight.addEventListener("click", function () {
+  if (viewSlide < 2) {
+     viewSlide++;
+  } else {
+    viewSlide = 0;
+  }
+  projectCardContainer.style.left = -viewSlide * projectCard + "px";
+});
+
+buttonLeft.addEventListener("click", function () {
+  if (viewSlide > 0) {
+    viewSlide--;
+  } else {
+    viewSlide = 2;
+  }
+  projectCardContainer.style.left = -viewSlide * projectCard + "px";
+});
+
+
+
+
+
+

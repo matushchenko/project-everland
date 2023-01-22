@@ -1,11 +1,9 @@
 .support__title {
-  margin: 100px 0 50px 40px;
   padding: 0;
 }
 
 @media screen and (max-width: 1439px) {
   .support__title {
-    margin: 44px auto 24px auto;
     text-align: center;
   }
 }

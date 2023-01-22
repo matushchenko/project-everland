@@ -9,11 +9,11 @@
   cursor: pointer;
   min-height: 44px;
   min-width: 194px;
+  border: 1px solid #333333;
 }
 
 @media screen and (max-width: 1439px) {
   .project-card__button {
-    height: 44px;
     font-size: 16px;
     min-height: 44px;
     min-width: 200px;

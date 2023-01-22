@@ -3,10 +3,6 @@
   margin-left: 225px;
   margin-bottom: 30px;
   margin-top: 23px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
 }
 
 .support__button:hover {
@@ -19,7 +15,6 @@
   .support__button {
     min-width: 200px;
     margin-top: 24px;
-    font-size: 16px;
   }
 }
 
@@ -27,6 +22,5 @@
   .support__button {
     min-width: 260px;
     margin: 24px auto 32px auto;
-    font-size: 14px;
   }
 }

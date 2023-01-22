@@ -16,3 +16,9 @@
     font-size: 16px;
   }
 }
+
+@media screen and (max-width: 1439px) {
+  .buttons_type_primary {
+    font-size: 14px;
+  }
+}

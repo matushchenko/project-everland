@@ -9,6 +9,6 @@
 }
 @media screen and (max-width: 767px) {
   .project-card__caption {
-    margin: 0 0 24px;
+    margin: 0;
   }
 }

@@ -1,9 +1,5 @@
 .description__characteristic {
   max-width: 543px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
   margin: 20px 0 0 0;
   padding: 0;
 }
@@ -19,7 +15,6 @@
 @media screen and (max-width: 767px) {
   .description__characteristic {
     max-width: 294px;
-    font-size: 14px;
     line-height: 17px;
     margin-top: 16px;
   }
