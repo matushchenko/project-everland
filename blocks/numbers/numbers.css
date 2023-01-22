@@ -5,16 +5,4 @@
   background-color: #FFFFFF;
 }
 
-@media screen and (max-width: 1439px) {
-  .numbers {
-    padding: 0 40px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .numbers {
-    padding: 64px 10px 0;
-  }
-}
-
 

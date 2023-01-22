@@ -1,0 +1,19 @@
+.advantages__box {
+  margin: 0 auto;
+  padding: 0;
+  border: 2px solid #DADADA;
+}
+
+@media all and (max-width: 900px) {
+  .advantages__box {
+    width: 688px;
+
+  }
+}
+
+@media all and (max-width: 767px) {
+  .advantages__box {
+    max-width: 300px;
+    border: 1px solid #DADADA;
+  }
+}

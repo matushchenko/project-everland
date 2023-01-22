@@ -53,7 +53,6 @@
 @import url('../blocks/agency/agency.css');
 
 @import url('../blocks/news/news.css');
-@import url('../blocks/news/__date/news__date.css');
 @import url('../blocks/news/__text/news__text.css');
 @import url('../blocks/news/__description-max/news__description-max.css');
 @import url('../blocks/news/__description-min/news__description-min.css');
@@ -61,6 +60,7 @@
 @import url('../blocks/news/__title/news__title.css');
 @import url('../blocks/news/__cards-box/news__cards-box.css');
 @import url('../blocks/news/__card/news__card.css');
+@import url('../blocks/news/__date/news__date.css');
 @import url('../blocks/news/__image/news__image.css');
 @import url('../blocks/news/__topic/news__topic.css');
 @import url('../blocks/news/__card/_green/news__card_green.css');
@@ -153,7 +153,7 @@
 /* rounding */
 @import url('../blocks/rounding/rounding.css');
 @import url('../blocks/rounding/_to-ten/rounding_to-ten.css');
-
+@import url('../blocks/rounding/_to-fifteen/rounding_to-fifteen.css');
 
 /* PROJECTS */
 @import url('../blocks/project-card/project-card.css');
@@ -235,3 +235,12 @@
 @import url('../blocks/accordion/__button/_close/accordion__button_close.css');
 @import url('../blocks/accordion/__button-img/accordion__button-img.css');
 @import url('../blocks/advantages/__heading/advantages__heading.css');
+
+@import url('../blocks/advantages/__box/advantages__box.css');
+@import url('../blocks/advantages/__button/advantages__button.css');
+@import url('../blocks/advantages/__container/advantages__container.css');
+@import url('../blocks/advantages/__head/advantages__head.css');
+@import url('../blocks/advantages/__name/advantages__name.css');
+@import url('../blocks/advantages/__text/advantages__text.css');
+@import url('../blocks/advantages/__button/_active/advantages__button_active.css');
+@import url('../blocks/advantages/__text/_active/advantages__text_active.css');
