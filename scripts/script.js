@@ -1,6 +1,7 @@
 //объявление
 const boxTemplate = document.querySelector('#element-template').content;
 const elementsBox = document.querySelector('.advantages__container');
+
 const popupMenu = document.querySelector('#popup-menu');
 const popupMenuSwitch = document.querySelector('#menu-bottom');
 const icon = document.querySelector('.header__button-img');
