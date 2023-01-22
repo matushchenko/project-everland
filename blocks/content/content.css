@@ -6,8 +6,7 @@
   background-color: #FFFFFF;
 }
 
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1439px) {
   .content {
     /*padding: 0 10px 0 10px;*/
   }

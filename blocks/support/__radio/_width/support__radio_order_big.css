@@ -1,0 +1,16 @@
+.support__radio_width_big {
+  width: 315px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__radio_width_big {
+    width: 296px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .support__radio_width_big {
+    width: 122px;
+  }
+}

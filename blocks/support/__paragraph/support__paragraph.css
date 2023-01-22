@@ -1,0 +1,16 @@
+.support__paragraph {
+  margin: 0 0 24px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__paragraph {
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__paragraph {
+    margin-bottom: 32px;
+  }
+}

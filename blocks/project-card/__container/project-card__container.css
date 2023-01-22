@@ -1,8 +1,7 @@
 .project-card__container {
-  width: 100%;
-  position: absolute;
-  display: grid;
-  grid-template-columns: repeat(6, 100%);
-  gap: 20%;
+  width: 4080px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
   transition: 1s ease-in-out;
 }

@@ -1,0 +1,25 @@
+.support__payment {
+  min-width: 186px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 13px;
+}
+
+.support__payment:hover {
+  transition-duration: 2s;
+  opacity: .5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__payment {
+    min-width: 190px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__payment {
+    min-width: 260px;
+  }
+}

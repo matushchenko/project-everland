@@ -9,5 +9,6 @@
 
 @media screen and (max-width: 1439px) {
   .project-card__title {
+    padding-bottom: 10px;
   }
 }

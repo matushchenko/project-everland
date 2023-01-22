@@ -1,0 +1,26 @@
+.support__subtitle {
+  text-align: center;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.support__subtitle::before,
+.support__subtitle::after {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  content: '';
+  width: 100%;
+  border-bottom: 1px solid #DADADA;
+}
+
+.support__subtitle::after {
+  margin-right: -100%;
+  right: -10px;
+}
+
+.support__subtitle::before {
+  margin-left: -100%;
+  left: -10px;
+}

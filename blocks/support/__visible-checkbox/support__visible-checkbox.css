@@ -1,0 +1,15 @@
+.support__visible-checkbox {
+  display: inline-block; /* элемент span теперь сможет принимать определённую ширину и высоту */
+  vertical-align: middle; /* элемент и текст будут правильно выровнены по вертикали. Работает в паре с inline-block */
+  width: 25px;
+  height: 25px; /* размеры */
+  background: #DADADA;
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+.support__visible-checkbox:hover {
+  transition-duration: 2s;
+  opacity: .5;
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.support {
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #E7F0FF;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support {
+    width: 768px;
+    padding-top: 44px;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support {
+    width: 320px;
+    padding-top: 31px;
+  }
+}
