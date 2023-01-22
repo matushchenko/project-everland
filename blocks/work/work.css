@@ -8,7 +8,7 @@
   font-style: normal;
   text-overflow: ellipsis;
   overflow: hidden;
-  background-color: #F5F5F5;;
+  background-color: #F5F5F5;
 }
 
 @media all and (max-width: 900px) {
