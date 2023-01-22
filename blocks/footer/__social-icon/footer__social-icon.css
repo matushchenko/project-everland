@@ -1,0 +1,13 @@
+.footer__social-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  border: none;
+}
+
+@media all and (max-width: 900px) {
+  .footer__social-icon {
+    width: 40px;
+    height: 40px;
+  }
+}

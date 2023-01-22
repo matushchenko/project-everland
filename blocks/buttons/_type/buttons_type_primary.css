@@ -14,6 +14,14 @@
 @media screen and (max-width: 1439px) {
   .buttons_type_primary {
     font-size: 16px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .buttons_type_primary {
+    font-size: 14px;
+
   }
 }
 

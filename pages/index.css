@@ -19,6 +19,8 @@
 @import url('../blocks/menu/menu.css');
 @import url('../blocks/menu/__link/menu__link.css');
 @import url('../blocks/description/description.css');
+
+/*donations*/
 @import url('../blocks/description/__container/description__container.css');
 @import url('../blocks/description/__slider/description__slider.css');
 @import url('../blocks/description/__button/description__button.css');
@@ -33,6 +35,11 @@
 @import url('../blocks/description/__photo/description__photo.css');
 @import url('../blocks/description/__picture/description__picture.css');
 @import url('../blocks/donations/donations.css');
+@import url('../blocks/donations/__active/donations__active.css');
+@import url('../blocks/donations/__sum/donations__sum.css');
+@import url('../blocks/donations/__button/donations__button.css');
+@import url('../blocks/donations/__button/_another/dinations__button_another.css');
+
 
 @import url('../blocks/work/work.css');
 @import url('../blocks/work/__title/work__title.css');
@@ -115,6 +122,26 @@
 
 /* footer */
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__everland/footer__everland.css');
+@import url('../blocks/footer/__menu/footer__menu.css');
+@import url('../blocks/footer/__social/footer__social.css');
+@import url('../blocks/footer/__support/footer__support.css');
+@import url('../blocks/footer/__yandex/footer__yandex.css');
+@import url('../blocks/footer/__everland-logo/footer__everland-logo.css');
+@import url('../blocks/footer/__everland-name/footer__everland-name.css');
+@import url('../blocks/footer/__list/footer__list.css');
+@import url('../blocks/footer/__list-element/footer__list-element.css');
+@import url('../blocks/footer/__support-logo/footer__support-logo.css');
+@import url('../blocks/footer/__support-bill/footer__support-bill.css');
+@import url('../blocks/footer/__support-fund/footer__support-fund.css');
+@import url('../blocks/footer/__contacts/footer__contacts.css');
+@import url('../blocks/footer/__phone-one/footer__phone-one.css');
+@import url('../blocks/footer/__phone-two/footer__phone-two.css');
+@import url('../blocks/footer/__adress/footer__adress.css');
+@import url('../blocks/footer/__social-icons/footer__social-icons.css');
+@import url('../blocks/footer/__social-icon/footer__social-icon.css');
+@import url('../blocks/footer/__license/footer__license.css');
+@import url('../blocks/footer/__prakticum-logo/footer__prakticum-logo.css');
 
 /* form */
 
@@ -251,3 +278,15 @@
 @import url('../blocks/popup/__hide/popup__hide.css');
 @import url('../blocks/popup/__hide/_visible/popup__hide_visible.css');
 @import url('../blocks/popup/__icon/_reverse/popup__icon_reverse.css');
+
+/* ACCORDION */
+@import url('../blocks/accordions/accordions.css');
+@import url('../blocks/accordion/accordion.css');
+@import url('../blocks/accordion/_close/accordion_close.css');
+@import url('../blocks/accordion/__title/accordion__title.css');
+@import url('../blocks/accordion/__text/accordion__text.css');
+@import url('../blocks/accordion/__text/_close/accordion__text_close.css');
+@import url('../blocks/accordion/__button/accordion__button.css');
+@import url('../blocks/accordion/__button/_close/accordion__button_close.css');
+@import url('../blocks/accordion/__button-img/accordion__button-img.css');
+@import url('../blocks/advantages/__heading/advantages__heading.css');
