@@ -1,0 +1,16 @@
+.donations__button {
+  width: 159px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1439px) {
+  .donations__button {
+    width: 75px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donations__button {
+    width: 122px;
+  }
+}
