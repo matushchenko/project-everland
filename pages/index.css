@@ -37,6 +37,7 @@
 @import url('../blocks/donations/__sum/donations__sum.css');
 @import url('../blocks/donations/__button/donations__button.css');
 @import url('../blocks/donations/__button/_another/dinations__button_another.css');
+@import url('../blocks/donations/__container/donations__container.css');
 
 
 @import url('../blocks/work/work.css');

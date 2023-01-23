@@ -9,12 +9,12 @@
 
 @media screen and (max-width: 1439px) {
   .agency__container {
-    padding: 100px 40px;
+    padding: 50px 40px 50px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .agency__container {
-    padding: 64px 10px;
+    padding: 32px 10px;
   }
 }

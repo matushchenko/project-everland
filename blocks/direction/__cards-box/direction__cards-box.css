@@ -14,6 +14,7 @@
   .direction__cards-box {
     grid-template-columns: repeat(auto-fit, minmax(334px, 1fr));
     gap: 19px;
+    margin-bottom: 0;
   }
 }
 

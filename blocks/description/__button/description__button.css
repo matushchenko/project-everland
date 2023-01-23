@@ -14,14 +14,14 @@
   .description__button {
     min-width: 96px;
     min-height: 24px;
-    top: 262px;
+    top: 400px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .description__button {
     min-width: 95px;
-    top: 462px;
+    top: 560px;
     left: 113px;
   }
 }

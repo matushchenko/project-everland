@@ -1,7 +1,7 @@
 .buttons_type_new-section {
   width: 200px;
   grid-area: button_type_new-section;
-  margin: 0 0 50px;
+  margin: 0;
   display: block;
   grid-row: 1;
   grid-column: 2/3;
