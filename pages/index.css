@@ -23,7 +23,6 @@
 @import url('../blocks/description/__slider/description__slider.css');
 @import url('../blocks/description/__button/description__button.css');
 @import url('../blocks/description/__characteristic/description__characteristic.css');
-@import url('../blocks/description/__image/description__image.css');
 @import url('../blocks/description/__images/description__images.css');
 @import url('../blocks/description/__left/description__left.css');
 @import url('../blocks/description/__name/description__name.css');
@@ -227,7 +226,6 @@
 /*BUTTONS 2*/
 @import url('../blocks/buttons/_type/buttons_type_slider-left.css');
 @import url('../blocks/buttons/_type/buttons_type_slider-right.css');
-@import url('../blocks/buttons/_type/buttons_type_agency.css');
 
 /* History  */
 @import url('../blocks/stories/__main/stories__main.css');
@@ -279,17 +277,7 @@
 @import url('../blocks/popup/__icon/_reverse/popup__icon_reverse.css');
 
 /* ACCORDION */
-@import url('../blocks/accordions/accordions.css');
-@import url('../blocks/accordion/accordion.css');
-@import url('../blocks/accordion/_close/accordion_close.css');
-@import url('../blocks/accordion/__title/accordion__title.css');
-@import url('../blocks/accordion/__text/accordion__text.css');
-@import url('../blocks/accordion/__text/_close/accordion__text_close.css');
-@import url('../blocks/accordion/__button/accordion__button.css');
-@import url('../blocks/accordion/__button/_close/accordion__button_close.css');
-@import url('../blocks/accordion/__button-img/accordion__button-img.css');
 @import url('../blocks/advantages/__heading/advantages__heading.css');
-
 @import url('../blocks/advantages/__box/advantages__box.css');
 @import url('../blocks/advantages/__button/advantages__button.css');
 @import url('../blocks/advantages/__container/advantages__container.css');
