@@ -4,6 +4,7 @@
   width: 1440px;
   overflow: hidden;
   margin: 0 auto;
+  padding-top: 51px;
 }
 
 @media screen and (max-width: 1439px) {
