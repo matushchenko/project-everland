@@ -1,6 +1,7 @@
 .support__donate {
   padding: 0;
-  max-width: 488px;
+  width: 488px;
+  margin-top: 38px;
 }
 
 @media screen and (max-width: 1439px) {

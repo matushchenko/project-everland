@@ -136,6 +136,7 @@ popupMenuSwitch.addEventListener('click', function () {
   switchPopup(popupMenu);
 })
 
+
 /*Перелистывание слайдов в блоке description*/
 
 descriptionRight.addEventListener("click", function () {
