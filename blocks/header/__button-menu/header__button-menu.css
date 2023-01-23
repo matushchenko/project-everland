@@ -9,10 +9,28 @@
   border: 0;
   gap: 12px;
   cursor: pointer;
+  width: 95px;
+  height: 26px;
+  background-image: url('../../../images/menu-icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit:contain;
+  object-position: center;
 }
 
 @media screen and (max-width: 1439px) {
   .header__button-menu {
     order: 2;
+    background-size: 84px 24px;
+    width: 84px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .header__button-menu {
+    background-image: url('../../../images/menu-icon-mobile.svg');
+    width: 24px;
+    height: 20px;
   }
 }

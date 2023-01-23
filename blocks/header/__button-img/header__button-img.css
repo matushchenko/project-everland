@@ -1,12 +1,19 @@
-.header__button-img{
+/*.header__button-img{
   margin: 0;
-  width: 25px;
-  height: 24px;
+
 }
+
+@media screen and (max-width: 900px) {
+  .header__button-img {
+    width: 24px;
+    height: 20px;
+  }
+}
+
 
 @media screen and (max-width: 767px) {
   .header__button-img {
     width: 24px;
     height: 20px;
   }
-}
+}*/
