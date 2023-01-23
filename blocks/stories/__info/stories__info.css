@@ -15,6 +15,7 @@
   .stories__info {
     grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(4, auto);
+    row-gap: 10px;
   }
 
   .stories__info > img:nth-child(1) {

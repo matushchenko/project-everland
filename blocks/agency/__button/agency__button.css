@@ -3,3 +3,9 @@
   min-width: 204px;
   border: 1px solid #0c4ba0;
 }
+
+@media (max-width: 767px) {
+  .agency__button {
+    min-width: 301px;
+
+  }

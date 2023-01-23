@@ -16,6 +16,6 @@
 @media (max-width: 767px) {
   .stories__story-info {
     max-width: 172px;
-    row-gap: 6px;
+    row-gap: 8px;
   }
 }
