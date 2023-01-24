@@ -1,20 +1,18 @@
 .news__date {
   margin: 30px auto 0 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 130%;
   color: rgba(38, 38, 38, 0.5);
+  padding-top: 30px;
 }
 
 @media all and (max-width: 900px) {
   .news__date {
     margin-top: 20px;
-    font-size: 14px;
+
   }
 }
 
 @media all and (max-width: 767px) {
   .news__date {
-    font-size: 12px;
+    
   }
 }

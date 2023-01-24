@@ -21,7 +21,7 @@
 @media all and (max-width: 768px) {
     .work__cards-box {
         grid-template-columns: repeat(auto-fit, 450px);
-        padding-top: 32px;
+        padding: 0;
     }
 }
 

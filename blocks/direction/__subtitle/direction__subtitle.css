@@ -1,0 +1,16 @@
+.direction__subtitle {
+
+}
+
+@media all and (max-width: 768px) {
+  .direction__subtitle {
+    padding-top: 30px;
+
+  }
+}
+
+@media all and (max-width: 500px) {
+  .direction__subtitle {
+
+  }
+}

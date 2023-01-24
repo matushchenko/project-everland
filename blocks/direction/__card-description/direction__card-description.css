@@ -1,12 +1,13 @@
 .direction__card-description {
   margin: 30px 0 0 0;
   padding: 0;
-  height: 220px;
+  min-height: 220px;
 }
 
 @media all and (max-width: 768px) {
   .direction__card-description {
-    height: 175px;
+    min-height: 175px;
+    margin: 0 0 0 0;
   }
 }
 

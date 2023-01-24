@@ -45,6 +45,7 @@
 @import url('../blocks/work/__card-image/work__card-image.css');
 @import url('../blocks/work/__card-description/work__card-description.css');
 @import url('../blocks/work/__cards-box/work__cards-box.css');
+@import url('../blocks/work/__card/work__card.css');
 
 @import url('../blocks/direction/direction.css');
 @import url('../blocks/direction/__card-text/direction__card-text.css');
@@ -58,6 +59,7 @@
 @import url('../blocks/direction/__card/_green/direction__card_green.css');
 @import url('../blocks/direction/__card/_red/direction__card_red.css');
 @import url('../blocks/direction/__card/_white/direction__card_white.css');
+@import url('../blocks/direction/__subtitle/direction__subtitle.css');
 
 @import url('../blocks/advantages/advantages.css');
 @import url('../blocks/projects/projects.css');
@@ -177,8 +179,7 @@
 @import url('../blocks/heading/_size/heading_size_link.css');
 @import url('../blocks/heading/_size/heading_size_sublink.css');
 
-@import url('../blocks/heading/_size/heading_size_small-small-text.css');
-@import url('../blocks/heading/_size/heading_size_small-small-text.css');
+@import url('../blocks/heading/_size/heading_size_small-text.css');
 @import url('../blocks/heading/_size/heading_size_support-description.css');
 @import url('../blocks/heading/_size/heading_size_support-paragraph.css');
 @import url('../blocks/heading/_size/heading_size_support-title.css');
