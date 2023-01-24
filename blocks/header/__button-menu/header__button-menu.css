@@ -16,6 +16,7 @@
   background-repeat: no-repeat;
   object-fit:contain;
   object-position: center;
+  background-size: cover;
 }
 
 @media screen and (max-width: 1439px) {
@@ -30,6 +31,7 @@
 @media screen and (max-width: 737px) {
   .header__button-menu {
     background-image: url('../../../images/menu-icon-mobile.svg');
+    background-size: 24px;
     width: 24px;
     height: 20px;
   }
