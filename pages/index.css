@@ -135,8 +135,8 @@
 @import url('../blocks/footer/__support-bill/footer__support-bill.css');
 @import url('../blocks/footer/__support-fund/footer__support-fund.css');
 @import url('../blocks/footer/__contacts/footer__contacts.css');
-@import url('../blocks/footer/__phone-one/footer__phone-one.css');
-@import url('../blocks/footer/__phone-two/footer__phone-two.css');
+@import url('../blocks/footer/__phone-top/footer__phone-top.css');
+@import url('../blocks/footer/__phone-bottom/footer__phone-bottom.css');
 @import url('../blocks/footer/__adress/footer__adress.css');
 @import url('../blocks/footer/__social-icons/footer__social-icons.css');
 @import url('../blocks/footer/__social-icon/footer__social-icon.css');
@@ -206,8 +206,8 @@
 @import url('../blocks/buttons/_type/buttons_type_secondary-border.css');
 /* rounding */
 @import url('../blocks/rounding/rounding.css');
-@import url('../blocks/rounding/_to-ten/rounding_to-ten.css');
-@import url('../blocks/rounding/_to-fifteen/rounding_to-fifteen.css');
+@import url('../blocks/rounding/_radius_big/rounding_radius_big.css');
+@import url('../blocks/rounding/_radius_small/rounding_radius_small.css');
 
 /* PROJECTS */
 @import url('../blocks/project-card/project-card.css');
