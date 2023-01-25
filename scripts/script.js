@@ -4,7 +4,7 @@ const elementsBox = document.querySelector('.advantages__container');
 
 const popupMenu = document.querySelector('#popup-menu');
 const popupMenuSwitch = document.querySelector('#menu-bottom');
-const icon = document.querySelector('.header__button-img');
+const mediaQuery = window.matchMedia('(max-width: 737px)')
 
 const popupProject = document.querySelector('#popup-hide-project');
 const popupProjectVisible = document.querySelector('#project');
@@ -118,23 +118,39 @@ popupServiceVisible.addEventListener('click', function () {
 function switchPopup(popup) {
   if (popup.classList.contains('popup_opened')) {
     popup.classList.remove('popup_opened');
+    document.querySelector('#menu-bottom').style = 'background-image: url(../images/menu-icon.svg)';
+  } else {
+  popup.classList.add('popup_opened');
+  document.querySelector('#menu-bottom').style = 'background-image: url(../images/Menu.jpg)';
+  }
+}
+
+function switchPopupMobile(popup) {
+  if (popup.classList.contains('popup_opened')) {
+    popup.classList.remove('popup_opened');
     closeAll(popupProjectVisible);
     closeAll(popupPeopleVisible);
     closeAll(popupServiceVisible);
     closeAll(popupProject);
     closeAll(popupPeople);
     closeAll(popupService);
-    icon.src = '../images/menu-icon.svg'
+    document.querySelector('#menu-bottom').style = 'background-image: url(../images/menu-icon-mobile.svg)';
   } else {
   popup.classList.add('popup_opened');
-  icon.src = '../images/Menu-icon-close.jpg';
+  document.querySelector('#menu-bottom').style = 'background-image: url(../images/Menu-icon-close.jpg)';
   }
 }
 
-// открытие/закрытие попапа на кнопку
-popupMenuSwitch.addEventListener('click', function () {
-  switchPopup(popupMenu);
+if (mediaQuery.matches) {
+  popupMenuSwitch.addEventListener('click', function () {
+    switchPopupMobile(popupMenu);
+  })
+} else {
+  popupMenuSwitch.addEventListener('click', function () {
+    switchPopup(popupMenu);
 })
+}
+
 
 
 /*Перелистывание слайдов в блоке description*/

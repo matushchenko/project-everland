@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: 325px 325px;
   grid-template-rows: 98px 98px;
-  column-gap: 30px;
-  row-gap: 20px;
+  column-gap: 20px;
+  row-gap: 30px;
   list-style: none;
   margin: 0;
   padding: 0;
