@@ -69,7 +69,6 @@
 @import url('../blocks/agency/agency.css');
 
 @import url('../blocks/news/news.css');
-@import url('../blocks/news/__text/news__text.css');
 @import url('../blocks/news/__description-max/news__description-max.css');
 @import url('../blocks/news/__description-min/news__description-min.css');
 @import url('../blocks/news/__button/news__button.css');
@@ -178,6 +177,10 @@
 @import url('../blocks/heading/_size/heading_size_h3.css');
 @import url('../blocks/heading/_size/heading_size_h4.css');
 @import url('../blocks/heading/_size/heading_size_h5.css');
+
+@import url('../blocks/heading/_size/heading_size_stories.css');
+@import url('../blocks/heading/_size/heading_size_news.css');
+@import url('../blocks/heading/_size/heading_size_support-subtitle.css');
 
 @import url('../blocks/heading/_size/heading_size_menu-text.css');
 @import url('../blocks/heading/_size/heading_size_link.css');

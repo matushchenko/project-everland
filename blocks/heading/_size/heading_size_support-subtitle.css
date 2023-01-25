@@ -1,0 +1,23 @@
+.heading_size_support-subtitle {
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  padding: 0;
+  margin: 0;
+  /* identical to box height, or 29px */
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 1439px) {
+  .heading_size_support-subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading_size_support-subtitle {
+    font-size: 16px;
+  }
+}

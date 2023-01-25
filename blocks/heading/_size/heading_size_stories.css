@@ -1,0 +1,24 @@
+.heading_size_stories {
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 1439px) {
+  .heading_size_stories {
+    font-size: 16px;
+    line-height: 120%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading_size_stories {
+    font-weight: 500;
+    font-size: 12px;
+  }
+}
