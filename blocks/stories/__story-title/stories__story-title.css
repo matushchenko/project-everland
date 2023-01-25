@@ -6,13 +6,13 @@
   overflow: hidden;
 }
 
-@media screen (max-width: 1439px) {
+@media screen and (max-width: 1439px) {
   .stories__story-title {
     height: 72px;
   }
 }
 
-@media screen (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .stories__story-title {
     -webkit-line-clamp: 2;
     height: 38px;
