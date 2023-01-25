@@ -1,5 +1,5 @@
-.stories__audio-text {
-  font-family: 'Raleway';
+.heading_size_stories {
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .stories__audio-text {
+  .heading_size_stories {
     font-size: 16px;
     line-height: 120%;
     margin: 0;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .stories__audio-text {
+  .heading_size_stories {
     font-weight: 500;
     font-size: 12px;
   }
