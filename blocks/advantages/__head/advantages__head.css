@@ -10,6 +10,7 @@
 
 @media all and (max-width: 900px) {
   .advantages__head {
+    padding: 18px 20px 18px 20px;
 
   }
 }

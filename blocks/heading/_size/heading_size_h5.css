@@ -7,6 +7,7 @@
   padding: 0;
   margin: 0;
   /* identical to box height, or 29px */
+  font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 @media screen and (max-width: 1439px) {
