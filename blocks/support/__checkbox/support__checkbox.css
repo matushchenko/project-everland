@@ -5,13 +5,3 @@
   overflow: hidden;
   clip: rect(0 0 0 0);
 }
-
-.support__checkbox:checked + .support__visible-checkbox {
-  background-image: url('../../../images/Icon_check.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 9px 7px;
-  min-width: 25px;
-  min-height: 25px;
-  border: none;
-}

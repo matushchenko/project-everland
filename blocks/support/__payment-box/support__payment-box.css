@@ -5,7 +5,3 @@
   overflow: hidden;
   clip: rect(0 0 0 0);
 }
-
-.support__payment-box:checked + .support__payment {
-  border: 1px solid #0C4BA0;
-}

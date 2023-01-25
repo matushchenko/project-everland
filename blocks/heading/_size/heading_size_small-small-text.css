@@ -1,20 +1,19 @@
 .heading_size_small-small-text {
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
   }
-  
+
   @media all and (max-width: 900px) {
     .heading_size_small-small-text {
       font-size: 14px;
     }
   }
-  
+
   @media all and (max-width: 767px) {
     .heading_size_small-small-text {
       font-size: 12px;
     }
   }
-  
