@@ -249,6 +249,7 @@
 @import url('../blocks/buttons/_type/buttons_type_new-section.css');
 @import url('../blocks/stories/__story-subtitle/stories__story-subtitle.css');
 @import url('../blocks/stories/__story-text/stories__story-text.css');
+@import url('../blocks/stories/__audio-text/stories__audio-text.css');
 
 /* AGENCY */
 @import url('../blocks/agency/__card-img/agency__card-img.css');
