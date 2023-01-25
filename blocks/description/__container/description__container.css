@@ -3,6 +3,7 @@
   width: 8160px;
   display: flex;
   flex-direction: row;
+  margin-bottom: -40px;
 }
 
 @media screen and (max-width: 1439px) {

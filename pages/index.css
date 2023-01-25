@@ -31,6 +31,9 @@
 @import url('../blocks/description/__right/description__right.css');
 @import url('../blocks/description/__photo/description__photo.css');
 @import url('../blocks/description/__picture/description__picture.css');
+@import url('../blocks/description/__counter/description__counter.css');
+@import url('../blocks/description/__dynamics/description__dynamics.css');
+
 @import url('../blocks/donations/donations.css');
 @import url('../blocks/donations/__active/donations__active.css');
 @import url('../blocks/donations/__sum/donations__sum.css');
@@ -113,12 +116,13 @@
 @import url('../blocks/support/__details/support__details.css');
 @import url('../blocks/support/__link/support__link.css');
 @import url('../blocks/support/__radio-box/support__radio-box.css');
-@import url('../blocks/support/__choice-box/support____choice-box.css');
-@import url('../blocks/support/__radio/_width/support__radio_order_big.css');
-@import url('../blocks/support/__radio/_width/support__radio_order_max.css');
+@import url('../blocks/support/__choice-box/support__choice-box.css');
+@import url('../blocks/support/__radio/_width/support__radio_width_big.css');
+@import url('../blocks/support/__radio/_width/support__radio_width_max.css');
 @import url('../blocks/support/__choice/_width/support__choice_width_middle.css');
 @import url('../blocks/support/__choice/_width/support__choice_width_small.css');
 @import url('../blocks/support/__payment-box/support__payment-box.css');
+@import url('../blocks/support/__question/support__question.css');
 
 /* footer */
 @import url('../blocks/footer/footer.css');
@@ -142,6 +146,7 @@
 @import url('../blocks/footer/__social-icon/footer__social-icon.css');
 @import url('../blocks/footer/__license/footer__license.css');
 @import url('../blocks/footer/__prakticum-logo/footer__prakticum-logo.css');
+@import url('../blocks/footer/__links/footer__links.css');
 
 /* form */
 
@@ -238,7 +243,11 @@
 @import url('../blocks/stories/__story-img/stories__story-img.css');
 @import url('../blocks/stories/__info/stories__info.css');
 @import url('../blocks/stories/__icon/stories__icon.css');
+<<<<<<< point5.1
 @import url('../blocks/stories/__card/_position/stories__card_position_reverse.css');
+=======
+@import url('../blocks/stories/__card/_reverse/stories__card_reverse.css');
+>>>>>>> DEVELOP
 @import url('../blocks/stories/__hero/stories__hero.css');
 @import url('../blocks/stories/__button/stories__button.css');
 @import url('../blocks/stories/__story/stories__story.css');

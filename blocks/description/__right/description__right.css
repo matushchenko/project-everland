@@ -19,6 +19,5 @@
 .description__right:disabled {
   transition-duration: 1s;
   background-image: url('../../../images/arrow_forward.svg');
-  transform: rotate(-180deg);
   background-color: #C4C4C4;
 }

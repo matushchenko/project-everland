@@ -21,7 +21,7 @@ let descriptionLeft = document.querySelector(".description__left");
 let descriptionRight = document.querySelector(".description__right");
 let descriptionNumbers = document.querySelector(".description__numbers");
 let viewSlide = 0;
-let savedIndex = 1;
+let descriptionDynamics = document.querySelector(".description__dynamics");
 
 let projectCard = document.querySelector(".project-card").offsetWidth;
 let projectCardContainer = document.querySelector(".project-card__container");
@@ -175,30 +175,20 @@ descriptionLeft.addEventListener("click", function () {
 
 /*Счетчик перелистывания в блоке description*/
 
-function reducingNumber() {
-  descriptionNumbers.textContent = `${(savedIndex += 1)}/${6}`;
-  if (savedIndex >= 6) {
-    savedIndex = 0;
-  }
-}
+function checkButtons(){
+  descriptionRight.disabled = descriptionDynamics.value >= descriptionDynamics.max;
+  descriptionLeft.disabled = descriptionDynamics.value <= descriptionDynamics.min;
+};
 
-descriptionRight.addEventListener("click", function () {
-  reducingNumber();
-});
+descriptionRight.addEventListener('click', () => {
+  descriptionDynamics.stepUp(1);
+  checkButtons();
+})
 
-function increasingNumber() {
-  descriptionNumbers.textContent = `${(savedIndex -= 1)}/${6}`;
-  if (savedIndex >= 6) {
-    savedIndex = 6;
-  } else if (savedIndex <= 1) {
-    savedIndex = 7;
-  }
-}
-
-descriptionLeft.addEventListener("click", function () {
-  increasingNumber();
-});
-
+descriptionLeft.addEventListener('click', () => {
+  descriptionDynamics.stepDown(1);
+  checkButtons();
+})
 
 /*Перелистывание в блоке projects*/
 

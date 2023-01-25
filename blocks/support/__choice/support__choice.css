@@ -10,3 +10,8 @@
   opacity: .5;
   cursor: pointer;
 }
+
+
+.support__choice-box:checked + .support__choice {
+  border: 1px solid #0C4BA0;
+}
