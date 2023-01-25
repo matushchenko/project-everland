@@ -65,8 +65,8 @@ initialBoxes.forEach(function (item) {
 
 //фунция для закрытия развернутого в меню
 function closeAll(esc) {
-  if (esc.classList.contains('popup__icon_reverse')) {
-    esc.classList.remove('popup__icon_reverse')
+  if (esc.classList.contains('popup__icon_position_reverse')) {
+    esc.classList.remove('popup__icon_position_reverse')
   }
   if (esc.classList.contains('popup__hide_visible')) {
     esc.classList.remove('popup__hide_visible')
@@ -75,10 +75,10 @@ function closeAll(esc) {
 
 //функция переворачивания
 function buttonReverse(reverse) {
-  if (reverse.classList.contains('popup__icon_reverse')) {
-  reverse.classList.remove('popup__icon_reverse');
+  if (reverse.classList.contains('popup__icon_position_reverse')) {
+  reverse.classList.remove('popup__icon_position_reverse');
 } else {
-  reverse.classList.add('popup__icon_reverse');
+  reverse.classList.add('popup__icon_position_reverse');
 }
 }
 
