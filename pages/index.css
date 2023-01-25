@@ -66,7 +66,6 @@
 @import url('../blocks/agency/agency.css');
 
 @import url('../blocks/news/news.css');
-@import url('../blocks/news/__text/news__text.css');
 @import url('../blocks/news/__description-max/news__description-max.css');
 @import url('../blocks/news/__description-min/news__description-min.css');
 @import url('../blocks/news/__button/news__button.css');
