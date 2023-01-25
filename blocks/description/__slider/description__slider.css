@@ -1,5 +1,5 @@
 .description__slider {
-  width: 1360px;
+  width: 100%;
   padding: 0;
   min-height: 565px;
   position: relative;
@@ -11,13 +11,11 @@
 @media screen and (max-width: 1439px) {
   .description__slider {
     min-height: 286px;
-    width: 688px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .description__slider {
     min-height: 486px;
-    width: 304px;
   }
 }
