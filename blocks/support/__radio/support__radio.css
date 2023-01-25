@@ -1,5 +1,4 @@
 .support__radio {
-  width: 315px;
   display: flex;
   box-sizing: border-box;
   font-feature-settings: 'pnum' on, 'lnum' on;
@@ -16,19 +15,10 @@
 
 @media screen and (max-width: 1439px) {
   .support__radio {
-    width: 316px;
     text-align: center;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .support__radio {
-    width: 122px;
-  }
-
-  .support__radio:nth-last-child(1) {
-    width: 122px;
-  }
-
+.support__radio-box:checked + .support__radio {
+  border: 1px solid #0C4BA0;
 }
-

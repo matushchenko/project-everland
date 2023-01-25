@@ -7,13 +7,6 @@
   position: relative;
 }
 
-@media screen and (max-width: 1439px) {
-  .support__list {
-    margin-top: 32px;
-    max-width: 349px;
-  }
-}
-
 .support__list:before {
   content: '';
   width: 396px;
@@ -25,6 +18,10 @@
 }
 
 @media screen and (max-width: 1439px) {
+  .support__list {
+    margin-top: 32px;
+    max-width: 349px;
+  }
   .support__list:before {
     height: 510px;
     right: 30px;
@@ -39,7 +36,6 @@
     max-height: 300px;
     overflow: hidden;
   }
-  
   .support__list:before {
     height: 265px;
     right: 0;

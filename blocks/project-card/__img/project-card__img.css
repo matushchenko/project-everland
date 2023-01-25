@@ -15,7 +15,6 @@
 }
 @media screen and (max-width: 767px) {
   .project-card__img {
-    object-fit: cover;
     width: 254px;
     height: 180px;
     margin: 24px 0 20px 0;

@@ -5,11 +5,20 @@
   height: 25px; /* размеры */
   background: #DADADA;
   border-radius: 10px;
-  border: 1px solid red;
 }
 
 .support__visible-checkbox:hover {
   transition-duration: 2s;
   opacity: .5;
   cursor: pointer;
+}
+
+.support__checkbox:checked + .support__visible-checkbox {
+  background-image: url('../../../images/Icon_check.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 9px 7px;
+  min-width: 25px;
+  min-height: 25px;
+  border: none;
 }

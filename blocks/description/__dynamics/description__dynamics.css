@@ -1,0 +1,12 @@
+.description__dynamics {
+  width: 18px;
+  text-align: center;
+  border: none;
+}
+
+.description__dynamics::-webkit-inner-spin-button {
+-moz-appearance: textfield;
+}
+.description__dynamics::-webkit-inner-spin-button {
+display: none;
+}
