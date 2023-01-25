@@ -1,0 +1,24 @@
+.heading_size_news {
+  font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  /* identical to box height, or 41px */
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .heading_size_news {
+    font-size: 26px;
+    padding-bottom: 7px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heading_size_news {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,16 @@
+.rounding_radius_big {
+    border-radius: 30px;
+}
+
+@media all and (max-width: 900px) {
+    .rounding_radius_big {
+        border-radius: 20px;
+
+    }
+}
+
+@media all and (max-width: 767px) {
+    .rounding_radius_big {
+        border-radius: 15px;
+    }
+}

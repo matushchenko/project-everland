@@ -1,0 +1,18 @@
+.work__title {
+    margin: 0;
+}
+
+@media all and (max-width: 780px) {
+    .work__title {
+        margin: 0 auto;
+        max-width: 420px;
+        padding-bottom: 32px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .work__title {
+      padding: 0;
+      max-width: 300px;
+    }
+}

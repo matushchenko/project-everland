@@ -1,0 +1,15 @@
+.donations__button_value_text {
+  width: 211px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donations__button_value_text {
+    width: 135px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donations__button_value_text {
+    width: 260px;
+  }
+}

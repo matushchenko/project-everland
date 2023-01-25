@@ -1,0 +1,19 @@
+.news__title {
+  max-height: 77px;
+  margin: 0;
+  grid-area: news-title;
+}
+
+@media all and (max-width: 780px) {
+  .news__title {
+    justify-self: left;
+    margin: 0;
+    max-width: 420px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .news__title {
+    max-width: 300px;
+  }
+}

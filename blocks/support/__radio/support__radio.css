@@ -1,0 +1,24 @@
+.support__radio {
+  display: flex;
+  box-sizing: border-box;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.support__radio:hover {
+  transition-duration: 2s;
+  opacity: .5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__radio {
+    text-align: center;
+  }
+}
+
+.support__radio-box:checked + .support__radio {
+  border: 1px solid #0C4BA0;
+}

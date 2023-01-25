@@ -1,0 +1,9 @@
+.direction__title-desktop {
+    margin: 0;
+}
+
+@media all and (max-width: 768px) {
+    .direction__title-desktop {
+        display: none;
+    }
+}

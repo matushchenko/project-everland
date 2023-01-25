@@ -1,0 +1,19 @@
+.footer__social {
+  margin: 0;
+  grid-area: footer-social;
+  max-height: 277px;
+}
+
+@media all and (max-width: 900px) {
+  .footer__social {
+    max-height: 264px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .footer__social {
+    max-width: 300px;
+    max-height: 228px;
+    padding-bottom: 40px;
+  }
+}

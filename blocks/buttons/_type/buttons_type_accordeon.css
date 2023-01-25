@@ -1,0 +1,37 @@
+.buttons_type_accordeon {
+  background-image: url('../../../images/Icon_plus.svg');
+  background-color: #E7F0FF;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 17px 17px;
+  min-width: 45px;
+  min-height: 45px;
+  border: none;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+  .buttons_type_accordeon {
+    background-size: 12px 12px;
+    min-width: 32px;
+    min-height: 32px;
+  }
+}
+
+.buttons_color_accordeon:hover {
+  transition-duration: 1s;
+  background-image: url('../../../images/Icon_plus1.svg');
+  background-color: #0C4BA0;
+}
+
+.buttons_color_accordeon:active {
+  transition-duration: 1s;
+  background-image: url('../../../images/Icon_plus2.svg');
+  background-color: #0C4BA0;
+}
+
+.buttons_color_accordeon:disabled {
+  transition-duration: 1s;
+  background-image: url('../../../images/Icon_plus3.svg');
+  background-color: #C4C4C4;
+}

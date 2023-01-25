@@ -1,0 +1,23 @@
+.description__slider {
+  width: 1360px;
+  padding: 0;
+  min-height: 565px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+  .description__slider {
+    min-height: 286px;
+    width: 688px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description__slider {
+    min-height: 486px;
+    width: 304px;
+  }
+}

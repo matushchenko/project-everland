@@ -1,0 +1,21 @@
+.stories__story-title {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1439px) {
+  .stories__story-title {
+    height: 72px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .stories__story-title {
+    -webkit-line-clamp: 2;
+    height: 38px;
+    width: 172px;
+  }
+}

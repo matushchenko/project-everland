@@ -1,0 +1,9 @@
+.header__section {
+  margin: 0;
+  background-color: #FFFFFF;
+  width:100%;
+  display: flex;
+  align-items:center;
+  justify-content: center ;
+  box-sizing: border-box;
+}

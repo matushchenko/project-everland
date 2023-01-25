@@ -1,0 +1,25 @@
+.advantages {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0;
+  padding: 135px 40px 140px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background-color: #fff;
+  ;
+}
+
+@media all and (max-width: 900px) {
+  .advantages {
+    padding-bottom: 100px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .advantages {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 64px;
+
+  }
+}

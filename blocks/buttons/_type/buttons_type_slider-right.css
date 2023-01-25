@@ -1,0 +1,33 @@
+.buttons_type_slider-right {
+  border: none;
+  position: absolute;
+  bottom: 30px;
+  left: 684px;
+  width: 35px;
+  height: 35px;
+  background: url('../../../images/slide-right.svg') no-repeat center;
+  background-size: 17px 17px;
+  background-color: #333333;
+  border-radius: 10px;
+}
+.buttons_type_slider-right:hover {
+  background-color: #0c4ba0;
+}
+.buttons_type_slider-right:active {
+  background-color: #00275c;
+}
+@media screen and (max-width: 1439px) {
+  .buttons_type_slider-right {
+    width: 24px;
+    height: 24px;
+    background-size: 7px 7px;
+    border-radius: 6px;
+    left: 348px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .buttons_type_slider-right {
+    left: 252px;
+    bottom: 448px;
+  }
+}

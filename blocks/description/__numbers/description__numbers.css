@@ -1,0 +1,11 @@
+.description__numbers {
+  margin: 4.5px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .description__numbers {
+    line-height: 19px;
+    margin: 0;
+  }
+}

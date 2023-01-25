@@ -1,0 +1,14 @@
+.support__consent {
+  padding: 0;
+  border: none;
+  margin-top: 39px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__consent {
+    margin-top: 24px;
+  }
+}

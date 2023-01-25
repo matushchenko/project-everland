@@ -1,0 +1,27 @@
+.support__methods {
+  display: flex;
+  flex-direction: row;
+  column-gap: 14px;
+  align-items: center;
+  margin: 16px 0 41px 29px;
+  border: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__methods {
+    margin-top: 24px;
+    margin-bottom: 48px;
+    margin-left: 0;
+    column-gap: 17px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__methods {
+    flex-direction: column;
+    row-gap: 12px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+}

@@ -1,0 +1,34 @@
+.project-card__content {
+  margin: 0 auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: 603px 393px;
+  grid-template-rows: 42px 351px;
+  column-gap: 142px;
+  min-height: 393px;
+  width: 1330px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .project-card__content {
+    grid-template-columns: 339px 284px;
+    grid-template-rows: 31px 96px 113px 44px;
+    column-gap: 30px;
+    min-height: 284px;
+    width: 658px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .project-card__content {
+    display: flex;
+    flex-direction: column;
+    min-height: 466px;
+    width: 276px;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 0;
+  }
+}

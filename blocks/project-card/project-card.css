@@ -1,0 +1,31 @@
+.project-card {
+  background: #e7f0ff;
+  border-radius: 30px;
+  width: 1360px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 453px;
+  border: none;
+  box-shadow: none;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 1439px) {
+  .project-card {
+    width: 688px;
+    min-height: 344px;
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .project-card {
+    width: 300px;
+    padding: 20px 0 0 0;
+    min-height: 496px;
+  }
+}

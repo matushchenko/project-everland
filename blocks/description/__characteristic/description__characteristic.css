@@ -1,0 +1,21 @@
+.description__characteristic {
+  max-width: 543px;
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .description__characteristic {
+    max-width: 401px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description__characteristic {
+    max-width: 294px;
+    line-height: 17px;
+    margin-top: 16px;
+  }
+}

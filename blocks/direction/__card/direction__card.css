@@ -1,0 +1,26 @@
+.direction__card {
+  padding: 0 30px 0 30px;
+  min-height: 428px;
+  position: relative;
+
+}
+
+@media all and (max-width: 768px) {
+  .direction__card {
+    min-height: 304px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .direction__card {
+    padding: 24px;
+    min-height: 263px;
+  }
+}
+
+@media all and (max-width: 380px) {
+  .direction__card {
+    padding-bottom: 24px;
+    min-height: 250px;
+  }
+}

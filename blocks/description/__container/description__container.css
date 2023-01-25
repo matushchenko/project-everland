@@ -1,0 +1,19 @@
+.description__container {
+  position: relative;
+  width: 8160px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -40px;
+}
+
+@media screen and (max-width: 1439px) {
+  .description__container {
+    width: 4128px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description__container {
+    width: 1824px;
+  }
+}

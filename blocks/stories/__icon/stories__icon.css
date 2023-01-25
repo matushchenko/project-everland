@@ -1,0 +1,15 @@
+.stories__icon{
+  max-width: 35px;
+}
+
+@media (max-width: 1439px) {
+  .stories__icon {
+    max-width: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .stories__icon {
+    max-width: 24px;
+  }
+}

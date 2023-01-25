@@ -1,0 +1,7 @@
+.project-card__container {
+  width: 4080px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  transition: 1s ease-in-out;
+}

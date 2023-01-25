@@ -1,0 +1,35 @@
+.support__input {
+  min-width: 455px;
+  min-height: 48px;
+  border-radius: 10px;
+  margin-bottom: 21px;
+  border: 1px solid #DADADA;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.support__input:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__input {
+    margin-bottom: 16px;
+    min-height: 44px;
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .support__input:nth-last-child(1) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__input {
+    min-width: 260px;
+  }
+}

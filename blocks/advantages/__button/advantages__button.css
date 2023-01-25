@@ -1,0 +1,25 @@
+.advantages__button {
+  margin: 0;
+  width: 45px;
+  height: 45px;
+  background-image: url('../../../images/advantages-open.svg');
+  border: none;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit:contain;
+  object-position: center;
+}
+
+@media all and (max-width: 900px) {
+  .advantages__button {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .advantages__button {
+
+  }
+}

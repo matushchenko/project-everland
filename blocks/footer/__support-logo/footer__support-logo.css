@@ -1,0 +1,21 @@
+.footer__support-logo {
+    margin: 0;
+    padding: 0 0 25px 0;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+@media all and (max-width: 900px) {
+    .footer__support-logo {
+      padding-bottom: 34px;
+      gap: 8px;
+    }
+  }
+
+  @media all and (max-width: 767px) {
+    .footer__support-logo {
+        padding-bottom: 40px;
+    }
+  }

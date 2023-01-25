@@ -1,0 +1,15 @@
+.support__question {
+  background-position: center;
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  min-width: 10px;
+  min-height: 10px;
+  background-image: url(../../../images/question.svg);
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .support__question {
+    margin-left: 4px;
+  }
+}

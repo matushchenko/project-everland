@@ -1,0 +1,14 @@
+.project-card__title {
+  margin: 0;
+  padding: 0 0 20px 0;
+  max-width: 603px;
+  letter-spacing: -0.01em;
+
+}
+
+
+@media screen and (max-width: 1439px) {
+  .project-card__title {
+    padding-bottom: 10px;
+  }
+}

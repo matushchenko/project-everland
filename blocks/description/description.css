@@ -1,0 +1,25 @@
+.description {
+  position: relative;
+  padding: 0;
+  width: 1360px;
+  margin: 60px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1439px) {
+  .description {
+    width: 688px;
+    /*width: calc(100% - 80px);*/
+    margin: 0 auto 0 auto;
+    padding-top: 140px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description {
+    width: 304px;
+    padding-top: 100px;
+  }
+}

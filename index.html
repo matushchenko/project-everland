@@ -11,50 +11,741 @@
 
 <body class="page">
   <header class="header">
-
-  </header>
-  <main class="content">
-    <section class="menu">
-
+    <section class="header__section">
+      <div class="header__container">
+        <img class="header__logo" src="./images/header-logo.svg" alt="Логотип шапки.">
+        <button class="header__button-menu" id="menu-bottom">
+        </button>
+        <div class="header__buttons">
+          <button
+            class="header__button buttons buttons_type_secondary-border buttons_color_transparent-blue">Платформа</button>
+          <form action="#support"><button class="header__button buttons buttons_type_primary buttons_color_dark-blue">Поддержать</button></form>
+        </div>
+      </div>
     </section>
-    <section class="description">
+  </header>
 
+  <main class="content">
+    <nav class="menu heading_size_menu-text">
+      <a class="menu__link" href="#work">Для кого</a>
+      <a class="menu__link" href="#direction">Направления работы</a>
+      <a class="menu__link" href="#advantages">Приемущества</a>
+      <a class="menu__link" href="#numbers">Основные цифры</a>
+      <a class="menu__link" href="#projects">Спецпроекты</a>
+      <a class="menu__link" href="#stories">Истории</a>
+      <a class="menu__link" href="#agency">Агентство</a>
+      <a class="menu__link" href="#news">Новости</a>
+    </nav>
+
+    <section class="description">
+      <div class="description__container">
+        <div class="description__slider">
+          <h1 class ="heading heading_size_h1 description__name"><span class="heading heading_color_blue">Everland</span> — социальный предпринимательский проект</h1>
+          <p class="heading heading_size_main-text description__characteristic">Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво
+          интегрироваться в открытый рынок труда </p>
+          <div class="description__images">
+            <img src="./images/Image_2.jpg" class="description__picture" alt="Участники социального проекта Everland.">
+            <img src="./images/Image_1.jpg" class="description__photo" alt="Участники социального проекта Everland.">
+          </div>
+        </div>
+
+        <div class="description__slider">
+          <h2 class ="heading heading_size_h1 description__name">Помощь людям с инвалидностью</h2>
+          <p class="heading heading_size_main-text description__characteristic">Выбор профессии, обучение на Платформе, информационная поддержка, инклюзивные проекты</p>
+          <div class="description__images">
+            <img src="./images/Image_2.jpg" class="description__picture" alt="Участники социального проекта Everland.">
+            <img src="./images/Image_1.jpg" class="description__photo" alt="Участники социального проекта Everland.">
+          </div>
+        </div>
+
+        <div class="description__slider">
+          <h2 class ="heading heading_size_h1 description__name">Сервисы компаний для клиентов с инвалидностью</h2>
+          <p class="heading heading_size_main-text description__characteristic">Аудит услуг и сервисов, адаптация сайтов и приложений, рекомендации по улучшению доступности,
+          обучающие курсы для персонала</p>
+          <div class="description__images">
+            <img src="./images/Image_2.jpg" class="description__picture" alt="Участники социального проекта Everland.">
+            <img src="./images/Image_1.jpg" class="description__photo" alt="Участники социального проекта Everland.">
+          </div>
+        </div>
+
+        <div class="description__slider">
+          <h2 class ="heading heading_size_h1 description__name">Услуги для бизнеса</h2>
+          <p class="heading heading_size_main-text description__characteristic">Дизайн, контент, веб-разработка, юридические услуги</p>
+          <div class="description__images">
+            <img src="./images/Image_2.jpg" class="description__picture" alt="Участники социального проекта Everland.">
+            <img src="./images/Image_1.jpg" class="description__photo" alt="Участники социального проекта Everland.">
+          </div>
+        </div>
+
+        <div class="description__slider">
+          <h2 class ="heading heading_size_h1 description__name">Мотивационные материалы</h2>
+          <p class="heading heading_size_main-text description__characteristic">Статьи, инфографики, интервью, кейсы, лайфхаки, "эстафета успешности", "образ действия"</p>
+          <div class="description__images">
+            <img src="./images/Image_2.jpg" class="description__picture" alt="Участники социального проекта Everland.">
+            <img src="./images/Image_1.jpg" class="description__photo" alt="Участники социального проекта Everland.">
+          </div>
+        </div>
+
+        <div class="description__slider">
+          <h2 class ="heading heading_size_h1 description__name">Исследования и инклюзия</h2>
+          <p class="heading heading_size_main-text description__characteristic">Трудоустройство и интеграция людей с инвалидностью, доступность услуг и сервисов, привлечение
+          СМИ и сторонников, решение социальных проблем</p>
+          <div class="description__images">
+            <img src="./images/Image_2.jpg" class="description__picture" alt="Участники социального проекта Everland.">
+            <img src="./images/Image_1.jpg" class="description__photo" alt="Участники социального проекта Everland.">
+          </div>
+        </div>
+      </div>
+      <div class="description__button">
+        <button class="buttons buttons_type_slider description__left" type="button"></button>
+        <fieldset class="description__counter">
+          <input class="description__dynamics heading heading_size_big-text" type="number" step="1" value="1" max="6" min="1"></input>
+          <span class="description__numbers heading heading_size_big-text">/6</span>
+        </fieldset>
+        <button class="buttons buttons_type_slider description__right" type="button"></button>
+      </div>
     </section>
     <section class="donations">
-
+      <div class="donations__container">
+        <div class="donations__sum">
+          <button class="donations__button buttons_type_link">250₽</button>
+          <button class="donations__button buttons_type_link">500₽</button>
+          <button class="donations__button buttons_type_link">750₽</button>
+          <button class="donations__button buttons_type_link">1000₽</button>
+          <button class="donations__button donations__button_value_text buttons_type_link">Другая сумма</button>
+        </div>
+        <button class="donations__active buttons_type_primary buttons_color_dark-blue">Поддержать</button>
+      </div>
     </section>
-    <section class="work">
 
+    <section class="work" id="work">
+      <h2 class="work__title heading heading_size_h2 heading_color_black">Для кого мы работаем</h2>
+      <ul class="work__cards-box">
+        <li class="work__card direction__card_white rounding">
+          <img class="work__card-image" src="./images/image-disabled.svg" alt="Инвалид">
+          <div class="work__card-description">
+            <h4 class="heading heading_size_h4 heading_color_black">Для людей с инвалидностью</h4>
+            <p class="direction__card-text heading heading_size_main-text heading_color_black">Помогаем найти работу,
+              пройти обучение, предоставляем разные виды поддержки</p>
+          </div>
+          <form action="#"><button class="direction__card-button buttons buttons_type_link buttons_color_blue">Подробнее&nbsp;&rarr;</button></form>
+        </li>
+        <li class="work__card direction__card_white rounding">
+          <img class="work__card-image" src="./images/image-briefcase.svg" alt="Работодатели">
+          <div class="work__card-description">
+            <h4 class="heading heading_size_h4 heading_color_black">Для работодателей</h4>
+            <p class="direction__card-text heading heading_size_main-text heading_color_black">Помогаем создать
+              устойчивые инклюзивные команды, вовлекаем интеллектуальных волонтеров</p>
+          </div>
+          <form action="#"><button class="direction__card-button buttons buttons_type_link buttons_color_orange">Подробнее&nbsp;&rarr;</button></form>
+        </li>
+        <li class="work__card direction__card_white rounding">
+          <img class="work__card-image" src="./images/image-person.svg" alt="КСО">
+          <div class="work__card-description">
+            <h4 class="heading heading_size_h4 heading_color_black">Для КСО-партнеров </h4>
+            <p class="direction__card-text heading heading_size_main-text heading_color_black">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+          </div>
+          <form action="#"><button class="direction__card-button buttons buttons_type_link buttons_color_green">Подробнее&nbsp;&rarr;</button></form>
+        </li>
+      </ul>
     </section>
-    <section class="direction">
+    <section class="direction" id="direction">
+      <h2 class="direction__title-desktop heading heading_size_h2 heading_color_black">Наши направления</h2>
+      <h2 class="direction__title heading heading_size_h2 heading_color_black">В&nbsp;каких&nbsp;направлениях мы работаем?</h2>
+      <ul class="direction__cards-box">
+        <li class="direction__card direction__card_color_red rounding">
+          <div class="direction__card-description">
+            <h4 class="direction__subtitle heading heading_size_h4 heading_color_black">Доступность услуг Disquestion</h4>
+            <p class="heading heading_size_main-text heading_color_black direction__card-text">Сервисы для бизнеса
+              по&nbsp;повышению доступности услуг для маломобильных клиентов ― контракты с&nbsp;крупнейшими компаниями
+              в&nbsp;России</p>
+          </div>
+          <form action="#"><button class="direction__card-button buttons buttons_type_link buttons_color_white">Подробнее&rarr;</button></form>
+        </li>
+        <li class="direction__card direction__card_color_blue rounding">
+          <div class="direction__card-description">
+            <h4 class="direction__subtitle heading heading_size_h4 heading_color_black">Трудоустройство</h4>
+            <p class="heading heading_size_main-text heading_color_black direction__card-text">Решение социальной
+              проблемы с&nbsp;использованием предпринимательских инструментов: оказываем услуги разным компаниям
+              и&nbsp;НКО, таким образом зарабатываем и&nbsp;даем работу людям с&nbsp;инвалидностью</p>
+          </div>
+          <form action="#"><button class="direction__card-button buttons buttons_type_link buttons_color_white">Подробнее&rarr;</button></form>
+        </li>
+        <li class="direction__card direction__card_color_green rounding">
+          <div class="direction__card-description">
+            <h4 class="direction__subtitle heading heading_size_h4 heading_color_black">Биржа проектов и готовые решения</h4>
+            <p class="direction__card-text heading heading_size_main-text heading_color_black">ИТ-система для интеграции
+              в&nbsp;открытый рынок труда людей с&nbsp;инвалидностью в&nbsp;качестве самозанятых и&nbsp;в&nbsp;рамках
+              трудоустройства в&nbsp;другие компании</p>
+          </div>
+          <form action="#"><button class="direction__card-button buttons buttons_type_link buttons_color_white">Подробнее&rarr;</button></form>
+        </li>
+        <li class="direction__card direction__card_color_blue rounding">
+          <div class="direction__card-description">
+            <h4 class="direction__subtitle heading heading_size_h4 heading_color_black">Агентство</h4>
+            <p class="direction__card-text heading heading_size_main-text heading_color_black">Услуги специалистов
+              с&nbsp;инвалидностью для крупных компаний (дизайн, право, контент и&nbsp;другие)</p>
+          </div>
+          <form action="#"><button class="direction__card-button buttons buttons_type_link buttons_color_white">Подробнее&rarr;</button></form>
+        </li>
+        <li class="direction__card direction__card_color_green rounding">
+          <div class="direction__card-description">
+            <h4 class="direction__subtitle heading heading_size_h4 heading_color_black">Коворкинг</h4>
+            <p class="direction__card-text heading heading_size_main-text heading_color_black">Уникальное пространство,
+              в&nbsp;котором специалисты с&nbsp;инвалидностью могут работать и&nbsp;офлайн&nbsp;&mdash; приходить,
+              участвовать в&nbsp;образовательных мероприятиях, встречаться с&nbsp;заказчиками, работать в&nbsp;команде
+            </p>
+          </div>
+          <form action="#"><button class="direction__card-button buttons buttons_type_link buttons_color_white">Подробнее&rarr;</button></form>
+        </li>
+        <li class="direction__card direction__card_color_red rounding">
+          <div class="direction__card-description">
+            <h4 class="direction__subtitle heading heading_size_h4 heading_color_black">Для людей с инвалидностью</h4>
+            <p class="direction__card-text heading heading_size_main-text heading_color_black">Помогаем найти работу,
+              пройти обучение, предоставляем разные виды поддержки</p>
+          </div>
+          <form action="#"><button class="direction__card-button buttons buttons_type_link buttons_color_white">Подробнее&rarr;</button></form>
+        </li>
+        </ul>
+    </section>
 
+    <!-- advantages -->
+    <section class="advantages" id="advantages">
+      <h2 class="heading heading_size_h2 heading_color_black">Главное о нас</h2>
+      <ul class="advantages__container">
+      </ul>
+      <template id="element-template">
+        <li class="advantages__box rounding rounding_radius_big">
+          <div class="advantages__head" id="advantages-head">
+            <h4 class="advantages__name heading heading_size_h4 heading_color_black"></h4>
+            <button type="button" class="advantages__button" id="openclose"></button>
+          </div>
+          <p class="advantages__text" id="advantages-text heading heading_size_main-text heading_color_black"></p>
+        </li>
+      </template>
     </section>
-    <section class="advantages">
 
+    <!-- numbers -->
+    <section class="numbers" id="numbers">
+      <h2 class="numbers__title heading heading_size_h2 heading_color_black">Everland в цифрах</h2>
+      <div class="numbers__container">
+        <img class="numbers__img" alt="Эверлэнд в цифрах." src="./images/numbers-img.jpg">
+        <ul class="numbers__table">
+          <li class="numbers__table-cell">
+            <h3 class="numbers__heading heading heading_size_h4 heading_color_black"><span
+                class="heading heading_size_h4 heading_color_blue">380+</span> человек</h3>
+            <p class="numbers__text heading heading_size_main-text heading_color_black">прошли обучение и получили
+              работу в разных статусах</p>
+          </li>
+          <li class="numbers__table-cell">
+            <h3 class="numbers__heading heading heading_size_h4 heading_color_black"><span
+                class="heading heading_color_blue">1200+</span> человек</h3>
+            <p class="numbers__text heading heading_size_main-text heading_color_black">наше сообщество ― люди с разными
+              видами инвалидности</p>
+          </li>
+          <li class="numbers__table-cell">
+            <h3 class="numbers__heading heading heading_size_h4 heading_color_black"><span
+                class="heading heading_color_blue">35 000</span> рублей</h3>
+            <p class="numbers__text heading heading_size_main-text heading_color_black">средний заработок в проекте/в
+              рамках работы агентства</p>
+          </li>
+          <li class="numbers__table-cell">
+            <h3 class="numbers__heading heading heading_size_h4 heading_color_black"><span
+                class="heading heading_color_blue">3</span> недели</h3>
+            <p class="numbers__text heading heading_size_main-text heading_color_black">нужно, чтобы получить первую
+              оплату после прокачки в Everland</p>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section class="numbers">
+    <!-- projects -->
+    <section class="projects" id="projects">
+      <div class="project-card">
+        <div class="project-card__container">
+          <div class="project-card__slide">
+            <div class="project-card__content">
+              <p class="project-card__caption heading heading_color_black">Наши спецпроекты</p>
+              <img src="./images/projects-img.jpg" alt="Фото проекта." class="project-card__img">
+              <div class="project-container__text">
+                <h2 class="project-card__title heading heading_size_h2 heading_color_black">Фотопроект «Семья как семья»</h2>
+                <p class="heading_size_main-text heading heading_color_black project-card__pharagraph">фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность</p>
+                <button class="button heading heading_size_button-text project-card__button">Посмотреть</button>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__slide">
+            <div class="project-card__content">
+              <p class="project-card__caption heading heading_size_small-text heading_color_black">Наши спецпроекты</p>
+              <img src="./images/projects-img.jpg" alt="Фото проекта." class="project-card__img">
+              <div class="project-container__text">
+                <h2 class="project-card__title heading heading_size_h2 heading_color_black">Комиксы по коммуникации</h2>
+                <p class="heading_size_main-text heading heading_color_black project-card__pharagraph">в инклюзивном обществе</p>
+                <button class="button heading heading_size_button-text project-card__button">Посмотреть</button>
+              </div>
+            </div>
+          </div>
+          <div class="project-card__slide">
+            <div class="project-card__content">
+              <p class="project-card__caption heading heading_size_small-text heading_color_black">Наши спецпроекты</p>
+              <img src="./images/projects-img.jpg" alt="Фото проекта." class="project-card__img">
+              <div class="project-container__text">
+                <h2 class="project-card__title heading heading_size_h2 heading_color_black">Бесплатные рекомендации</h2>
+                <p class="heading_size_main-text heading heading_color_black project-card__pharagraph">для бизнеса по созданию доступных услугдля клиентов с различными ограничениями здоровья</p>
+                <button class="button heading heading_size_button-text project-card__button">Посмотреть</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="buttons buttons_type_slider-right" type="button"></button>
+        <button class="buttons buttons_type_slider-left" type="button"></button>
+      </div>
+    </section>
+    <!-- stories -->
+    <section class="stories" id="stories">
+      <div class="stories__main">
+        <h2 class="heading heading_size_h2 heading_color_black">Истории</h2>
+        <button class="buttons heading heading_size_button-text project-card__button buttons_type_new-section"
+          type="button">Все истории</button>
+        <div class="stories__content">
+          <ul class="stories__cards">
+            <li class="stories__card">
+              <img class="stories__img" src="./images/maksim12.jpg" alt="Фото.">
+              <div class="stories__info">
+                <img class="stories__icon" src="./images/icon_quote.svg" alt="Цитата.">
+                <h4 class="heading heading_size_h4 heading_color_black stories__story-title">Мне интересно слушать
+                  интервью с людьми. Это мотивация и вдохновение, которых так не хватает</h4>
+                <p class="heading heading_size_main-text heading_color_black"> Максиму Гильфанову из Узбекистана 41 год.
+                  Диплом программиста и курсы по веб-дизайну не решили проблему с трудоустройством</p>
+                <button class="buttons stories__button heading heading_size_button-text" type="button">История Максима
+                  <img class="stories__arrow" src="./images/arrow_forward.svg" alt="Цитата.">
+                </button>
+              </div>
+            </li>
+            <li class="stories__card stories__card_position_reverse">
+              <img class="stories__img" src="./images/maksim2.jpg" alt="Фото.">
+              <div class="stories__info">
+                <img class="stories__icon" src="./images/icon_quote.svg" alt="Цитата.">
+                <h4 class="heading heading_size_h4 heading_color_black stories__story-title">Платформа дала надежду:
+                  кто-то заинтересован в трудоустройстве инвалидов</h4>
+                <p class="heading heading_size_main-text heading_color_black">Максиму Чернышову из Набережных Челнов 32
+                  года. В детстве он неудачно сделал сальто и повредил позвоночник. С тех пор ему тяжело передвигаться
+                  на большие расстояния</p>
+                <button class="buttons stories__button heading heading_size_button-text" type="button">История Максима
+                  <img class="stories_arrow" src="./images/arrow_forward.svg" alt="Иконка цитаты">
+                </button>
+              </div>
+            </li>
+            <li class="stories__card-small">
+              <div class="stories__story">
+                <img class="stories__story-img" src="./images/aislu.jpg" alt="Фото.">
+                <div class="stories__story-info">
+                  <p class="stories__hero heading heading_size_big-text heading_color_black">Айслу Асан</p>
+                  <h4 class="heading heading_size_h4 heading_color_black stories__story-text">Когда хочется жить</h4>
+                  <div class="stories__audio-info">
+                    <p class="heading heading_size_stories heading_color_black">История Айслу</p>
+                    <button class="buttons stories__audio" type="button"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="stories__story">
+                <img class="stories__story-img" src="./images/artem.jpg" alt="Фото.">
+                <div class="stories__story-info">
+                  <p class="stories__hero heading heading_size_big-text heading_color_black">Артём Плаксин</p>
+                  <h4 class="heading heading_size_h4 heading_color_black stories__story-text">Не видеть и смотреть в
+                    будущее</h4>
+                  <div class="stories__audio-info">
+                    <p class="heading heading_size_stories heading_color_black">История Артёма</p>
+                    <button class="buttons stories__audio" type="button"></button>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- agency -->
+    <section class="agency" id="agency">
+      <div class="agency__container">
+        <h2 class="agency__title heading heading_size_h2 heading_color_black">Лучшие проекты агентства</h2>
+        <h4 class="agency__subtitle heading heading_size_h4 heading_color_black">Мы выполняем работы в области веб-разработки, дизайна, права, видео, анимации и контента</h4>
+        <div class="agency__cards">
+          <div class="agency__card">
+            <img src="./images/agency_1.jpg" alt="Агентство." class="agency__card-img rounding">
+            <p class="agency__card-text heading heading_size_h5">Скрипты-рекомендации для бизнеса (DisQuestion)</p>
+          </div>
+          <div class="agency__card">
+            <img src="./images/agency_2.jpg" alt="Агентство." class="agency__card-img rounding">
+            <p class="agency__card-text heading heading_size_h5">Проект «Онконавигатор»</p>
+          </div>
+          <div class="agency__card">
+            <img src="./images/agency_3.jpg" alt="Агентство." class="agency__card-img rounding">
+            <p class="agency__card-text heading heading_size_h5">Проект «Миграции: приоткрывая личное»</p>
+          </div>
+        </div>
+        <button class="agency__button buttons project-card__button buttons_color_transparent-blue heading heading_size_button-text" type="button">Посмотреть всё</button>
+      </div>
+    </section>
 
+    <section class="news" id="news">
+      <h2 class="news__title heading heading_size_h2 heading_color_black">Новости</h2>
+      <form action="#"><button class="news__button buttons buttons_type_secondary-border buttons_color_transparent-blue" type="button">Все новости</button></form>
+      <ul class="news__cards-box">
+        <li class="news__card rounding">
+          <p class="news__topic">Тема</p>
+          <img class="news__image rounding" src="./images/PepsiCo.svg" alt="ПепсиКо">
+          <div class="news__description-min">
+            <h4 class="heading heading_size_news heading_color_black">Ура! Новое партнерство — с PepsiCo</h4>
+            <p class="heading heading_size_main-text heading_color_black news__text">Everland совместно с PepsiCo
+              приняли участие в акции «Благотворительность вместо сувениров»</p>
+          </div>
+          <p class="news__date heading heading_size_small-text">20 сентября 2021</p>
+        </li>
+        <li class="news__card news__card_color_green rounding">
+          <p class="news__topic heading heading_size_small-small-text">Тема</p>
+          <div class="news__description-max">
+            <h4 class="heading heading_size_news heading_color_black">Трехдневный интенсив для КСО-менеджеров «Бизнес и
+              инклюзия: как строить эффективные программы»</h4>
+            <p class="heading heading_size_main-text heading_color_black news__text">Эксперты с инвалидностью,
+              представители бизнеса и некоммерческих организаций поговорили о том, что такое инклюзия, рассмотрели
+              подходы к трудоустройству людей с инвалидностью, обсудили проблемы, к которым нужно быть готовым, и
+              поделились успешными кейсами</p>
+          </div>
+          <p class="news__date heading heading_size_small-text">20 сентября 2021</p>
+        </li>
+        <li class="news__card news__card_disabled rounding">
+          <p class="news__topic heading heading_size_small-small-text">Тема</p>
+          <div class="news__description-min">
+            <h4 class="heading heading_size_news heading_color_black">Тестируем супермаркеты на доступность</h4>
+            <p class="heading heading_size_main-text heading_color_black news__text">Everland совместно с торговой сетью
+              «Перекресток» провели аудит продуктовых магазинов на доступность для людей с разными видами инвалидности
+            </p>
+          </div>
+          <img class="news__image rounding" src="./images/news-test.svg" alt="Тестирование">
+          <p class="news__date heading heading_size_small-text">20 сентября 2021</p>
+        </li>
+      </ul>
     </section>
-    <section class="projects">
+    <section class="support" id="support">
+      <h2 class="support__title heading heading_size_h2">Поддержите нас</h2>
+      <div class="support__container">
+        <form class="support__form">
+          <fieldset class="support__mini-container">
+            <label class="support__selection-field">
+              <input type="radio" class="support__radio-box" name="periodicity">
+              <span class="support__radio support__radio-button buttons buttons_color_transparent-gray support__radio_width_max heading heading_size_button-text">Ежемесячно<a class="support__question"></a></span>
+            </label>
+            <label class="support__selection-field">
+              <input type="radio" class="support__radio-box" name="periodicity">
+              <span class="support__radio support__radio-button buttons buttons_color_transparent-gray support__radio_width_big heading heading_size_button-text">Разово</span>
+            </label>
+          </fieldset>
 
-    </section>
-    <section class="stories">
+          <h3 class="heading heading_size_support-subtitle support__subtitle">Размер пожертвования</h3>
 
-    </section>
-    <section class="agency">
+          <fieldset class="support__donations">
+            <label class="support__selection-field">
+              <input type="radio" class="support__choice-box" name="summa">
+              <span class="support__choice support__radio-button buttons buttons_color_transparent-gray support__choice_width_small heading heading_size_button-text">250Р</span>
+            </label>
+            <label class="support__selection-field">
+              <input type="radio" class="support__choice-box" name="summa">
+              <span class="support__choice support__radio-button buttons buttons_color_transparent-gray support__choice_width_small heading heading_size_button-text">500Р</span>
+            </label>
+            <label class="support__selection-field">
+              <input type="radio" class="support__choice-box" name="summa">
+              <span class="support__choice support__radio-button buttons buttons_color_transparent-gray support__choice_width_small heading heading_size_button-text">750Р</span>
+            </label>
+            <label class="support__selection-field">
+              <input type="radio" class="support__choice-box" name="summa">
+              <span class="support__choice support__radio-button buttons buttons_color_transparent-gray support__choice_width_small heading heading_size_button-text">1000Р</span>
+            </label>
+            <label class="support__selection-field">
+              <input type="radio" class="support__choice-box" name="summa">
+              <span class="support__choice support__radio-button buttons buttons_color_transparent-gray support__choice_width_middle heading heading_size_button-text">Другая сумма</span>
+            </label>
+          </fieldset>
+          <p class="support__paragraph heading heading_size_support-paragraph">Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать
+          бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу.
+          Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.</p>
 
-    </section>
-    <section class="news">
+          <h3 class="heading heading_size_support-subtitle support__subtitle">Способ оплаты</h3>
+          <fieldset class="support__methods">
+            <div class="support__systems">
+              <label class="support__selection-field">
+                <input type="radio" class="support__payment-box" name="payment">
+                <span class="support__payment support__radio-button buttons buttons_color_transparent-gray">
+                  <img src="./images/mir-logo-h14px_1.jpg" alt="Мир.">
+                  <img src="./images/maestro-2_1.jpg" alt="Маэстро.">
+                  <img src="./images/visa-logo.jpg" alt="Visa.">
+                  <img src="./images/Mastercard.jpg" alt="MasterCard.">
+                </span>
+              </label>
+              <label class="support__selection-field">
+                <input type="radio" class="support__payment-box" name="payment">
+                <span class="support__payment support__radio-button buttons buttons_color_transparent-gray">
+                  <img src="./images/io1.jpg" alt="Юмани.">
+                </span>
+              </label>
+              <label class="support__selection-field">
+                <input type="radio" class="support__payment-box" name="payment">
+                <span class="support__payment support__radio-button buttons buttons_color_transparent-gray">
+                  <img src="./images/frame85.jpg" alt="Вебмани.">
+                </span>
+              </label>
+            </div>
+            <button class="support__arrow" type="button"></button>
+          </fieldset>
+          <h3 class="heading heading_size_support-subtitle support__subtitle">Ваши данные</h3>
 
-    </section>
-    <section class="support">
+          <fieldset class="support__sets">
+            <input type="text" class="support__input" name="firstname" placeholder="Иван Иванов">
+            <input type="text" class="support__input" name="email" placeholder="myemail@example.com">
+          </fieldset>
 
+          <fieldset class="support__consent">
+            <label class="support__selection-field">
+              <input type="checkbox" class="support__checkbox" name="oferta" value="agree" checked>
+              <span class="support__visible-checkbox"></span>
+              <span class="support__approval">Соглашаюсь с <a href="#" class="support__link">офертой</a></span>
+            </label>
+            <label class="support__selection-field">
+              <input type="checkbox" class="support__checkbox" name="personal-data" value="agree" checked>
+              <span class="support__visible-checkbox"></span>
+              <span class="support__approval">Соглашаюсь на <a href="#" class="support__link">обработку моих персональных данных</a></span>
+            </label>
+          </fieldset>
+          <button class="support__button buttons buttons_type_primary buttons_color_dark-blue" type="submit">Поддержать</button>
+        </form>
+        <div class="support__donate">
+          <p class="support__description heading heading_size_support-description">Everland создается силами многих. Мы благодарны каждому за поддержку!</p>
+          <div class="support__list">
+            <div class="support__pay">
+              <p class="support__name heading heading_size_sublink">Аноним ........................................</p>
+              <div class="support__details">
+                <p class="support__summa heading heading_size_sublink">500₽</p>
+                <p class="support__time heading heading_size_sublink">2 часа назад</p>
+              </div>
+            </div>
+            <div class="support__pay">
+              <p class="support__name heading heading_size_sublink">Татьяна ........................................</p>
+              <div class="support__details">
+                <p class="support__summa heading heading_size_sublink">600₽</p>
+                <p class="support__time heading heading_size_sublink">3 часа назад</p>
+              </div>
+            </div>
+            <div class="support__pay">
+              <p class="support__name heading heading_size_sublink">Аноним ........................................</p>
+              <div class="support__details">
+                <p class="support__summa heading heading_size_sublink">300₽</p>
+                <p class="support__time heading heading_size_sublink">4 часа назад</p>
+              </div>
+            </div>
+            <div class="support__pay">
+              <p class="support__name heading heading_size_sublink">Аноним ........................................</p>
+              <div class="support__details">
+                <p class="support__summa heading heading_size_sublink">200₽</p>
+                <p class="support__time heading heading_size_sublink">4 часа назад</p>
+              </div>
+            </div>
+            <div class="support__pay">
+              <p class="support__name heading heading_size_sublink">Аноним ........................................</p>
+              <div class="support__details">
+                <p class="support__summa heading heading_size_sublink">100₽</p>
+                <p class="support__time heading heading_size_sublink">6 часа назад</p>
+              </div>
+            </div>
+            <div class="support__pay">
+              <p class="support__name heading heading_size_sublink">Наталья ........................................</p>
+              <div class="support__details">
+                <p class="support__summa heading heading_size_sublink">600₽</p>
+                <p class="support__time heading heading_size_sublink">9 часа назад</p>
+              </div>
+            </div>
+            <div class="support__pay">
+              <p class="support__name heading heading_size_sublink">Наталья ........................................</p>
+              <div class="support__details">
+                <p class="support__summa heading heading_size_sublink">600₽</p>
+                <p class="support__time heading heading_size_sublink">9 часа назад</p>
+              </div>
+            </div>
+            <div class="support__pay">
+              <p class="support__name heading heading_size_sublink">Наталья ........................................</p>
+              <div class="support__details">
+                <p class="support__summa heading heading_size_sublink">600₽</p>
+                <p class="support__time heading heading_size_sublink">9 часа назад</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <dialog class="popup" id="popup-menu">
+      <div class="popup__desktop">
+        <nav class="popup__card">
+          <a class="popup__link heading_size_link" href="#">О проекте</a>
+          <a class="popup__sublink heading_size_sublink" href="#">АНО Пространство равных&nbsp;возможностей</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Новости</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Сотрудничество</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Инклюзия</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Учебным заведениям</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Годовые отчеты</a>
+        </nav>
+        <nav class="popup__card">
+          <a class="popup__link heading_size_link" href="#">Людям с&nbsp;инвалидностью</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Платформа</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Курсы</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Everland Profi</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Бесплатное такси</a>
+        </nav>
+        <nav class="popup__card">
+          <a class="popup__link heading_size_link" href="#">Услуги</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Услуги агентства</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Готовые сайты</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Доступность&nbsp;для&nbsp;людей с&nbsp;инвалидностью</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Работодателям</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Портфолио</a>
+        </nav>
+        <nav class="popup__card">
+        <a class="popup__link heading_size_link" href="#">Мы благодарим</a>
+        <a class="popup__link heading_size_link" href="#">Программы</a>
+        <a class="popup__link heading_size_link" href="#">Наставникам</a>
+        <a class="popup__link heading_size_link" href="#">Помочь</a>
+        </nav>
+      </div>
+      <div class="popup__tablet">
+        <nav class="popup__card">
+          <a class="popup__link heading_size_link" href="#">О проекте</a>
+          <a class="popup__sublink heading_size_sublink" href="#">АНО Пространство равных&nbsp;возможностей</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Новости</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Сотрудничество</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Инклюзия</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Учебным заведениям</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Годовые отчеты</a>
+        </nav>
+        <nav class="popup__card">
+          <a class="popup__link heading_size_link" href="#">Людям с&nbsp;инвалидностью</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Платформа</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Курсы</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Everland Profi</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Бесплатное такси</a>
+        </nav>
+        <nav class="popup__card">
+          <a class="popup__link heading_size_link" href="#">Услуги</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Агентство</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Готовые сайты</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Доступность&nbsp;для&nbsp;людей с&nbsp;инвалидностью</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Работодателям</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Портфолио</a>
+        </nav>
+        <nav class="popup__card">
+        <a class="popup__link heading_size_link" href="#">Мы благодарим</a>
+        <a class="popup__link heading_size_link" href="#">Программы</a>
+        </nav>
+        <nav class="popup__card">
+        <a class="popup__link heading_size_link" href="#">Наставникам</a>
+        <a class="popup__link heading_size_link" href="#">Помочь</a>
+        </nav>
+      </div>
+      <div class="popup__mobile">
+        <div class="popup__menu">
+          <a class="popup__link heading_size_link" href="#">О проекте</a>
+          <button class="popup__icon" id="project"></button>
+        </div>
+        <nav class="popup__hide" id="popup-hide-project">
+          <a class="popup__sublink heading_size_sublink" href="#">АНО Пространство равных&nbsp;возможностей</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Новости</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Сотрудничество</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Инклюзия</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Учебным заведениям</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Годовые отчеты</a>
+        </nav>
+        <div class="popup__menu">
+          <a class="popup__link heading_size_link" href="#">Людям с&nbsp;инвалидностью</a>
+          <button class="popup__icon" id="people"></button>
+        </div>
+        <nav class="popup__hide heading_size_link" id="popup-hide-people">
+          <a class="popup__sublink heading_size_sublink" href="#">Платформа</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Курсы</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Everland Profi</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Бесплатное такси</a>
+        </nav>
+        <div class="popup__menu">
+          <a class="popup__link heading_size_link" href="#">Услуги</a>
+          <button class="popup__icon" id="service"></button>
+        </div>
+        <nav class="popup__hide" id="popup-hide-service">
+          <a class="popup__sublink heading_size_sublink" href="#">Агентство</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Готовые сайты</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Доступность&nbsp;для&nbsp;людей с&nbsp;инвалидностью</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Работодателям</a>
+          <a class="popup__sublink heading_size_sublink" href="#">Портфолио</a>
+        </nav>
+        <a class="popup__link heading_size_link" href="#">Мы благодарим</a>
+        <a class="popup__link heading_size_link" href="#">Программы</a>
+        <a class="popup__link heading_size_link" href="#">Наставникам</a>
+        <a class="popup__link heading_size_link" href="#">Помочь</a>
+      </div>
+    </dialog>
   </main>
-  <footer class="footer">
 
+  <footer class="footer">
+    <div class="footer__everland">
+      <img class="footer__everland-logo" src="./images/footer-everland-logo.svg" alt="Футер лого">
+      <p class="footer__everland-name heading heading_size_small-text heading_color_black">Платформа
+        Everland&nbsp;&mdash; инклюзивный социальный предпринимательский проект.
+        Реализуется ООО &laquo;ЭВЕРЛЭНД&raquo;, АНО &laquo;Пространство равных возможностей&raquo;.</p>
+    </div>
+    <div class="footer__menu">
+      <ul class="footer__list">
+        <li><a class="footer__list-element heading heading_size_main-text heading_color_black" href="#">О проекте</a>
+        </li>
+        <li><a class="footer__list-element heading heading_size_main-text heading_color_black" href="#">Услуги</a></li>
+        <li><a class="footer__list-element heading heading_size_main-text heading_color_black" href="#">Людям с
+            инвалидностью</a></li>
+      </ul>
+      <ul class="footer__list">
+        <li><a class="footer__list-element heading heading_size_main-text heading_color_black" href="#">Программы</a>
+        </li>
+        <li><a class="footer__list-element heading heading_size_main-text heading_color_black" href="#">Платформа</a>
+        </li>
+        <li><a class="footer__list-element heading heading_size_main-text heading_color_black" href="#">Мы
+            благодарим</a></li>
+      </ul>
+    </div>
+    <div class="footer__support">
+      <h4 class="heading heading_size_h4 heading_color_black">При поддержке</h4>
+      <div class="footer__support-logo">
+        <a href="https://spb.beeline.ru/customers/products/" target=" blank"><div class="footer__support-bill"></div></a>
+        <a href="https://xn--80afcdbalict6afooklqi5o.xn--p1ai/" target=" blank"><div class="footer__support-fund"></div></a>
+      </div>
+      <div class="footer__contacts">
+        <a href="tel:+74956460428" class="footer__links"><p class="footer__phone-top heading heading_size_small-text heading_color_black">+7 (495) 646 04 28</p></a>
+        <a href="tel:+79854730893" class="footer__links"><p class="footer__phone-bottom heading heading_size_small-text heading_color_black">+7 (985) 473 08 93</p></a>
+        <p class="footer__adress heading heading_size_small-text heading_color_black">Гоголевский бульвар, дом&nbsp;8,
+          строение&nbsp;2, офис 8, Москва, Россия.</p>
+      </div>
+    </div>
+    <div class="footer__social">
+      <h4 class="heading heading_size_h4 heading_color_black">Подписывайтесь на нас в соцсетях</h4>
+      <div class="footer__social-icons">
+        <a href="https://t.me/inclusion_everland" target=" blank"><img class="footer__social-icon" src="./images/telegram.svg" alt="Телеграм"></a>
+        <a href="https://vk.com/everland" target=" blank"><img class="footer__social-icon" src="./images/vk.svg" alt="ВК"></a>
+      </div>
+      <p class="footer__license heading heading_size_small-text heading_color_black heading_color_news-date">
+        &copy;&nbsp;ООО &laquo;ЭВЕРЛЭНД&raquo;, АНО &laquo;Пространство равных возможностей&raquo;.
+        Если не&nbsp;указано иначе, все материалы сайта доступны по&nbsp;лицензии Creative Commons CC-BY-SA 3.0</p>
+    </div>
+    <div class="footer__yandex">
+      <a href="https://practicum.yandex.ru/" target=" blank"><img class="footer__prakticum-logo" src="./images/logo-prakticum.svg" alt="Лого Практикум"></a>
+      <p class="heading heading_size_small-small-text heading_color_black">сделано при участии Яндекс Практикума</p>
+    </div>
   </footer>
 
+
+
+
+  <script src="./scripts/advantages-cards.js"></script>
   <script src="./scripts/script.js"></script>
 </body>
 

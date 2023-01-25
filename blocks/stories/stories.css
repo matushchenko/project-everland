@@ -1,0 +1,11 @@
+.stories {
+  padding: 0 40px 0 40px;
+  margin: 0;
+}
+
+@media all and (max-width: 767px) {
+  .stories {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

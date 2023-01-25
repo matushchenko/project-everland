@@ -1,0 +1,18 @@
+.donations {
+   margin: 0 auto;
+   padding: 90px 0 50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .donations {
+
+    padding: 50px 0 50px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donations {
+
+  }
+}

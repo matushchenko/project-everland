@@ -1,0 +1,8 @@
+.description__counter {
+  padding: 0;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+

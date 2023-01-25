@@ -1,0 +1,9 @@
+.rounding_radius_small {
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .rounding_radius_small {
+    border-radius: 10px;
+  }
+}

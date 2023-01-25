@@ -1,0 +1,10 @@
+.support__title {
+  padding: 0 0 50px 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__title {
+    text-align: center;
+    padding: 0 0 24px 0;
+  }
+}

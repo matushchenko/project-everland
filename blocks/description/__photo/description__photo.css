@@ -1,0 +1,17 @@
+.description__photo {
+  z-index: 10;
+  max-width: 392px;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  position: absolute;
+}
+
+@media screen and (max-width: 1439px) {
+  .description__photo {
+    max-width: 170px;
+  }
+}

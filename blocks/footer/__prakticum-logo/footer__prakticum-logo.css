@@ -1,0 +1,13 @@
+.footer__prakticum-logo {
+  margin: 0;
+  padding: 0;
+  width: 161px;
+  height: 28px;
+}
+
+@media all and (max-width: 900px) {
+  .footer__prakticum-logo {
+    width: 115px;
+    height: 20px;
+  }
+}

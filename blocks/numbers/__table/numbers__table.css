@@ -1,0 +1,26 @@
+.numbers__table {
+  display: grid;
+  grid-template-columns: 325px 325px;
+  grid-template-rows: 98px 98px;
+  column-gap: 20px;
+  row-gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width:1439px) {
+  .numbers__table {
+    grid-template-columns: repeat(2, 333px);
+    grid-template-rows: repeat(2, 79px);
+    row-gap: 33px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .numbers__table {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(4, 61px);
+    gap: 16px;
+  }
+}

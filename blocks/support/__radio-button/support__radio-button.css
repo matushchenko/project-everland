@@ -1,0 +1,10 @@
+.support__radio-button {
+  height: 48px;
+  border-radius: 10px;
+}
+
+.support__radio-button:active {
+  border: 1px solid #0C4BA0;
+  transition-duration: 1s;
+  background-color: #ffffff;
+}
